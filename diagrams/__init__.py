@@ -2,7 +2,7 @@ import contextvars
 import os
 import uuid
 from pathlib import Path
-from typing import List, Union, Dict
+from typing import List, Union, Dict, Sequence
 
 from graphviz import Digraph
 
@@ -16,10 +16,7 @@ __cluster = contextvars.ContextVar("cluster")
 
 
 def getdiagram():
-    try:
-        return __diagram.get()
-    except LookupError:
-        return None
+    return __diagram.get()
 
 
 def setdiagram(diagram):
@@ -35,6 +32,66 @@ def getcluster():
 
 def setcluster(cluster):
     __cluster.set(cluster)
+
+
+def new_init(cls, init):
+    def reset_init(*args, **kwargs):
+        cls.__init__ = init
+    return reset_init
+
+
+class _Cluster:
+    __directions = ("TB", "BT", "LR", "RL")
+
+    def __init__(self, name=None, **kwargs):
+        self.dot = Digraph(name, **kwargs)
+        self.depth = 0
+        self.nodes = {}
+        self.subgraphs = []
+
+        try:
+            self._parent = getcluster() or getdiagram()
+        except LookupError:
+            self._parent = None
+
+    def __enter__(self):
+        setcluster(self)
+        return self
+
+    def __exit__(self, *args):
+        setcluster(self._parent)
+
+        if not (self.nodes or self.subgraphs):
+            return
+
+        for node in self.nodes.values():
+            self.dot.node(node.nodeid, label=node.label, **node._attrs)
+
+        for subgraph in self.subgraphs:
+            self.dot.subgraph(subgraph.dot)
+
+        if self._parent:
+            self._parent.remove_node(self.nodeid)
+            self._parent.subgraph(self)
+
+    def node(self, node: "Node") -> None:
+        """Create a new node."""
+        self.nodes[node.nodeid] = node
+
+    def remove_node(self, nodeid: str) -> None:
+        del self.nodes[nodeid]
+
+    def subgraph(self, subgraph: "_Cluster") -> None:
+        """Create a subgraph for clustering"""
+        self.subgraphs.append(subgraph)
+
+    @property
+    def nodes_iter(self):
+        if self.nodes:
+            yield from self.nodes.values()
+        if self.subgraphs:
+            for subgraph in self.subgraphs:
+                yield from subgraph.nodes_iter
 
 
 class Diagram:
@@ -145,7 +202,21 @@ class Diagram:
         setdiagram(self)
         return self
 
-    def __exit__(self, exc_type, exc_value, traceback):
+    def __exit__(self, *args):
+        super().__exit__(*args)
+        setdiagram(None)
+
+        for (node1, node2), edge in self.edges.items():
+            cluster_node1 = next(node1.nodes_iter, None)
+            if cluster_node1:
+                edge._attrs['ltail'] = node1.nodeid
+                node1 = cluster_node1
+            cluster_node2 = next(node2.nodes_iter, None)
+            if cluster_node2:
+                edge._attrs['lhead'] = node2.nodeid
+                node2 = cluster_node2
+            self.dot.edge(node1.nodeid, node2.nodeid, **edge.attrs)
+
         self.render()
         # Remove the graphviz file leaving only the image.
         os.remove(self.filename)
@@ -204,6 +275,8 @@ class Cluster:
         "fontname": "Sans-Serif",
         "fontsize": "12",
     }
+    _icon = None
+    _icon_size = 0
 
     # fmt: on
 
@@ -214,6 +287,8 @@ class Cluster:
         self,
         label: str = "cluster",
         direction: str = "LR",
+        icon: object = None,
+        icon_size: int = 30,
         graph_attr: dict = {},
     ):
         """Cluster represents a cluster context.
@@ -225,12 +300,27 @@ class Cluster:
         self.label = label
         self.name = "cluster_" + self.label
 
+        if not self._icon:
+            self.icon = icon
+        if not self._icon_size:
+            self._icon_size = icon_size
+
         self.dot = Digraph(self.name)
 
         # Set attributes.
         for k, v in self._default_graph_attrs.items():
             self.dot.graph_attr[k] = v
         self.dot.graph_attr["label"] = self.label
+
+        # if an icon is set, try to find and instantiate a Node without calling __init__()
+        # then find it's icon by calling _load_icon()
+        if self._icon:
+            _node = self._icon(_no_init=True)
+            if isinstance(_node, Node):
+                self._icon_label = '<<TABLE border="0"><TR><TD fixedsize="true" width="' + str(self._icon_size) + '" height="' + str(self._icon_size) + '"><IMG SRC="' + _node._load_icon() + '"></IMG></TD><TD>' + self.label + '</TD></TR></TABLE>>'
+                self.dot.graph_attr["label"] = self._icon_label
+        else:
+            self.dot.graph_attr["label"] = self.label
 
         if not self._validate_direction(direction):
             raise ValueError(f'"{direction}" is not a valid direction')
@@ -284,23 +374,61 @@ class Node:
 
     _icon_dir = None
     _icon = None
-
+    _icon_size = 30
+    _direction = "LR"
     _height = 1.9
 
-    def __init__(self, label: str = "", **attrs: Dict):
+    def __new__(cls, *args, **kwargs):
+        instance = object.__new__(cls)
+        lazy = kwargs.pop('_no_init', False)
+        if not lazy:
+            return instance
+        cls.__init__ = new_init(cls, cls.__init__)
+        return instance
+
+    def __init__(
+        self,
+        label: str = "",
+        direction: str = None,
+        icon: object = None,
+        icon_size: int = None,
+        **attrs: Dict
+    ):
         """Node represents a system component.
 
         :param label: Node label.
+        :param direction: Data flow direction. Default is "LR" (left to right).
+        :param icon: Custom icon for tihs cluster. Must be a node class or reference.
+        :param icon_size: The icon size when used as a Cluster. Default is 30.
         """
         # Generates an ID for identifying a node.
         self._id = self._rand_id()
-        self.label = label
+        if isinstance(label, str):
+            self.label = label
+        elif isinstance(label, Sequence):
+            self.label = "\n".join(label)
+        else:
+            self.label = str(label)
+
+        super().__init__()
+
+        if direction:
+            if not self._validate_direction(direction):
+                raise ValueError(f'"{direction}" is not a valid direction')
+            self._direction = direction
+        if icon:
+            _node = icon(_no_init=True)
+            self._icon = _node._icon
+            self._icon_dir = _node._icon_dir
+        if icon_size:
+            self._icon_size = icon_size
 
         # fmt: off
         # If a node has an icon, increase the height slightly to avoid
         # that label being spanned between icon image and white space.
         # Increase the height by the number of new lines included in the label.
-        padding = 0.4 * (label.count('\n'))
+        padding = 0.4 * (self.label.count('\n'))
+        icon_path = self._load_icon()
         self._attrs = {
             "shape": "none",
             "height": str(self._height + padding),
@@ -310,17 +438,47 @@ class Node:
         # fmt: on
         self._attrs.update(attrs)
 
-        # Node must be belong to a diagrams.
-        self._diagram = getdiagram()
-        if self._diagram is None:
-            raise EnvironmentError("Global diagrams context not set up")
-        self._cluster = getcluster()
-
         # If a node is in the cluster context, add it to cluster.
-        if self._cluster:
-            self._cluster.node(self._id, self.label, **self._attrs)
+        if not self._parent:
+            raise EnvironmentError("Global diagrams context not set up")
+        self._parent.node(self)
+
+    def __enter__(self):
+        super().__enter__()
+
+        # Set attributes.
+        for k, v in self._default_graph_attrs.items():
+            self.dot.graph_attr[k] = v
+
+        icon = self._load_icon()
+        if icon:
+            lines = iter(html.escape(self.label).split("\n"))
+            self.dot.graph_attr["label"] = '<<TABLE border="0"><TR>' +\
+                f'<TD fixedsize="true" width="{self._icon_size}" height="{self._icon_size}"><IMG SRC="{icon}"></IMG></TD>' +\
+                f'<TD align="left">{next(lines)}</TD></TR>' +\
+                ''.join(f'<TR><TD colspan="2" align="left">{line}</TD></TR>' for line in lines) +\
+                '</TABLE>>'
         else:
-            self._diagram.node(self._id, self.label, **self._attrs)
+            self.dot.graph_attr["label"] = self.label
+
+        self.dot.graph_attr["rankdir"] = self._direction
+
+        # Set cluster depth for distinguishing the background color
+        self.depth = self._parent.depth + 1 if self._parent.depth else 1
+        coloridx = self.depth % len(self.__bgcolors)
+        self.dot.graph_attr["bgcolor"] = self.__bgcolors[coloridx]
+
+        for params, attributs in self._attrs.items():
+            if params == 'graph_attr':
+                for k, v in attributs.items():
+                    self.dot.graph_attr[k] = v
+
+        return self
+
+    def __exit__(self, *args):
+        super().__exit__(*args)
+        self._id = "cluster_" + self.nodeid
+        self.dot.name = self.nodeid
 
     def __repr__(self):
         _name = self.__class__.__name__
@@ -417,8 +575,10 @@ class Node:
         return uuid.uuid4().hex
 
     def _load_icon(self):
-        basedir = Path(os.path.abspath(os.path.dirname(__file__)))
-        return os.path.join(basedir.parent, self._icon_dir, self._icon)
+        if self._icon and self._icon_dir:
+            basedir = Path(os.path.abspath(os.path.dirname(__file__)))
+            return os.path.join(basedir.parent, self._icon_dir, self._icon)
+        return None
 
 
 class Edge:
@@ -539,4 +699,4 @@ class Edge:
         return {**self._attrs, "dir": direction}
 
 
-Group = Cluster
+Group = Cluster = Node
