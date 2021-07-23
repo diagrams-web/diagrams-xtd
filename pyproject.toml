@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "diagrams"
+name = "diagrams-xtd"
 version = "0.20.0"
-description = "Diagram as Code"
+description = "Extended version of diagrams"
 license = "MIT"
-authors = ["mingrammer <mingrammer@gmail.com>"]
+authors = ["gabriel-tessier <gabriel.tessier@gmail.com>"]
 readme = "README.md"
-homepage = "https://diagrams.mingrammer.com"
-repository = "https://github.com/mingrammer/diagrams"
+homepage = ""
+repository = "https://github.com/gabriel-tessier/diagrams-xtd"
 include = ["resources/**/*"]
 
 [tool.poetry.dependencies]

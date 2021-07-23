@@ -1,6 +1,7 @@
 from diagrams import Cluster
-from diagrams.azure.compute import VM, VMWindows, VMLinux #, VMScaleSet # Depends on PR-404
+from diagrams.azure.compute import VM, VMWindows, VMLinux  # , VMScaleSet # Depends on PR-404
 from diagrams.azure.network import VirtualNetworks, Subnets, NetworkSecurityGroupsClassic
+
 
 class Subscription(Cluster):
     # fmt: off
@@ -14,6 +15,7 @@ class Subscription(Cluster):
     }
     # fmt: on
 
+
 class Region(Cluster):
     # fmt: off
     _default_graph_attrs = {
@@ -26,6 +28,7 @@ class Region(Cluster):
     }
     # fmt: on
 
+
 class AvailabilityZone(Cluster):
     # fmt: off
     _default_graph_attrs = {
@@ -37,6 +40,7 @@ class AvailabilityZone(Cluster):
         "fontsize": "12",
     }
     # fmt: on
+
 
 class VirtualNetwork(Cluster):
     # fmt: off
@@ -51,6 +55,7 @@ class VirtualNetwork(Cluster):
     # fmt: on
     _icon = VirtualNetworks
 
+
 class SubnetWithNSG(Cluster):
     # fmt: off
     _default_graph_attrs = {
@@ -63,6 +68,7 @@ class SubnetWithNSG(Cluster):
     }
     # fmt: on
     _icon = NetworkSecurityGroupsClassic
+
 
 class Subnet(Cluster):
     # fmt: off
@@ -77,6 +83,7 @@ class Subnet(Cluster):
     # fmt: on
     _icon = Subnets
 
+
 class SecurityGroup(Cluster):
     # fmt: off
     _default_graph_attrs = {
@@ -88,6 +95,7 @@ class SecurityGroup(Cluster):
         "fontsize": "12",
     }
     # fmt: on
+
 
 class VMContents(Cluster):
     # fmt: off
@@ -102,6 +110,7 @@ class VMContents(Cluster):
     # fmt: on
     _icon = VM
 
+
 class VMLinuxContents(Cluster):
     # fmt: off
     _default_graph_attrs = {
@@ -115,6 +124,7 @@ class VMLinuxContents(Cluster):
     # fmt: on
     _icon = VMLinux
 
+
 class VMWindowsContents(Cluster):
     # fmt: off
     _default_graph_attrs = {
@@ -127,6 +137,7 @@ class VMWindowsContents(Cluster):
     }
     # fmt: on
     _icon = VMWindows
+
 
 # Depends on PR-404
 # class VMSS(Cluster):
