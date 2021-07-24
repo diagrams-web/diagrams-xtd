@@ -1,0 +1,31 @@
+# ide & editor
+.idea/
+.vscode/
+
+# compiled & binary
+*.egg-info/
+__pycache__/
+*.pyc
+*.egg-info
+
+# graphviz
+*.gv*
+
+# dist
+dist
+website/build
+
+# node modules
+node_modules
+
+# testing
+main.py
+
+# trash
+.DS_Store
+
+# Website uses yarn; ignore npm package-lock.json
+website/package-lock.json
+
+# Ignore .swp files
+.swp
