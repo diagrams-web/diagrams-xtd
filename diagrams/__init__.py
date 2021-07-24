@@ -356,8 +356,6 @@ class Node(_Cluster):
         # Set attributes.
         for k, v in self._default_graph_attrs.items():
             self.dot.graph_attr[k] = v
-        for k, v in self._attrs.items():
-            self.dot.graph_attr[k] = v
 
         icon = self._load_icon()
         if icon:
@@ -373,9 +371,15 @@ class Node(_Cluster):
         self.dot.graph_attr["rankdir"] = self._direction
 
         # Set cluster depth for distinguishing the background color
-        self.depth = self._parent.depth + 1
+        self.depth = self._parent.depth + 1 if self._parent.depth else 1
         coloridx = self.depth % len(self.__bgcolors)
         self.dot.graph_attr["bgcolor"] = self.__bgcolors[coloridx]
+
+        # set the attr set from the end user diagram at the end
+        for params, attributs in self._attrs.items():
+            if params == 'graph_attr':
+                for k, v in attributs.items():
+                    self.dot.graph_attr[k] = v
 
         return self
 
