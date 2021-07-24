@@ -7,183 +7,357 @@ Node classes list of programming provider.
 
 ## programming.flowchart
 
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/action.png" alt="Action">
+  diagrams.programming.flowchart.Action
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/action.png" alt="Action"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/action.png" alt="Action" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Action**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/collate.png" alt="Collate">
+  diagrams.programming.flowchart.Collate
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/collate.png" alt="Collate"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/collate.png" alt="Collate" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Collate**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/database.png" alt="Database">
+  diagrams.programming.flowchart.Database
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/database.png" alt="Database"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/database.png" alt="Database" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Database**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/decision.png" alt="Decision">
+  diagrams.programming.flowchart.Decision
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/decision.png" alt="Decision"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/decision.png" alt="Decision" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Decision**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/delay.png" alt="Delay">
+  diagrams.programming.flowchart.Delay
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/delay.png" alt="Delay"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/delay.png" alt="Delay" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Delay**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/display.png" alt="Display">
+  diagrams.programming.flowchart.Display
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/display.png" alt="Display"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/display.png" alt="Display" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Display**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/document.png" alt="Document">
+  diagrams.programming.flowchart.Document
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/document.png" alt="Document"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/document.png" alt="Document" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Document**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/input-output.png" alt="InputOutput">
+  diagrams.programming.flowchart.InputOutput
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/input-output.png" alt="InputOutput"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/input-output.png" alt="InputOutput" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.InputOutput**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/inspection.png" alt="Inspection">
+  diagrams.programming.flowchart.Inspection
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/inspection.png" alt="Inspection"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/inspection.png" alt="Inspection" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Inspection**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/internal-storage.png" alt="InternalStorage">
+  diagrams.programming.flowchart.InternalStorage
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/internal-storage.png" alt="InternalStorage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/internal-storage.png" alt="InternalStorage" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.InternalStorage**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/loop-limit.png" alt="LoopLimit">
+  diagrams.programming.flowchart.LoopLimit
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/loop-limit.png" alt="LoopLimit"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/loop-limit.png" alt="LoopLimit" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.LoopLimit**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/manual-input.png" alt="ManualInput">
+  diagrams.programming.flowchart.ManualInput
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/manual-input.png" alt="ManualInput"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/manual-input.png" alt="ManualInput" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.ManualInput**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/manual-loop.png" alt="ManualLoop">
+  diagrams.programming.flowchart.ManualLoop
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/manual-loop.png" alt="ManualLoop"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/manual-loop.png" alt="ManualLoop" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.ManualLoop**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/merge.png" alt="Merge">
+  diagrams.programming.flowchart.Merge
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/merge.png" alt="Merge"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/merge.png" alt="Merge" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Merge**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/multiple-documents.png" alt="MultipleDocuments">
+  diagrams.programming.flowchart.MultipleDocuments
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/multiple-documents.png" alt="MultipleDocuments"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/multiple-documents.png" alt="MultipleDocuments" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.MultipleDocuments**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/off-page-connector-left.png" alt="OffPageConnectorLeft">
+  diagrams.programming.flowchart.OffPageConnectorLeft
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/off-page-connector-left.png" alt="OffPageConnectorLeft"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/off-page-connector-left.png" alt="OffPageConnectorLeft" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.OffPageConnectorLeft**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/off-page-connector-right.png" alt="OffPageConnectorRight">
+  diagrams.programming.flowchart.OffPageConnectorRight
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/off-page-connector-right.png" alt="OffPageConnectorRight"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/off-page-connector-right.png" alt="OffPageConnectorRight" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.OffPageConnectorRight**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/or.png" alt="Or">
+  diagrams.programming.flowchart.Or
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/or.png" alt="Or"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/or.png" alt="Or" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Or**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/predefined-process.png" alt="PredefinedProcess">
+  diagrams.programming.flowchart.PredefinedProcess
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/predefined-process.png" alt="PredefinedProcess"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/predefined-process.png" alt="PredefinedProcess" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.PredefinedProcess**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/preparation.png" alt="Preparation">
+  diagrams.programming.flowchart.Preparation
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/preparation.png" alt="Preparation"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/preparation.png" alt="Preparation" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Preparation**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/sort.png" alt="Sort">
+  diagrams.programming.flowchart.Sort
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/sort.png" alt="Sort"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/sort.png" alt="Sort" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.Sort**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/start-end.png" alt="StartEnd">
+  diagrams.programming.flowchart.StartEnd
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/start-end.png" alt="StartEnd"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/start-end.png" alt="StartEnd" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.StartEnd**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/stored-data.png" alt="StoredData">
+  diagrams.programming.flowchart.StoredData
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/stored-data.png" alt="StoredData"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/stored-data.png" alt="StoredData" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.StoredData**
+<div class="tooltip">
+  <img src="/img/resources/programming/flowchart/summing-junction.png" alt="SummingJunction">
+  diagrams.programming.flowchart.SummingJunction
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/flowchart/summing-junction.png" alt="SummingJunction"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/flowchart/summing-junction.png" alt="SummingJunction" style="float: left; padding-right: 5px;" >
-**diagrams.programming.flowchart.SummingJunction**
 
 ## programming.framework
 
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/angular.png" alt="Angular">
+  diagrams.programming.framework.Angular
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/angular.png" alt="Angular"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/angular.png" alt="Angular" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Angular**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/backbone.png" alt="Backbone">
+  diagrams.programming.framework.Backbone
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/backbone.png" alt="Backbone"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/backbone.png" alt="Backbone" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Backbone**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/django.png" alt="Django">
+  diagrams.programming.framework.Django
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/django.png" alt="Django"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/django.png" alt="Django" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Django**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/ember.png" alt="Ember">
+  diagrams.programming.framework.Ember
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/ember.png" alt="Ember"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/ember.png" alt="Ember" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Ember**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/fastapi.png" alt="Fastapi">
+  diagrams.programming.framework.Fastapi, FastAPI (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/fastapi.png" alt="Fastapi"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/fastapi.png" alt="Fastapi" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Fastapi**, **FastAPI** (alias)
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/flask.png" alt="Flask">
+  diagrams.programming.framework.Flask
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/flask.png" alt="Flask"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/flask.png" alt="Flask" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Flask**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/flutter.png" alt="Flutter">
+  diagrams.programming.framework.Flutter
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/flutter.png" alt="Flutter"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/flutter.png" alt="Flutter" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Flutter**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/laravel.png" alt="Laravel">
+  diagrams.programming.framework.Laravel
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/laravel.png" alt="Laravel"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/laravel.png" alt="Laravel" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Laravel**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/micronaut.png" alt="Micronaut">
+  diagrams.programming.framework.Micronaut
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/micronaut.png" alt="Micronaut"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/micronaut.png" alt="Micronaut" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Micronaut**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/rails.png" alt="Rails">
+  diagrams.programming.framework.Rails
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/rails.png" alt="Rails"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/rails.png" alt="Rails" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Rails**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/react.png" alt="React">
+  diagrams.programming.framework.React
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/react.png" alt="React"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/react.png" alt="React" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.React**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/spring.png" alt="Spring">
+  diagrams.programming.framework.Spring
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/spring.png" alt="Spring"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/spring.png" alt="Spring" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Spring**
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/vue.png" alt="Vue">
+  diagrams.programming.framework.Vue
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/vue.png" alt="Vue"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/framework/vue.png" alt="Vue" style="float: left; padding-right: 5px;" >
-**diagrams.programming.framework.Vue**
 
 ## programming.language
 
+<div class="tooltip">
+  <img src="/img/resources/programming/language/bash.png" alt="Bash">
+  diagrams.programming.language.Bash
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/bash.png" alt="Bash"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/bash.png" alt="Bash" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Bash**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/c.png" alt="C">
+  diagrams.programming.language.C
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/c.png" alt="C"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/c.png" alt="C" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.C**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/cpp.png" alt="Cpp">
+  diagrams.programming.language.Cpp
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/cpp.png" alt="Cpp"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/cpp.png" alt="Cpp" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Cpp**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/csharp.png" alt="Csharp">
+  diagrams.programming.language.Csharp
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/csharp.png" alt="Csharp"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/csharp.png" alt="Csharp" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Csharp**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/dart.png" alt="Dart">
+  diagrams.programming.language.Dart
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/dart.png" alt="Dart"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/dart.png" alt="Dart" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Dart**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/elixir.png" alt="Elixir">
+  diagrams.programming.language.Elixir
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/elixir.png" alt="Elixir"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/elixir.png" alt="Elixir" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Elixir**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/erlang.png" alt="Erlang">
+  diagrams.programming.language.Erlang
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/erlang.png" alt="Erlang"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/erlang.png" alt="Erlang" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Erlang**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/go.png" alt="Go">
+  diagrams.programming.language.Go
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/go.png" alt="Go"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/go.png" alt="Go" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Go**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/java.png" alt="Java">
+  diagrams.programming.language.Java
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/java.png" alt="Java"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/java.png" alt="Java" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Java**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/javascript.png" alt="Javascript">
+  diagrams.programming.language.Javascript, JavaScript (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/javascript.png" alt="Javascript"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/javascript.png" alt="Javascript" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Javascript**, **JavaScript** (alias)
+<div class="tooltip">
+  <img src="/img/resources/programming/language/kotlin.png" alt="Kotlin">
+  diagrams.programming.language.Kotlin
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/kotlin.png" alt="Kotlin"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/kotlin.png" alt="Kotlin" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Kotlin**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/matlab.png" alt="Matlab">
+  diagrams.programming.language.Matlab
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/matlab.png" alt="Matlab"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/matlab.png" alt="Matlab" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Matlab**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/nodejs.png" alt="Nodejs">
+  diagrams.programming.language.Nodejs, NodeJS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/nodejs.png" alt="Nodejs"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/nodejs.png" alt="Nodejs" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Nodejs**, **NodeJS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/programming/language/php.png" alt="Php">
+  diagrams.programming.language.Php, PHP (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/php.png" alt="Php"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/php.png" alt="Php" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Php**, **PHP** (alias)
+<div class="tooltip">
+  <img src="/img/resources/programming/language/python.png" alt="Python">
+  diagrams.programming.language.Python
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/python.png" alt="Python"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/python.png" alt="Python" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Python**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/r.png" alt="R">
+  diagrams.programming.language.R
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/r.png" alt="R"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/r.png" alt="R" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.R**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/ruby.png" alt="Ruby">
+  diagrams.programming.language.Ruby
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/ruby.png" alt="Ruby"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/ruby.png" alt="Ruby" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Ruby**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/rust.png" alt="Rust">
+  diagrams.programming.language.Rust
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/rust.png" alt="Rust"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/rust.png" alt="Rust" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Rust**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/scala.png" alt="Scala">
+  diagrams.programming.language.Scala
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/scala.png" alt="Scala"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/scala.png" alt="Scala" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Scala**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/swift.png" alt="Swift">
+  diagrams.programming.language.Swift
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/swift.png" alt="Swift"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/swift.png" alt="Swift" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Swift**
+<div class="tooltip">
+  <img src="/img/resources/programming/language/typescript.png" alt="Typescript">
+  diagrams.programming.language.Typescript, TypeScript (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/typescript.png" alt="Typescript"></span>
+</div><br>
 
-<img width="30" src="/img/resources/programming/language/typescript.png" alt="Typescript" style="float: left; padding-right: 5px;" >
-**diagrams.programming.language.Typescript**, **TypeScript** (alias)

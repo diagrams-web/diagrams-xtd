@@ -7,93 +7,159 @@ Node classes list of generic provider.
 
 ## generic.blank
 
+<div class="tooltip">
+  <img src="/img/resources/generic/blank/blank.png" alt="Blank">
+  diagrams.generic.blank.Blank
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/blank/blank.png" alt="Blank"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/blank/blank.png" alt="Blank" style="float: left; padding-right: 5px;" >
-**diagrams.generic.blank.Blank**
 
 ## generic.compute
 
+<div class="tooltip">
+  <img src="/img/resources/generic/compute/rack.png" alt="Rack">
+  diagrams.generic.compute.Rack
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/compute/rack.png" alt="Rack"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/compute/rack.png" alt="Rack" style="float: left; padding-right: 5px;" >
-**diagrams.generic.compute.Rack**
 
 ## generic.database
 
+<div class="tooltip">
+  <img src="/img/resources/generic/database/sql.png" alt="SQL">
+  diagrams.generic.database.SQL
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/database/sql.png" alt="SQL"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/database/sql.png" alt="SQL" style="float: left; padding-right: 5px;" >
-**diagrams.generic.database.SQL**
 
 ## generic.device
 
+<div class="tooltip">
+  <img src="/img/resources/generic/device/mobile.png" alt="Mobile">
+  diagrams.generic.device.Mobile
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/device/mobile.png" alt="Mobile"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/device/mobile.png" alt="Mobile" style="float: left; padding-right: 5px;" >
-**diagrams.generic.device.Mobile**
+<div class="tooltip">
+  <img src="/img/resources/generic/device/tablet.png" alt="Tablet">
+  diagrams.generic.device.Tablet
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/device/tablet.png" alt="Tablet"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/device/tablet.png" alt="Tablet" style="float: left; padding-right: 5px;" >
-**diagrams.generic.device.Tablet**
 
 ## generic.network
 
+<div class="tooltip">
+  <img src="/img/resources/generic/network/firewall.png" alt="Firewall">
+  diagrams.generic.network.Firewall
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/network/firewall.png" alt="Firewall"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/network/firewall.png" alt="Firewall" style="float: left; padding-right: 5px;" >
-**diagrams.generic.network.Firewall**
+<div class="tooltip">
+  <img src="/img/resources/generic/network/router.png" alt="Router">
+  diagrams.generic.network.Router
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/network/router.png" alt="Router"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/network/router.png" alt="Router" style="float: left; padding-right: 5px;" >
-**diagrams.generic.network.Router**
+<div class="tooltip">
+  <img src="/img/resources/generic/network/subnet.png" alt="Subnet">
+  diagrams.generic.network.Subnet
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/network/subnet.png" alt="Subnet"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/network/subnet.png" alt="Subnet" style="float: left; padding-right: 5px;" >
-**diagrams.generic.network.Subnet**
+<div class="tooltip">
+  <img src="/img/resources/generic/network/switch.png" alt="Switch">
+  diagrams.generic.network.Switch
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/network/switch.png" alt="Switch"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/network/switch.png" alt="Switch" style="float: left; padding-right: 5px;" >
-**diagrams.generic.network.Switch**
+<div class="tooltip">
+  <img src="/img/resources/generic/network/vpn.png" alt="VPN">
+  diagrams.generic.network.VPN
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/network/vpn.png" alt="VPN"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/network/vpn.png" alt="VPN" style="float: left; padding-right: 5px;" >
-**diagrams.generic.network.VPN**
 
 ## generic.os
 
+<div class="tooltip">
+  <img src="/img/resources/generic/os/android.png" alt="Android">
+  diagrams.generic.os.Android
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/android.png" alt="Android"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/os/android.png" alt="Android" style="float: left; padding-right: 5px;" >
-**diagrams.generic.os.Android**
+<div class="tooltip">
+  <img src="/img/resources/generic/os/centos.png" alt="Centos">
+  diagrams.generic.os.Centos
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/centos.png" alt="Centos"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/os/centos.png" alt="Centos" style="float: left; padding-right: 5px;" >
-**diagrams.generic.os.Centos**
+<div class="tooltip">
+  <img src="/img/resources/generic/os/ios.png" alt="IOS">
+  diagrams.generic.os.IOS
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/ios.png" alt="IOS"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/os/ios.png" alt="IOS" style="float: left; padding-right: 5px;" >
-**diagrams.generic.os.IOS**
+<div class="tooltip">
+  <img src="/img/resources/generic/os/linux-general.png" alt="LinuxGeneral">
+  diagrams.generic.os.LinuxGeneral
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/linux-general.png" alt="LinuxGeneral"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/os/linux-general.png" alt="LinuxGeneral" style="float: left; padding-right: 5px;" >
-**diagrams.generic.os.LinuxGeneral**
+<div class="tooltip">
+  <img src="/img/resources/generic/os/suse.png" alt="Suse">
+  diagrams.generic.os.Suse
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/suse.png" alt="Suse"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/os/suse.png" alt="Suse" style="float: left; padding-right: 5px;" >
-**diagrams.generic.os.Suse**
+<div class="tooltip">
+  <img src="/img/resources/generic/os/ubuntu.png" alt="Ubuntu">
+  diagrams.generic.os.Ubuntu
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/ubuntu.png" alt="Ubuntu"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/os/ubuntu.png" alt="Ubuntu" style="float: left; padding-right: 5px;" >
-**diagrams.generic.os.Ubuntu**
+<div class="tooltip">
+  <img src="/img/resources/generic/os/windows.png" alt="Windows">
+  diagrams.generic.os.Windows
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/windows.png" alt="Windows"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/os/windows.png" alt="Windows" style="float: left; padding-right: 5px;" >
-**diagrams.generic.os.Windows**
 
 ## generic.place
 
+<div class="tooltip">
+  <img src="/img/resources/generic/place/datacenter.png" alt="Datacenter">
+  diagrams.generic.place.Datacenter
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/place/datacenter.png" alt="Datacenter"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/place/datacenter.png" alt="Datacenter" style="float: left; padding-right: 5px;" >
-**diagrams.generic.place.Datacenter**
 
 ## generic.storage
 
+<div class="tooltip">
+  <img src="/img/resources/generic/storage/storage.png" alt="Storage">
+  diagrams.generic.storage.Storage
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/storage/storage.png" alt="Storage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/storage/storage.png" alt="Storage" style="float: left; padding-right: 5px;" >
-**diagrams.generic.storage.Storage**
 
 ## generic.virtualization
 
+<div class="tooltip">
+  <img src="/img/resources/generic/virtualization/virtualbox.png" alt="Virtualbox">
+  diagrams.generic.virtualization.Virtualbox
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/virtualization/virtualbox.png" alt="Virtualbox"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/virtualization/virtualbox.png" alt="Virtualbox" style="float: left; padding-right: 5px;" >
-**diagrams.generic.virtualization.Virtualbox**
+<div class="tooltip">
+  <img src="/img/resources/generic/virtualization/vmware.png" alt="Vmware">
+  diagrams.generic.virtualization.Vmware
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/virtualization/vmware.png" alt="Vmware"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/virtualization/vmware.png" alt="Vmware" style="float: left; padding-right: 5px;" >
-**diagrams.generic.virtualization.Vmware**
+<div class="tooltip">
+  <img src="/img/resources/generic/virtualization/xen.png" alt="XEN">
+  diagrams.generic.virtualization.XEN
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/virtualization/xen.png" alt="XEN"></span>
+</div><br>
 
-<img width="30" src="/img/resources/generic/virtualization/xen.png" alt="XEN" style="float: left; padding-right: 5px;" >
-**diagrams.generic.virtualization.XEN**

@@ -7,1500 +7,2922 @@ Node classes list of aws provider.
 
 ## aws.analytics
 
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/analytics.png" alt="Analytics">
+  diagrams.aws.analytics.Analytics
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/analytics.png" alt="Analytics"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/analytics.png" alt="Analytics" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.Analytics**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/athena.png" alt="Athena">
+  diagrams.aws.analytics.Athena
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/athena.png" alt="Athena"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/athena.png" alt="Athena" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.Athena**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/cloudsearch-search-documents.png" alt="CloudsearchSearchDocuments">
+  diagrams.aws.analytics.CloudsearchSearchDocuments
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/cloudsearch-search-documents.png" alt="CloudsearchSearchDocuments"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/cloudsearch-search-documents.png" alt="CloudsearchSearchDocuments" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.CloudsearchSearchDocuments**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/cloudsearch.png" alt="Cloudsearch">
+  diagrams.aws.analytics.Cloudsearch
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/cloudsearch.png" alt="Cloudsearch"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/cloudsearch.png" alt="Cloudsearch" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.Cloudsearch**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/data-lake-resource.png" alt="DataLakeResource">
+  diagrams.aws.analytics.DataLakeResource
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/data-lake-resource.png" alt="DataLakeResource"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/data-lake-resource.png" alt="DataLakeResource" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.DataLakeResource**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/data-pipeline.png" alt="DataPipeline">
+  diagrams.aws.analytics.DataPipeline
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/data-pipeline.png" alt="DataPipeline"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/data-pipeline.png" alt="DataPipeline" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.DataPipeline**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/elasticsearch-service.png" alt="ElasticsearchService">
+  diagrams.aws.analytics.ElasticsearchService, ES (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/elasticsearch-service.png" alt="ElasticsearchService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/elasticsearch-service.png" alt="ElasticsearchService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.ElasticsearchService**, **ES** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/emr-cluster.png" alt="EMRCluster">
+  diagrams.aws.analytics.EMRCluster
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/emr-cluster.png" alt="EMRCluster"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/emr-cluster.png" alt="EMRCluster" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.EMRCluster**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/emr-engine-mapr-m3.png" alt="EMREngineMaprM3">
+  diagrams.aws.analytics.EMREngineMaprM3
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/emr-engine-mapr-m3.png" alt="EMREngineMaprM3"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/emr-engine-mapr-m3.png" alt="EMREngineMaprM3" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.EMREngineMaprM3**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/emr-engine-mapr-m5.png" alt="EMREngineMaprM5">
+  diagrams.aws.analytics.EMREngineMaprM5
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/emr-engine-mapr-m5.png" alt="EMREngineMaprM5"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/emr-engine-mapr-m5.png" alt="EMREngineMaprM5" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.EMREngineMaprM5**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/emr-engine-mapr-m7.png" alt="EMREngineMaprM7">
+  diagrams.aws.analytics.EMREngineMaprM7
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/emr-engine-mapr-m7.png" alt="EMREngineMaprM7"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/emr-engine-mapr-m7.png" alt="EMREngineMaprM7" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.EMREngineMaprM7**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/emr-engine.png" alt="EMREngine">
+  diagrams.aws.analytics.EMREngine
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/emr-engine.png" alt="EMREngine"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/emr-engine.png" alt="EMREngine" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.EMREngine**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/emr-hdfs-cluster.png" alt="EMRHdfsCluster">
+  diagrams.aws.analytics.EMRHdfsCluster
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/emr-hdfs-cluster.png" alt="EMRHdfsCluster"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/emr-hdfs-cluster.png" alt="EMRHdfsCluster" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.EMRHdfsCluster**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/emr.png" alt="EMR">
+  diagrams.aws.analytics.EMR
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/emr.png" alt="EMR"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/emr.png" alt="EMR" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.EMR**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/glue-crawlers.png" alt="GlueCrawlers">
+  diagrams.aws.analytics.GlueCrawlers
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/glue-crawlers.png" alt="GlueCrawlers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/glue-crawlers.png" alt="GlueCrawlers" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.GlueCrawlers**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/glue-data-catalog.png" alt="GlueDataCatalog">
+  diagrams.aws.analytics.GlueDataCatalog
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/glue-data-catalog.png" alt="GlueDataCatalog"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/glue-data-catalog.png" alt="GlueDataCatalog" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.GlueDataCatalog**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/glue.png" alt="Glue">
+  diagrams.aws.analytics.Glue
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/glue.png" alt="Glue"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/glue.png" alt="Glue" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.Glue**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/kinesis-data-analytics.png" alt="KinesisDataAnalytics">
+  diagrams.aws.analytics.KinesisDataAnalytics
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/kinesis-data-analytics.png" alt="KinesisDataAnalytics"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/kinesis-data-analytics.png" alt="KinesisDataAnalytics" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.KinesisDataAnalytics**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/kinesis-data-firehose.png" alt="KinesisDataFirehose">
+  diagrams.aws.analytics.KinesisDataFirehose
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/kinesis-data-firehose.png" alt="KinesisDataFirehose"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/kinesis-data-firehose.png" alt="KinesisDataFirehose" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.KinesisDataFirehose**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/kinesis-data-streams.png" alt="KinesisDataStreams">
+  diagrams.aws.analytics.KinesisDataStreams
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/kinesis-data-streams.png" alt="KinesisDataStreams"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/kinesis-data-streams.png" alt="KinesisDataStreams" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.KinesisDataStreams**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/kinesis-video-streams.png" alt="KinesisVideoStreams">
+  diagrams.aws.analytics.KinesisVideoStreams
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/kinesis-video-streams.png" alt="KinesisVideoStreams"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/kinesis-video-streams.png" alt="KinesisVideoStreams" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.KinesisVideoStreams**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/kinesis.png" alt="Kinesis">
+  diagrams.aws.analytics.Kinesis
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/kinesis.png" alt="Kinesis"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/kinesis.png" alt="Kinesis" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.Kinesis**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/lake-formation.png" alt="LakeFormation">
+  diagrams.aws.analytics.LakeFormation
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/lake-formation.png" alt="LakeFormation"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/lake-formation.png" alt="LakeFormation" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.LakeFormation**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/managed-streaming-for-kafka.png" alt="ManagedStreamingForKafka">
+  diagrams.aws.analytics.ManagedStreamingForKafka
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/managed-streaming-for-kafka.png" alt="ManagedStreamingForKafka"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/managed-streaming-for-kafka.png" alt="ManagedStreamingForKafka" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.ManagedStreamingForKafka**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/quicksight.png" alt="Quicksight">
+  diagrams.aws.analytics.Quicksight
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/quicksight.png" alt="Quicksight"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/quicksight.png" alt="Quicksight" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.Quicksight**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/redshift-dense-compute-node.png" alt="RedshiftDenseComputeNode">
+  diagrams.aws.analytics.RedshiftDenseComputeNode
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/redshift-dense-compute-node.png" alt="RedshiftDenseComputeNode"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/redshift-dense-compute-node.png" alt="RedshiftDenseComputeNode" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.RedshiftDenseComputeNode**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/redshift-dense-storage-node.png" alt="RedshiftDenseStorageNode">
+  diagrams.aws.analytics.RedshiftDenseStorageNode
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/redshift-dense-storage-node.png" alt="RedshiftDenseStorageNode"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/redshift-dense-storage-node.png" alt="RedshiftDenseStorageNode" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.RedshiftDenseStorageNode**
+<div class="tooltip">
+  <img src="/img/resources/aws/analytics/redshift.png" alt="Redshift">
+  diagrams.aws.analytics.Redshift
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/analytics/redshift.png" alt="Redshift"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/analytics/redshift.png" alt="Redshift" style="float: left; padding-right: 5px;" >
-**diagrams.aws.analytics.Redshift**
 
 ## aws.ar
 
+<div class="tooltip">
+  <img src="/img/resources/aws/ar/ar-vr.png" alt="ArVr">
+  diagrams.aws.ar.ArVr
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ar/ar-vr.png" alt="ArVr"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ar/ar-vr.png" alt="ArVr" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ar.ArVr**
+<div class="tooltip">
+  <img src="/img/resources/aws/ar/sumerian.png" alt="Sumerian">
+  diagrams.aws.ar.Sumerian
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ar/sumerian.png" alt="Sumerian"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ar/sumerian.png" alt="Sumerian" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ar.Sumerian**
 
 ## aws.blockchain
 
+<div class="tooltip">
+  <img src="/img/resources/aws/blockchain/blockchain-resource.png" alt="BlockchainResource">
+  diagrams.aws.blockchain.BlockchainResource
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/blockchain/blockchain-resource.png" alt="BlockchainResource"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/blockchain/blockchain-resource.png" alt="BlockchainResource" style="float: left; padding-right: 5px;" >
-**diagrams.aws.blockchain.BlockchainResource**
+<div class="tooltip">
+  <img src="/img/resources/aws/blockchain/blockchain.png" alt="Blockchain">
+  diagrams.aws.blockchain.Blockchain
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/blockchain/blockchain.png" alt="Blockchain"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/blockchain/blockchain.png" alt="Blockchain" style="float: left; padding-right: 5px;" >
-**diagrams.aws.blockchain.Blockchain**
+<div class="tooltip">
+  <img src="/img/resources/aws/blockchain/managed-blockchain.png" alt="ManagedBlockchain">
+  diagrams.aws.blockchain.ManagedBlockchain
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/blockchain/managed-blockchain.png" alt="ManagedBlockchain"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/blockchain/managed-blockchain.png" alt="ManagedBlockchain" style="float: left; padding-right: 5px;" >
-**diagrams.aws.blockchain.ManagedBlockchain**
+<div class="tooltip">
+  <img src="/img/resources/aws/blockchain/quantum-ledger-database-qldb.png" alt="QuantumLedgerDatabaseQldb">
+  diagrams.aws.blockchain.QuantumLedgerDatabaseQldb, QLDB (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/blockchain/quantum-ledger-database-qldb.png" alt="QuantumLedgerDatabaseQldb"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/blockchain/quantum-ledger-database-qldb.png" alt="QuantumLedgerDatabaseQldb" style="float: left; padding-right: 5px;" >
-**diagrams.aws.blockchain.QuantumLedgerDatabaseQldb**, **QLDB** (alias)
 
 ## aws.business
 
+<div class="tooltip">
+  <img src="/img/resources/aws/business/alexa-for-business.png" alt="AlexaForBusiness">
+  diagrams.aws.business.AlexaForBusiness, A4B (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/business/alexa-for-business.png" alt="AlexaForBusiness"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/business/alexa-for-business.png" alt="AlexaForBusiness" style="float: left; padding-right: 5px;" >
-**diagrams.aws.business.AlexaForBusiness**, **A4B** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/business/business-applications.png" alt="BusinessApplications">
+  diagrams.aws.business.BusinessApplications
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/business/business-applications.png" alt="BusinessApplications"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/business/business-applications.png" alt="BusinessApplications" style="float: left; padding-right: 5px;" >
-**diagrams.aws.business.BusinessApplications**
+<div class="tooltip">
+  <img src="/img/resources/aws/business/chime.png" alt="Chime">
+  diagrams.aws.business.Chime
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/business/chime.png" alt="Chime"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/business/chime.png" alt="Chime" style="float: left; padding-right: 5px;" >
-**diagrams.aws.business.Chime**
+<div class="tooltip">
+  <img src="/img/resources/aws/business/workmail.png" alt="Workmail">
+  diagrams.aws.business.Workmail
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/business/workmail.png" alt="Workmail"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/business/workmail.png" alt="Workmail" style="float: left; padding-right: 5px;" >
-**diagrams.aws.business.Workmail**
 
 ## aws.compute
 
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/application-auto-scaling.png" alt="ApplicationAutoScaling">
+  diagrams.aws.compute.ApplicationAutoScaling, AutoScaling (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/application-auto-scaling.png" alt="ApplicationAutoScaling"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/application-auto-scaling.png" alt="ApplicationAutoScaling" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ApplicationAutoScaling**, **AutoScaling** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/batch.png" alt="Batch">
+  diagrams.aws.compute.Batch
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/batch.png" alt="Batch"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/batch.png" alt="Batch" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.Batch**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/compute-optimizer.png" alt="ComputeOptimizer">
+  diagrams.aws.compute.ComputeOptimizer
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/compute-optimizer.png" alt="ComputeOptimizer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/compute-optimizer.png" alt="ComputeOptimizer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ComputeOptimizer**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/compute.png" alt="Compute">
+  diagrams.aws.compute.Compute
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/compute.png" alt="Compute"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/compute.png" alt="Compute" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.Compute**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-ami.png" alt="EC2Ami">
+  diagrams.aws.compute.EC2Ami, AMI (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-ami.png" alt="EC2Ami"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-ami.png" alt="EC2Ami" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2Ami**, **AMI** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-auto-scaling.png" alt="EC2AutoScaling">
+  diagrams.aws.compute.EC2AutoScaling
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-auto-scaling.png" alt="EC2AutoScaling"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-auto-scaling.png" alt="EC2AutoScaling" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2AutoScaling**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-container-registry-image.png" alt="EC2ContainerRegistryImage">
+  diagrams.aws.compute.EC2ContainerRegistryImage
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-container-registry-image.png" alt="EC2ContainerRegistryImage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-container-registry-image.png" alt="EC2ContainerRegistryImage" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2ContainerRegistryImage**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-container-registry-registry.png" alt="EC2ContainerRegistryRegistry">
+  diagrams.aws.compute.EC2ContainerRegistryRegistry
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-container-registry-registry.png" alt="EC2ContainerRegistryRegistry"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-container-registry-registry.png" alt="EC2ContainerRegistryRegistry" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2ContainerRegistryRegistry**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-container-registry.png" alt="EC2ContainerRegistry">
+  diagrams.aws.compute.EC2ContainerRegistry, ECR (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-container-registry.png" alt="EC2ContainerRegistry"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-container-registry.png" alt="EC2ContainerRegistry" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2ContainerRegistry**, **ECR** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-elastic-ip-address.png" alt="EC2ElasticIpAddress">
+  diagrams.aws.compute.EC2ElasticIpAddress
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-elastic-ip-address.png" alt="EC2ElasticIpAddress"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-elastic-ip-address.png" alt="EC2ElasticIpAddress" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2ElasticIpAddress**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-image-builder.png" alt="EC2ImageBuilder">
+  diagrams.aws.compute.EC2ImageBuilder
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-image-builder.png" alt="EC2ImageBuilder"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-image-builder.png" alt="EC2ImageBuilder" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2ImageBuilder**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-instance.png" alt="EC2Instance">
+  diagrams.aws.compute.EC2Instance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-instance.png" alt="EC2Instance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-instance.png" alt="EC2Instance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2Instance**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-instances.png" alt="EC2Instances">
+  diagrams.aws.compute.EC2Instances
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-instances.png" alt="EC2Instances"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-instances.png" alt="EC2Instances" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2Instances**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-rescue.png" alt="EC2Rescue">
+  diagrams.aws.compute.EC2Rescue
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-rescue.png" alt="EC2Rescue"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-rescue.png" alt="EC2Rescue" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2Rescue**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2-spot-instance.png" alt="EC2SpotInstance">
+  diagrams.aws.compute.EC2SpotInstance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2-spot-instance.png" alt="EC2SpotInstance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2-spot-instance.png" alt="EC2SpotInstance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2SpotInstance**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/ec2.png" alt="EC2">
+  diagrams.aws.compute.EC2
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/ec2.png" alt="EC2"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/ec2.png" alt="EC2" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.EC2**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/elastic-beanstalk-application.png" alt="ElasticBeanstalkApplication">
+  diagrams.aws.compute.ElasticBeanstalkApplication
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/elastic-beanstalk-application.png" alt="ElasticBeanstalkApplication"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/elastic-beanstalk-application.png" alt="ElasticBeanstalkApplication" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ElasticBeanstalkApplication**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/elastic-beanstalk-deployment.png" alt="ElasticBeanstalkDeployment">
+  diagrams.aws.compute.ElasticBeanstalkDeployment
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/elastic-beanstalk-deployment.png" alt="ElasticBeanstalkDeployment"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/elastic-beanstalk-deployment.png" alt="ElasticBeanstalkDeployment" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ElasticBeanstalkDeployment**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/elastic-beanstalk.png" alt="ElasticBeanstalk">
+  diagrams.aws.compute.ElasticBeanstalk, EB (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/elastic-beanstalk.png" alt="ElasticBeanstalk"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/elastic-beanstalk.png" alt="ElasticBeanstalk" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ElasticBeanstalk**, **EB** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/elastic-container-service-container.png" alt="ElasticContainerServiceContainer">
+  diagrams.aws.compute.ElasticContainerServiceContainer
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/elastic-container-service-container.png" alt="ElasticContainerServiceContainer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/elastic-container-service-container.png" alt="ElasticContainerServiceContainer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ElasticContainerServiceContainer**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/elastic-container-service-service.png" alt="ElasticContainerServiceService">
+  diagrams.aws.compute.ElasticContainerServiceService
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/elastic-container-service-service.png" alt="ElasticContainerServiceService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/elastic-container-service-service.png" alt="ElasticContainerServiceService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ElasticContainerServiceService**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/elastic-container-service.png" alt="ElasticContainerService">
+  diagrams.aws.compute.ElasticContainerService, ECS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/elastic-container-service.png" alt="ElasticContainerService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/elastic-container-service.png" alt="ElasticContainerService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ElasticContainerService**, **ECS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/elastic-kubernetes-service.png" alt="ElasticKubernetesService">
+  diagrams.aws.compute.ElasticKubernetesService, EKS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/elastic-kubernetes-service.png" alt="ElasticKubernetesService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/elastic-kubernetes-service.png" alt="ElasticKubernetesService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ElasticKubernetesService**, **EKS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/fargate.png" alt="Fargate">
+  diagrams.aws.compute.Fargate
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/fargate.png" alt="Fargate"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/fargate.png" alt="Fargate" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.Fargate**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/lambda-function.png" alt="LambdaFunction">
+  diagrams.aws.compute.LambdaFunction
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/lambda-function.png" alt="LambdaFunction"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/lambda-function.png" alt="LambdaFunction" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.LambdaFunction**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/lambda.png" alt="Lambda">
+  diagrams.aws.compute.Lambda
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/lambda.png" alt="Lambda"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/lambda.png" alt="Lambda" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.Lambda**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/lightsail.png" alt="Lightsail">
+  diagrams.aws.compute.Lightsail
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/lightsail.png" alt="Lightsail"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/lightsail.png" alt="Lightsail" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.Lightsail**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/local-zones.png" alt="LocalZones">
+  diagrams.aws.compute.LocalZones
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/local-zones.png" alt="LocalZones"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/local-zones.png" alt="LocalZones" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.LocalZones**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/outposts.png" alt="Outposts">
+  diagrams.aws.compute.Outposts
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/outposts.png" alt="Outposts"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/outposts.png" alt="Outposts" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.Outposts**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/serverless-application-repository.png" alt="ServerlessApplicationRepository">
+  diagrams.aws.compute.ServerlessApplicationRepository, SAR (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/serverless-application-repository.png" alt="ServerlessApplicationRepository"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/serverless-application-repository.png" alt="ServerlessApplicationRepository" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ServerlessApplicationRepository**, **SAR** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/thinkbox-deadline.png" alt="ThinkboxDeadline">
+  diagrams.aws.compute.ThinkboxDeadline
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/thinkbox-deadline.png" alt="ThinkboxDeadline"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/thinkbox-deadline.png" alt="ThinkboxDeadline" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ThinkboxDeadline**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/thinkbox-draft.png" alt="ThinkboxDraft">
+  diagrams.aws.compute.ThinkboxDraft
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/thinkbox-draft.png" alt="ThinkboxDraft"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/thinkbox-draft.png" alt="ThinkboxDraft" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ThinkboxDraft**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/thinkbox-frost.png" alt="ThinkboxFrost">
+  diagrams.aws.compute.ThinkboxFrost
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/thinkbox-frost.png" alt="ThinkboxFrost"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/thinkbox-frost.png" alt="ThinkboxFrost" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ThinkboxFrost**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/thinkbox-krakatoa.png" alt="ThinkboxKrakatoa">
+  diagrams.aws.compute.ThinkboxKrakatoa
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/thinkbox-krakatoa.png" alt="ThinkboxKrakatoa"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/thinkbox-krakatoa.png" alt="ThinkboxKrakatoa" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ThinkboxKrakatoa**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/thinkbox-sequoia.png" alt="ThinkboxSequoia">
+  diagrams.aws.compute.ThinkboxSequoia
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/thinkbox-sequoia.png" alt="ThinkboxSequoia"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/thinkbox-sequoia.png" alt="ThinkboxSequoia" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ThinkboxSequoia**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/thinkbox-stoke.png" alt="ThinkboxStoke">
+  diagrams.aws.compute.ThinkboxStoke
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/thinkbox-stoke.png" alt="ThinkboxStoke"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/thinkbox-stoke.png" alt="ThinkboxStoke" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ThinkboxStoke**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/thinkbox-xmesh.png" alt="ThinkboxXmesh">
+  diagrams.aws.compute.ThinkboxXmesh
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/thinkbox-xmesh.png" alt="ThinkboxXmesh"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/thinkbox-xmesh.png" alt="ThinkboxXmesh" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.ThinkboxXmesh**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/vmware-cloud-on-aws.png" alt="VmwareCloudOnAWS">
+  diagrams.aws.compute.VmwareCloudOnAWS
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/vmware-cloud-on-aws.png" alt="VmwareCloudOnAWS"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/vmware-cloud-on-aws.png" alt="VmwareCloudOnAWS" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.VmwareCloudOnAWS**
+<div class="tooltip">
+  <img src="/img/resources/aws/compute/wavelength.png" alt="Wavelength">
+  diagrams.aws.compute.Wavelength
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/wavelength.png" alt="Wavelength"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/compute/wavelength.png" alt="Wavelength" style="float: left; padding-right: 5px;" >
-**diagrams.aws.compute.Wavelength**
 
 ## aws.cost
 
+<div class="tooltip">
+  <img src="/img/resources/aws/cost/budgets.png" alt="Budgets">
+  diagrams.aws.cost.Budgets
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/cost/budgets.png" alt="Budgets"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/cost/budgets.png" alt="Budgets" style="float: left; padding-right: 5px;" >
-**diagrams.aws.cost.Budgets**
+<div class="tooltip">
+  <img src="/img/resources/aws/cost/cost-and-usage-report.png" alt="CostAndUsageReport">
+  diagrams.aws.cost.CostAndUsageReport
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/cost/cost-and-usage-report.png" alt="CostAndUsageReport"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/cost/cost-and-usage-report.png" alt="CostAndUsageReport" style="float: left; padding-right: 5px;" >
-**diagrams.aws.cost.CostAndUsageReport**
+<div class="tooltip">
+  <img src="/img/resources/aws/cost/cost-explorer.png" alt="CostExplorer">
+  diagrams.aws.cost.CostExplorer
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/cost/cost-explorer.png" alt="CostExplorer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/cost/cost-explorer.png" alt="CostExplorer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.cost.CostExplorer**
+<div class="tooltip">
+  <img src="/img/resources/aws/cost/cost-management.png" alt="CostManagement">
+  diagrams.aws.cost.CostManagement
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/cost/cost-management.png" alt="CostManagement"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/cost/cost-management.png" alt="CostManagement" style="float: left; padding-right: 5px;" >
-**diagrams.aws.cost.CostManagement**
+<div class="tooltip">
+  <img src="/img/resources/aws/cost/reserved-instance-reporting.png" alt="ReservedInstanceReporting">
+  diagrams.aws.cost.ReservedInstanceReporting
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/cost/reserved-instance-reporting.png" alt="ReservedInstanceReporting"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/cost/reserved-instance-reporting.png" alt="ReservedInstanceReporting" style="float: left; padding-right: 5px;" >
-**diagrams.aws.cost.ReservedInstanceReporting**
+<div class="tooltip">
+  <img src="/img/resources/aws/cost/savings-plans.png" alt="SavingsPlans">
+  diagrams.aws.cost.SavingsPlans
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/cost/savings-plans.png" alt="SavingsPlans"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/cost/savings-plans.png" alt="SavingsPlans" style="float: left; padding-right: 5px;" >
-**diagrams.aws.cost.SavingsPlans**
 
 ## aws.database
 
+<div class="tooltip">
+  <img src="/img/resources/aws/database/aurora-instance.png" alt="AuroraInstance">
+  diagrams.aws.database.AuroraInstance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/aurora-instance.png" alt="AuroraInstance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/aurora-instance.png" alt="AuroraInstance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.AuroraInstance**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/aurora.png" alt="Aurora">
+  diagrams.aws.database.Aurora
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/aurora.png" alt="Aurora"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/aurora.png" alt="Aurora" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.Aurora**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/database-migration-service-database-migration-workflow.png" alt="DatabaseMigrationServiceDatabaseMigrationWorkflow">
+  diagrams.aws.database.DatabaseMigrationServiceDatabaseMigrationWorkflow
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/database-migration-service-database-migration-workflow.png" alt="DatabaseMigrationServiceDatabaseMigrationWorkflow"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/database-migration-service-database-migration-workflow.png" alt="DatabaseMigrationServiceDatabaseMigrationWorkflow" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.DatabaseMigrationServiceDatabaseMigrationWorkflow**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/database-migration-service.png" alt="DatabaseMigrationService">
+  diagrams.aws.database.DatabaseMigrationService, DMS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/database-migration-service.png" alt="DatabaseMigrationService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/database-migration-service.png" alt="DatabaseMigrationService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.DatabaseMigrationService**, **DMS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/database/database.png" alt="Database">
+  diagrams.aws.database.Database, DB (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/database.png" alt="Database"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/database.png" alt="Database" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.Database**, **DB** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/database/documentdb-mongodb-compatibility.png" alt="DocumentdbMongodbCompatibility">
+  diagrams.aws.database.DocumentdbMongodbCompatibility, DocumentDB (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/documentdb-mongodb-compatibility.png" alt="DocumentdbMongodbCompatibility"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/documentdb-mongodb-compatibility.png" alt="DocumentdbMongodbCompatibility" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.DocumentdbMongodbCompatibility**, **DocumentDB** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/database/dynamodb-attribute.png" alt="DynamodbAttribute">
+  diagrams.aws.database.DynamodbAttribute
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/dynamodb-attribute.png" alt="DynamodbAttribute"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/dynamodb-attribute.png" alt="DynamodbAttribute" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.DynamodbAttribute**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/dynamodb-attributes.png" alt="DynamodbAttributes">
+  diagrams.aws.database.DynamodbAttributes
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/dynamodb-attributes.png" alt="DynamodbAttributes"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/dynamodb-attributes.png" alt="DynamodbAttributes" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.DynamodbAttributes**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/dynamodb-dax.png" alt="DynamodbDax">
+  diagrams.aws.database.DynamodbDax, DAX (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/dynamodb-dax.png" alt="DynamodbDax"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/dynamodb-dax.png" alt="DynamodbDax" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.DynamodbDax**, **DAX** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/database/dynamodb-global-secondary-index.png" alt="DynamodbGlobalSecondaryIndex">
+  diagrams.aws.database.DynamodbGlobalSecondaryIndex, DynamodbGSI (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/dynamodb-global-secondary-index.png" alt="DynamodbGlobalSecondaryIndex"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/dynamodb-global-secondary-index.png" alt="DynamodbGlobalSecondaryIndex" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.DynamodbGlobalSecondaryIndex**, **DynamodbGSI** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/database/dynamodb-item.png" alt="DynamodbItem">
+  diagrams.aws.database.DynamodbItem
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/dynamodb-item.png" alt="DynamodbItem"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/dynamodb-item.png" alt="DynamodbItem" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.DynamodbItem**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/dynamodb-items.png" alt="DynamodbItems">
+  diagrams.aws.database.DynamodbItems
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/dynamodb-items.png" alt="DynamodbItems"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/dynamodb-items.png" alt="DynamodbItems" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.DynamodbItems**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/dynamodb-table.png" alt="DynamodbTable">
+  diagrams.aws.database.DynamodbTable
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/dynamodb-table.png" alt="DynamodbTable"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/dynamodb-table.png" alt="DynamodbTable" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.DynamodbTable**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/dynamodb.png" alt="Dynamodb">
+  diagrams.aws.database.Dynamodb, DDB (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/dynamodb.png" alt="Dynamodb"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/dynamodb.png" alt="Dynamodb" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.Dynamodb**, **DDB** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/database/elasticache-cache-node.png" alt="ElasticacheCacheNode">
+  diagrams.aws.database.ElasticacheCacheNode
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/elasticache-cache-node.png" alt="ElasticacheCacheNode"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/elasticache-cache-node.png" alt="ElasticacheCacheNode" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.ElasticacheCacheNode**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/elasticache-for-memcached.png" alt="ElasticacheForMemcached">
+  diagrams.aws.database.ElasticacheForMemcached
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/elasticache-for-memcached.png" alt="ElasticacheForMemcached"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/elasticache-for-memcached.png" alt="ElasticacheForMemcached" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.ElasticacheForMemcached**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/elasticache-for-redis.png" alt="ElasticacheForRedis">
+  diagrams.aws.database.ElasticacheForRedis
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/elasticache-for-redis.png" alt="ElasticacheForRedis"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/elasticache-for-redis.png" alt="ElasticacheForRedis" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.ElasticacheForRedis**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/elasticache.png" alt="Elasticache">
+  diagrams.aws.database.Elasticache, ElastiCache (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/elasticache.png" alt="Elasticache"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/elasticache.png" alt="Elasticache" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.Elasticache**, **ElastiCache** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/database/keyspaces-managed-apache-cassandra-service.png" alt="KeyspacesManagedApacheCassandraService">
+  diagrams.aws.database.KeyspacesManagedApacheCassandraService
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/keyspaces-managed-apache-cassandra-service.png" alt="KeyspacesManagedApacheCassandraService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/keyspaces-managed-apache-cassandra-service.png" alt="KeyspacesManagedApacheCassandraService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.KeyspacesManagedApacheCassandraService**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/neptune.png" alt="Neptune">
+  diagrams.aws.database.Neptune
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/neptune.png" alt="Neptune"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/neptune.png" alt="Neptune" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.Neptune**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/quantum-ledger-database-qldb.png" alt="QuantumLedgerDatabaseQldb">
+  diagrams.aws.database.QuantumLedgerDatabaseQldb, QLDB (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/quantum-ledger-database-qldb.png" alt="QuantumLedgerDatabaseQldb"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/quantum-ledger-database-qldb.png" alt="QuantumLedgerDatabaseQldb" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.QuantumLedgerDatabaseQldb**, **QLDB** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/database/rds-instance.png" alt="RDSInstance">
+  diagrams.aws.database.RDSInstance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/rds-instance.png" alt="RDSInstance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/rds-instance.png" alt="RDSInstance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.RDSInstance**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/rds-mariadb-instance.png" alt="RDSMariadbInstance">
+  diagrams.aws.database.RDSMariadbInstance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/rds-mariadb-instance.png" alt="RDSMariadbInstance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/rds-mariadb-instance.png" alt="RDSMariadbInstance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.RDSMariadbInstance**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/rds-mysql-instance.png" alt="RDSMysqlInstance">
+  diagrams.aws.database.RDSMysqlInstance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/rds-mysql-instance.png" alt="RDSMysqlInstance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/rds-mysql-instance.png" alt="RDSMysqlInstance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.RDSMysqlInstance**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/rds-on-vmware.png" alt="RDSOnVmware">
+  diagrams.aws.database.RDSOnVmware
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/rds-on-vmware.png" alt="RDSOnVmware"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/rds-on-vmware.png" alt="RDSOnVmware" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.RDSOnVmware**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/rds-oracle-instance.png" alt="RDSOracleInstance">
+  diagrams.aws.database.RDSOracleInstance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/rds-oracle-instance.png" alt="RDSOracleInstance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/rds-oracle-instance.png" alt="RDSOracleInstance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.RDSOracleInstance**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/rds-postgresql-instance.png" alt="RDSPostgresqlInstance">
+  diagrams.aws.database.RDSPostgresqlInstance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/rds-postgresql-instance.png" alt="RDSPostgresqlInstance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/rds-postgresql-instance.png" alt="RDSPostgresqlInstance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.RDSPostgresqlInstance**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/rds-sql-server-instance.png" alt="RDSSqlServerInstance">
+  diagrams.aws.database.RDSSqlServerInstance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/rds-sql-server-instance.png" alt="RDSSqlServerInstance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/rds-sql-server-instance.png" alt="RDSSqlServerInstance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.RDSSqlServerInstance**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/rds.png" alt="RDS">
+  diagrams.aws.database.RDS
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/rds.png" alt="RDS"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/rds.png" alt="RDS" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.RDS**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/redshift-dense-compute-node.png" alt="RedshiftDenseComputeNode">
+  diagrams.aws.database.RedshiftDenseComputeNode
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/redshift-dense-compute-node.png" alt="RedshiftDenseComputeNode"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/redshift-dense-compute-node.png" alt="RedshiftDenseComputeNode" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.RedshiftDenseComputeNode**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/redshift-dense-storage-node.png" alt="RedshiftDenseStorageNode">
+  diagrams.aws.database.RedshiftDenseStorageNode
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/redshift-dense-storage-node.png" alt="RedshiftDenseStorageNode"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/redshift-dense-storage-node.png" alt="RedshiftDenseStorageNode" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.RedshiftDenseStorageNode**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/redshift.png" alt="Redshift">
+  diagrams.aws.database.Redshift
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/redshift.png" alt="Redshift"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/redshift.png" alt="Redshift" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.Redshift**
+<div class="tooltip">
+  <img src="/img/resources/aws/database/timestream.png" alt="Timestream">
+  diagrams.aws.database.Timestream
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/database/timestream.png" alt="Timestream"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/database/timestream.png" alt="Timestream" style="float: left; padding-right: 5px;" >
-**diagrams.aws.database.Timestream**
 
 ## aws.devtools
 
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/cloud-development-kit.png" alt="CloudDevelopmentKit">
+  diagrams.aws.devtools.CloudDevelopmentKit
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/cloud-development-kit.png" alt="CloudDevelopmentKit"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/cloud-development-kit.png" alt="CloudDevelopmentKit" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.CloudDevelopmentKit**
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/cloud9-resource.png" alt="Cloud9Resource">
+  diagrams.aws.devtools.Cloud9Resource
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/cloud9-resource.png" alt="Cloud9Resource"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/cloud9-resource.png" alt="Cloud9Resource" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.Cloud9Resource**
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/cloud9.png" alt="Cloud9">
+  diagrams.aws.devtools.Cloud9
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/cloud9.png" alt="Cloud9"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/cloud9.png" alt="Cloud9" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.Cloud9**
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/codebuild.png" alt="Codebuild">
+  diagrams.aws.devtools.Codebuild
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/codebuild.png" alt="Codebuild"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/codebuild.png" alt="Codebuild" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.Codebuild**
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/codecommit.png" alt="Codecommit">
+  diagrams.aws.devtools.Codecommit
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/codecommit.png" alt="Codecommit"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/codecommit.png" alt="Codecommit" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.Codecommit**
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/codedeploy.png" alt="Codedeploy">
+  diagrams.aws.devtools.Codedeploy
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/codedeploy.png" alt="Codedeploy"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/codedeploy.png" alt="Codedeploy" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.Codedeploy**
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/codepipeline.png" alt="Codepipeline">
+  diagrams.aws.devtools.Codepipeline
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/codepipeline.png" alt="Codepipeline"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/codepipeline.png" alt="Codepipeline" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.Codepipeline**
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/codestar.png" alt="Codestar">
+  diagrams.aws.devtools.Codestar
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/codestar.png" alt="Codestar"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/codestar.png" alt="Codestar" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.Codestar**
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/command-line-interface.png" alt="CommandLineInterface">
+  diagrams.aws.devtools.CommandLineInterface, CLI (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/command-line-interface.png" alt="CommandLineInterface"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/command-line-interface.png" alt="CommandLineInterface" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.CommandLineInterface**, **CLI** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/developer-tools.png" alt="DeveloperTools">
+  diagrams.aws.devtools.DeveloperTools, DevTools (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/developer-tools.png" alt="DeveloperTools"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/developer-tools.png" alt="DeveloperTools" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.DeveloperTools**, **DevTools** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/tools-and-sdks.png" alt="ToolsAndSdks">
+  diagrams.aws.devtools.ToolsAndSdks
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/tools-and-sdks.png" alt="ToolsAndSdks"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/tools-and-sdks.png" alt="ToolsAndSdks" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.ToolsAndSdks**
+<div class="tooltip">
+  <img src="/img/resources/aws/devtools/x-ray.png" alt="XRay">
+  diagrams.aws.devtools.XRay
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/devtools/x-ray.png" alt="XRay"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/devtools/x-ray.png" alt="XRay" style="float: left; padding-right: 5px;" >
-**diagrams.aws.devtools.XRay**
 
 ## aws.enablement
 
+<div class="tooltip">
+  <img src="/img/resources/aws/enablement/customer-enablement.png" alt="CustomerEnablement">
+  diagrams.aws.enablement.CustomerEnablement
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/enablement/customer-enablement.png" alt="CustomerEnablement"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/enablement/customer-enablement.png" alt="CustomerEnablement" style="float: left; padding-right: 5px;" >
-**diagrams.aws.enablement.CustomerEnablement**
+<div class="tooltip">
+  <img src="/img/resources/aws/enablement/iq.png" alt="Iq">
+  diagrams.aws.enablement.Iq
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/enablement/iq.png" alt="Iq"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/enablement/iq.png" alt="Iq" style="float: left; padding-right: 5px;" >
-**diagrams.aws.enablement.Iq**
+<div class="tooltip">
+  <img src="/img/resources/aws/enablement/managed-services.png" alt="ManagedServices">
+  diagrams.aws.enablement.ManagedServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/enablement/managed-services.png" alt="ManagedServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/enablement/managed-services.png" alt="ManagedServices" style="float: left; padding-right: 5px;" >
-**diagrams.aws.enablement.ManagedServices**
+<div class="tooltip">
+  <img src="/img/resources/aws/enablement/professional-services.png" alt="ProfessionalServices">
+  diagrams.aws.enablement.ProfessionalServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/enablement/professional-services.png" alt="ProfessionalServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/enablement/professional-services.png" alt="ProfessionalServices" style="float: left; padding-right: 5px;" >
-**diagrams.aws.enablement.ProfessionalServices**
+<div class="tooltip">
+  <img src="/img/resources/aws/enablement/support.png" alt="Support">
+  diagrams.aws.enablement.Support
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/enablement/support.png" alt="Support"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/enablement/support.png" alt="Support" style="float: left; padding-right: 5px;" >
-**diagrams.aws.enablement.Support**
 
 ## aws.enduser
 
+<div class="tooltip">
+  <img src="/img/resources/aws/enduser/appstream-2-0.png" alt="Appstream20">
+  diagrams.aws.enduser.Appstream20
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/enduser/appstream-2-0.png" alt="Appstream20"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/enduser/appstream-2-0.png" alt="Appstream20" style="float: left; padding-right: 5px;" >
-**diagrams.aws.enduser.Appstream20**
+<div class="tooltip">
+  <img src="/img/resources/aws/enduser/desktop-and-app-streaming.png" alt="DesktopAndAppStreaming">
+  diagrams.aws.enduser.DesktopAndAppStreaming
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/enduser/desktop-and-app-streaming.png" alt="DesktopAndAppStreaming"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/enduser/desktop-and-app-streaming.png" alt="DesktopAndAppStreaming" style="float: left; padding-right: 5px;" >
-**diagrams.aws.enduser.DesktopAndAppStreaming**
+<div class="tooltip">
+  <img src="/img/resources/aws/enduser/workdocs.png" alt="Workdocs">
+  diagrams.aws.enduser.Workdocs
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/enduser/workdocs.png" alt="Workdocs"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/enduser/workdocs.png" alt="Workdocs" style="float: left; padding-right: 5px;" >
-**diagrams.aws.enduser.Workdocs**
+<div class="tooltip">
+  <img src="/img/resources/aws/enduser/worklink.png" alt="Worklink">
+  diagrams.aws.enduser.Worklink
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/enduser/worklink.png" alt="Worklink"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/enduser/worklink.png" alt="Worklink" style="float: left; padding-right: 5px;" >
-**diagrams.aws.enduser.Worklink**
+<div class="tooltip">
+  <img src="/img/resources/aws/enduser/workspaces.png" alt="Workspaces">
+  diagrams.aws.enduser.Workspaces
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/enduser/workspaces.png" alt="Workspaces"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/enduser/workspaces.png" alt="Workspaces" style="float: left; padding-right: 5px;" >
-**diagrams.aws.enduser.Workspaces**
 
 ## aws.engagement
 
+<div class="tooltip">
+  <img src="/img/resources/aws/engagement/connect.png" alt="Connect">
+  diagrams.aws.engagement.Connect
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/engagement/connect.png" alt="Connect"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/engagement/connect.png" alt="Connect" style="float: left; padding-right: 5px;" >
-**diagrams.aws.engagement.Connect**
+<div class="tooltip">
+  <img src="/img/resources/aws/engagement/customer-engagement.png" alt="CustomerEngagement">
+  diagrams.aws.engagement.CustomerEngagement
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/engagement/customer-engagement.png" alt="CustomerEngagement"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/engagement/customer-engagement.png" alt="CustomerEngagement" style="float: left; padding-right: 5px;" >
-**diagrams.aws.engagement.CustomerEngagement**
+<div class="tooltip">
+  <img src="/img/resources/aws/engagement/pinpoint.png" alt="Pinpoint">
+  diagrams.aws.engagement.Pinpoint
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/engagement/pinpoint.png" alt="Pinpoint"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/engagement/pinpoint.png" alt="Pinpoint" style="float: left; padding-right: 5px;" >
-**diagrams.aws.engagement.Pinpoint**
+<div class="tooltip">
+  <img src="/img/resources/aws/engagement/simple-email-service-ses-email.png" alt="SimpleEmailServiceSesEmail">
+  diagrams.aws.engagement.SimpleEmailServiceSesEmail
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/engagement/simple-email-service-ses-email.png" alt="SimpleEmailServiceSesEmail"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/engagement/simple-email-service-ses-email.png" alt="SimpleEmailServiceSesEmail" style="float: left; padding-right: 5px;" >
-**diagrams.aws.engagement.SimpleEmailServiceSesEmail**
+<div class="tooltip">
+  <img src="/img/resources/aws/engagement/simple-email-service-ses.png" alt="SimpleEmailServiceSes">
+  diagrams.aws.engagement.SimpleEmailServiceSes, SES (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/engagement/simple-email-service-ses.png" alt="SimpleEmailServiceSes"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/engagement/simple-email-service-ses.png" alt="SimpleEmailServiceSes" style="float: left; padding-right: 5px;" >
-**diagrams.aws.engagement.SimpleEmailServiceSes**, **SES** (alias)
 
 ## aws.game
 
+<div class="tooltip">
+  <img src="/img/resources/aws/game/game-tech.png" alt="GameTech">
+  diagrams.aws.game.GameTech
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/game/game-tech.png" alt="GameTech"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/game/game-tech.png" alt="GameTech" style="float: left; padding-right: 5px;" >
-**diagrams.aws.game.GameTech**
+<div class="tooltip">
+  <img src="/img/resources/aws/game/gamelift.png" alt="Gamelift">
+  diagrams.aws.game.Gamelift
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/game/gamelift.png" alt="Gamelift"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/game/gamelift.png" alt="Gamelift" style="float: left; padding-right: 5px;" >
-**diagrams.aws.game.Gamelift**
 
 ## aws.general
 
+<div class="tooltip">
+  <img src="/img/resources/aws/general/client.png" alt="Client">
+  diagrams.aws.general.Client
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/client.png" alt="Client"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/client.png" alt="Client" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.Client**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/disk.png" alt="Disk">
+  diagrams.aws.general.Disk
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/disk.png" alt="Disk"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/disk.png" alt="Disk" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.Disk**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/forums.png" alt="Forums">
+  diagrams.aws.general.Forums
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/forums.png" alt="Forums"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/forums.png" alt="Forums" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.Forums**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/general.png" alt="General">
+  diagrams.aws.general.General
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/general.png" alt="General"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/general.png" alt="General" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.General**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/generic-database.png" alt="GenericDatabase">
+  diagrams.aws.general.GenericDatabase
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/generic-database.png" alt="GenericDatabase"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/generic-database.png" alt="GenericDatabase" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.GenericDatabase**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/generic-firewall.png" alt="GenericFirewall">
+  diagrams.aws.general.GenericFirewall
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/generic-firewall.png" alt="GenericFirewall"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/generic-firewall.png" alt="GenericFirewall" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.GenericFirewall**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/generic-office-building.png" alt="GenericOfficeBuilding">
+  diagrams.aws.general.GenericOfficeBuilding, OfficeBuilding (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/generic-office-building.png" alt="GenericOfficeBuilding"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/generic-office-building.png" alt="GenericOfficeBuilding" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.GenericOfficeBuilding**, **OfficeBuilding** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/general/generic-saml-token.png" alt="GenericSamlToken">
+  diagrams.aws.general.GenericSamlToken
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/generic-saml-token.png" alt="GenericSamlToken"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/generic-saml-token.png" alt="GenericSamlToken" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.GenericSamlToken**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/generic-sdk.png" alt="GenericSDK">
+  diagrams.aws.general.GenericSDK
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/generic-sdk.png" alt="GenericSDK"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/generic-sdk.png" alt="GenericSDK" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.GenericSDK**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/internet-alt1.png" alt="InternetAlt1">
+  diagrams.aws.general.InternetAlt1
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/internet-alt1.png" alt="InternetAlt1"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/internet-alt1.png" alt="InternetAlt1" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.InternetAlt1**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/internet-alt2.png" alt="InternetAlt2">
+  diagrams.aws.general.InternetAlt2
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/internet-alt2.png" alt="InternetAlt2"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/internet-alt2.png" alt="InternetAlt2" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.InternetAlt2**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/internet-gateway.png" alt="InternetGateway">
+  diagrams.aws.general.InternetGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/internet-gateway.png" alt="InternetGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/internet-gateway.png" alt="InternetGateway" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.InternetGateway**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/marketplace.png" alt="Marketplace">
+  diagrams.aws.general.Marketplace
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/marketplace.png" alt="Marketplace"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/marketplace.png" alt="Marketplace" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.Marketplace**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/mobile-client.png" alt="MobileClient">
+  diagrams.aws.general.MobileClient
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/mobile-client.png" alt="MobileClient"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/mobile-client.png" alt="MobileClient" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.MobileClient**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/multimedia.png" alt="Multimedia">
+  diagrams.aws.general.Multimedia
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/multimedia.png" alt="Multimedia"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/multimedia.png" alt="Multimedia" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.Multimedia**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/office-building.png" alt="OfficeBuilding">
+  diagrams.aws.general.OfficeBuilding
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/office-building.png" alt="OfficeBuilding"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/office-building.png" alt="OfficeBuilding" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.OfficeBuilding**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/saml-token.png" alt="SamlToken">
+  diagrams.aws.general.SamlToken
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/saml-token.png" alt="SamlToken"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/saml-token.png" alt="SamlToken" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.SamlToken**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/sdk.png" alt="SDK">
+  diagrams.aws.general.SDK
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/sdk.png" alt="SDK"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/sdk.png" alt="SDK" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.SDK**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/ssl-padlock.png" alt="SslPadlock">
+  diagrams.aws.general.SslPadlock
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/ssl-padlock.png" alt="SslPadlock"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/ssl-padlock.png" alt="SslPadlock" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.SslPadlock**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/tape-storage.png" alt="TapeStorage">
+  diagrams.aws.general.TapeStorage
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/tape-storage.png" alt="TapeStorage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/tape-storage.png" alt="TapeStorage" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.TapeStorage**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/toolkit.png" alt="Toolkit">
+  diagrams.aws.general.Toolkit
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/toolkit.png" alt="Toolkit"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/toolkit.png" alt="Toolkit" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.Toolkit**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/traditional-server.png" alt="TraditionalServer">
+  diagrams.aws.general.TraditionalServer
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/traditional-server.png" alt="TraditionalServer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/traditional-server.png" alt="TraditionalServer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.TraditionalServer**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/user.png" alt="User">
+  diagrams.aws.general.User
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/user.png" alt="User"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/user.png" alt="User" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.User**
+<div class="tooltip">
+  <img src="/img/resources/aws/general/users.png" alt="Users">
+  diagrams.aws.general.Users
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/general/users.png" alt="Users"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/general/users.png" alt="Users" style="float: left; padding-right: 5px;" >
-**diagrams.aws.general.Users**
 
 ## aws.integration
 
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/application-integration.png" alt="ApplicationIntegration">
+  diagrams.aws.integration.ApplicationIntegration
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/application-integration.png" alt="ApplicationIntegration"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/application-integration.png" alt="ApplicationIntegration" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.ApplicationIntegration**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/appsync.png" alt="Appsync">
+  diagrams.aws.integration.Appsync
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/appsync.png" alt="Appsync"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/appsync.png" alt="Appsync" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.Appsync**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/console-mobile-application.png" alt="ConsoleMobileApplication">
+  diagrams.aws.integration.ConsoleMobileApplication
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/console-mobile-application.png" alt="ConsoleMobileApplication"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/console-mobile-application.png" alt="ConsoleMobileApplication" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.ConsoleMobileApplication**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/event-resource.png" alt="EventResource">
+  diagrams.aws.integration.EventResource
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/event-resource.png" alt="EventResource"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/event-resource.png" alt="EventResource" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.EventResource**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/eventbridge-custom-event-bus-resource.png" alt="EventbridgeCustomEventBusResource">
+  diagrams.aws.integration.EventbridgeCustomEventBusResource
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/eventbridge-custom-event-bus-resource.png" alt="EventbridgeCustomEventBusResource"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/eventbridge-custom-event-bus-resource.png" alt="EventbridgeCustomEventBusResource" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.EventbridgeCustomEventBusResource**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/eventbridge-default-event-bus-resource.png" alt="EventbridgeDefaultEventBusResource">
+  diagrams.aws.integration.EventbridgeDefaultEventBusResource
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/eventbridge-default-event-bus-resource.png" alt="EventbridgeDefaultEventBusResource"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/eventbridge-default-event-bus-resource.png" alt="EventbridgeDefaultEventBusResource" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.EventbridgeDefaultEventBusResource**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/eventbridge-saas-partner-event-bus-resource.png" alt="EventbridgeSaasPartnerEventBusResource">
+  diagrams.aws.integration.EventbridgeSaasPartnerEventBusResource
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/eventbridge-saas-partner-event-bus-resource.png" alt="EventbridgeSaasPartnerEventBusResource"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/eventbridge-saas-partner-event-bus-resource.png" alt="EventbridgeSaasPartnerEventBusResource" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.EventbridgeSaasPartnerEventBusResource**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/eventbridge.png" alt="Eventbridge">
+  diagrams.aws.integration.Eventbridge
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/eventbridge.png" alt="Eventbridge"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/eventbridge.png" alt="Eventbridge" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.Eventbridge**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/express-workflows.png" alt="ExpressWorkflows">
+  diagrams.aws.integration.ExpressWorkflows
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/express-workflows.png" alt="ExpressWorkflows"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/express-workflows.png" alt="ExpressWorkflows" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.ExpressWorkflows**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/mq.png" alt="MQ">
+  diagrams.aws.integration.MQ
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/mq.png" alt="MQ"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/mq.png" alt="MQ" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.MQ**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/simple-notification-service-sns-email-notification.png" alt="SimpleNotificationServiceSnsEmailNotification">
+  diagrams.aws.integration.SimpleNotificationServiceSnsEmailNotification
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/simple-notification-service-sns-email-notification.png" alt="SimpleNotificationServiceSnsEmailNotification"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/simple-notification-service-sns-email-notification.png" alt="SimpleNotificationServiceSnsEmailNotification" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.SimpleNotificationServiceSnsEmailNotification**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/simple-notification-service-sns-http-notification.png" alt="SimpleNotificationServiceSnsHttpNotification">
+  diagrams.aws.integration.SimpleNotificationServiceSnsHttpNotification
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/simple-notification-service-sns-http-notification.png" alt="SimpleNotificationServiceSnsHttpNotification"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/simple-notification-service-sns-http-notification.png" alt="SimpleNotificationServiceSnsHttpNotification" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.SimpleNotificationServiceSnsHttpNotification**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/simple-notification-service-sns-topic.png" alt="SimpleNotificationServiceSnsTopic">
+  diagrams.aws.integration.SimpleNotificationServiceSnsTopic
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/simple-notification-service-sns-topic.png" alt="SimpleNotificationServiceSnsTopic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/simple-notification-service-sns-topic.png" alt="SimpleNotificationServiceSnsTopic" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.SimpleNotificationServiceSnsTopic**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/simple-notification-service-sns.png" alt="SimpleNotificationServiceSns">
+  diagrams.aws.integration.SimpleNotificationServiceSns, SNS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/simple-notification-service-sns.png" alt="SimpleNotificationServiceSns"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/simple-notification-service-sns.png" alt="SimpleNotificationServiceSns" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.SimpleNotificationServiceSns**, **SNS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/simple-queue-service-sqs-message.png" alt="SimpleQueueServiceSqsMessage">
+  diagrams.aws.integration.SimpleQueueServiceSqsMessage
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/simple-queue-service-sqs-message.png" alt="SimpleQueueServiceSqsMessage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/simple-queue-service-sqs-message.png" alt="SimpleQueueServiceSqsMessage" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.SimpleQueueServiceSqsMessage**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/simple-queue-service-sqs-queue.png" alt="SimpleQueueServiceSqsQueue">
+  diagrams.aws.integration.SimpleQueueServiceSqsQueue
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/simple-queue-service-sqs-queue.png" alt="SimpleQueueServiceSqsQueue"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/simple-queue-service-sqs-queue.png" alt="SimpleQueueServiceSqsQueue" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.SimpleQueueServiceSqsQueue**
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/simple-queue-service-sqs.png" alt="SimpleQueueServiceSqs">
+  diagrams.aws.integration.SimpleQueueServiceSqs, SQS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/simple-queue-service-sqs.png" alt="SimpleQueueServiceSqs"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/simple-queue-service-sqs.png" alt="SimpleQueueServiceSqs" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.SimpleQueueServiceSqs**, **SQS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/integration/step-functions.png" alt="StepFunctions">
+  diagrams.aws.integration.StepFunctions, SF (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/integration/step-functions.png" alt="StepFunctions"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/integration/step-functions.png" alt="StepFunctions" style="float: left; padding-right: 5px;" >
-**diagrams.aws.integration.StepFunctions**, **SF** (alias)
 
 ## aws.iot
 
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/freertos.png" alt="Freertos">
+  diagrams.aws.iot.Freertos, FreeRTOS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/freertos.png" alt="Freertos"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/freertos.png" alt="Freertos" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.Freertos**, **FreeRTOS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/internet-of-things.png" alt="InternetOfThings">
+  diagrams.aws.iot.InternetOfThings
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/internet-of-things.png" alt="InternetOfThings"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/internet-of-things.png" alt="InternetOfThings" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.InternetOfThings**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-1-click.png" alt="Iot1Click">
+  diagrams.aws.iot.Iot1Click
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-1-click.png" alt="Iot1Click"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-1-click.png" alt="Iot1Click" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.Iot1Click**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-action.png" alt="IotAction">
+  diagrams.aws.iot.IotAction
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-action.png" alt="IotAction"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-action.png" alt="IotAction" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAction**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-actuator.png" alt="IotActuator">
+  diagrams.aws.iot.IotActuator
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-actuator.png" alt="IotActuator"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-actuator.png" alt="IotActuator" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotActuator**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-alexa-echo.png" alt="IotAlexaEcho">
+  diagrams.aws.iot.IotAlexaEcho
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-alexa-echo.png" alt="IotAlexaEcho"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-alexa-echo.png" alt="IotAlexaEcho" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAlexaEcho**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-alexa-enabled-device.png" alt="IotAlexaEnabledDevice">
+  diagrams.aws.iot.IotAlexaEnabledDevice
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-alexa-enabled-device.png" alt="IotAlexaEnabledDevice"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-alexa-enabled-device.png" alt="IotAlexaEnabledDevice" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAlexaEnabledDevice**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-alexa-skill.png" alt="IotAlexaSkill">
+  diagrams.aws.iot.IotAlexaSkill
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-alexa-skill.png" alt="IotAlexaSkill"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-alexa-skill.png" alt="IotAlexaSkill" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAlexaSkill**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-alexa-voice-service.png" alt="IotAlexaVoiceService">
+  diagrams.aws.iot.IotAlexaVoiceService
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-alexa-voice-service.png" alt="IotAlexaVoiceService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-alexa-voice-service.png" alt="IotAlexaVoiceService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAlexaVoiceService**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-analytics-channel.png" alt="IotAnalyticsChannel">
+  diagrams.aws.iot.IotAnalyticsChannel
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-analytics-channel.png" alt="IotAnalyticsChannel"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-analytics-channel.png" alt="IotAnalyticsChannel" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAnalyticsChannel**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-analytics-data-set.png" alt="IotAnalyticsDataSet">
+  diagrams.aws.iot.IotAnalyticsDataSet
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-analytics-data-set.png" alt="IotAnalyticsDataSet"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-analytics-data-set.png" alt="IotAnalyticsDataSet" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAnalyticsDataSet**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-analytics-data-store.png" alt="IotAnalyticsDataStore">
+  diagrams.aws.iot.IotAnalyticsDataStore
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-analytics-data-store.png" alt="IotAnalyticsDataStore"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-analytics-data-store.png" alt="IotAnalyticsDataStore" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAnalyticsDataStore**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-analytics-notebook.png" alt="IotAnalyticsNotebook">
+  diagrams.aws.iot.IotAnalyticsNotebook
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-analytics-notebook.png" alt="IotAnalyticsNotebook"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-analytics-notebook.png" alt="IotAnalyticsNotebook" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAnalyticsNotebook**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-analytics-pipeline.png" alt="IotAnalyticsPipeline">
+  diagrams.aws.iot.IotAnalyticsPipeline
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-analytics-pipeline.png" alt="IotAnalyticsPipeline"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-analytics-pipeline.png" alt="IotAnalyticsPipeline" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAnalyticsPipeline**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-analytics.png" alt="IotAnalytics">
+  diagrams.aws.iot.IotAnalytics
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-analytics.png" alt="IotAnalytics"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-analytics.png" alt="IotAnalytics" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotAnalytics**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-bank.png" alt="IotBank">
+  diagrams.aws.iot.IotBank
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-bank.png" alt="IotBank"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-bank.png" alt="IotBank" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotBank**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-bicycle.png" alt="IotBicycle">
+  diagrams.aws.iot.IotBicycle
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-bicycle.png" alt="IotBicycle"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-bicycle.png" alt="IotBicycle" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotBicycle**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-button.png" alt="IotButton">
+  diagrams.aws.iot.IotButton
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-button.png" alt="IotButton"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-button.png" alt="IotButton" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotButton**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-camera.png" alt="IotCamera">
+  diagrams.aws.iot.IotCamera
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-camera.png" alt="IotCamera"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-camera.png" alt="IotCamera" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotCamera**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-car.png" alt="IotCar">
+  diagrams.aws.iot.IotCar
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-car.png" alt="IotCar"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-car.png" alt="IotCar" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotCar**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-cart.png" alt="IotCart">
+  diagrams.aws.iot.IotCart
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-cart.png" alt="IotCart"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-cart.png" alt="IotCart" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotCart**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-certificate.png" alt="IotCertificate">
+  diagrams.aws.iot.IotCertificate
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-certificate.png" alt="IotCertificate"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-certificate.png" alt="IotCertificate" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotCertificate**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-coffee-pot.png" alt="IotCoffeePot">
+  diagrams.aws.iot.IotCoffeePot
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-coffee-pot.png" alt="IotCoffeePot"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-coffee-pot.png" alt="IotCoffeePot" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotCoffeePot**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-core.png" alt="IotCore">
+  diagrams.aws.iot.IotCore
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-core.png" alt="IotCore"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-core.png" alt="IotCore" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotCore**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-desired-state.png" alt="IotDesiredState">
+  diagrams.aws.iot.IotDesiredState
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-desired-state.png" alt="IotDesiredState"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-desired-state.png" alt="IotDesiredState" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotDesiredState**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-device-defender.png" alt="IotDeviceDefender">
+  diagrams.aws.iot.IotDeviceDefender
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-device-defender.png" alt="IotDeviceDefender"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-device-defender.png" alt="IotDeviceDefender" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotDeviceDefender**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-device-gateway.png" alt="IotDeviceGateway">
+  diagrams.aws.iot.IotDeviceGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-device-gateway.png" alt="IotDeviceGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-device-gateway.png" alt="IotDeviceGateway" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotDeviceGateway**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-device-management.png" alt="IotDeviceManagement">
+  diagrams.aws.iot.IotDeviceManagement
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-device-management.png" alt="IotDeviceManagement"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-device-management.png" alt="IotDeviceManagement" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotDeviceManagement**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-door-lock.png" alt="IotDoorLock">
+  diagrams.aws.iot.IotDoorLock
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-door-lock.png" alt="IotDoorLock"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-door-lock.png" alt="IotDoorLock" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotDoorLock**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-events.png" alt="IotEvents">
+  diagrams.aws.iot.IotEvents
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-events.png" alt="IotEvents"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-events.png" alt="IotEvents" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotEvents**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-factory.png" alt="IotFactory">
+  diagrams.aws.iot.IotFactory
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-factory.png" alt="IotFactory"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-factory.png" alt="IotFactory" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotFactory**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-fire-tv-stick.png" alt="IotFireTvStick">
+  diagrams.aws.iot.IotFireTvStick
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-fire-tv-stick.png" alt="IotFireTvStick"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-fire-tv-stick.png" alt="IotFireTvStick" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotFireTvStick**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-fire-tv.png" alt="IotFireTv">
+  diagrams.aws.iot.IotFireTv
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-fire-tv.png" alt="IotFireTv"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-fire-tv.png" alt="IotFireTv" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotFireTv**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-generic.png" alt="IotGeneric">
+  diagrams.aws.iot.IotGeneric
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-generic.png" alt="IotGeneric"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-generic.png" alt="IotGeneric" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotGeneric**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-greengrass-connector.png" alt="IotGreengrassConnector">
+  diagrams.aws.iot.IotGreengrassConnector
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-greengrass-connector.png" alt="IotGreengrassConnector"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-greengrass-connector.png" alt="IotGreengrassConnector" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotGreengrassConnector**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-greengrass.png" alt="IotGreengrass">
+  diagrams.aws.iot.IotGreengrass
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-greengrass.png" alt="IotGreengrass"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-greengrass.png" alt="IotGreengrass" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotGreengrass**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-hardware-board.png" alt="IotHardwareBoard">
+  diagrams.aws.iot.IotHardwareBoard, IotBoard (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-hardware-board.png" alt="IotHardwareBoard"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-hardware-board.png" alt="IotHardwareBoard" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotHardwareBoard**, **IotBoard** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-house.png" alt="IotHouse">
+  diagrams.aws.iot.IotHouse
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-house.png" alt="IotHouse"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-house.png" alt="IotHouse" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotHouse**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-http.png" alt="IotHttp">
+  diagrams.aws.iot.IotHttp
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-http.png" alt="IotHttp"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-http.png" alt="IotHttp" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotHttp**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-http2.png" alt="IotHttp2">
+  diagrams.aws.iot.IotHttp2
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-http2.png" alt="IotHttp2"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-http2.png" alt="IotHttp2" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotHttp2**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-jobs.png" alt="IotJobs">
+  diagrams.aws.iot.IotJobs
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-jobs.png" alt="IotJobs"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-jobs.png" alt="IotJobs" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotJobs**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-lambda.png" alt="IotLambda">
+  diagrams.aws.iot.IotLambda
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-lambda.png" alt="IotLambda"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-lambda.png" alt="IotLambda" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotLambda**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-lightbulb.png" alt="IotLightbulb">
+  diagrams.aws.iot.IotLightbulb
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-lightbulb.png" alt="IotLightbulb"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-lightbulb.png" alt="IotLightbulb" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotLightbulb**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-medical-emergency.png" alt="IotMedicalEmergency">
+  diagrams.aws.iot.IotMedicalEmergency
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-medical-emergency.png" alt="IotMedicalEmergency"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-medical-emergency.png" alt="IotMedicalEmergency" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotMedicalEmergency**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-mqtt.png" alt="IotMqtt">
+  diagrams.aws.iot.IotMqtt
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-mqtt.png" alt="IotMqtt"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-mqtt.png" alt="IotMqtt" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotMqtt**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-over-the-air-update.png" alt="IotOverTheAirUpdate">
+  diagrams.aws.iot.IotOverTheAirUpdate
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-over-the-air-update.png" alt="IotOverTheAirUpdate"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-over-the-air-update.png" alt="IotOverTheAirUpdate" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotOverTheAirUpdate**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-policy-emergency.png" alt="IotPolicyEmergency">
+  diagrams.aws.iot.IotPolicyEmergency
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-policy-emergency.png" alt="IotPolicyEmergency"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-policy-emergency.png" alt="IotPolicyEmergency" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotPolicyEmergency**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-policy.png" alt="IotPolicy">
+  diagrams.aws.iot.IotPolicy
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-policy.png" alt="IotPolicy"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-policy.png" alt="IotPolicy" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotPolicy**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-reported-state.png" alt="IotReportedState">
+  diagrams.aws.iot.IotReportedState
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-reported-state.png" alt="IotReportedState"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-reported-state.png" alt="IotReportedState" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotReportedState**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-rule.png" alt="IotRule">
+  diagrams.aws.iot.IotRule
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-rule.png" alt="IotRule"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-rule.png" alt="IotRule" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotRule**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-sensor.png" alt="IotSensor">
+  diagrams.aws.iot.IotSensor
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-sensor.png" alt="IotSensor"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-sensor.png" alt="IotSensor" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotSensor**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-servo.png" alt="IotServo">
+  diagrams.aws.iot.IotServo
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-servo.png" alt="IotServo"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-servo.png" alt="IotServo" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotServo**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-shadow.png" alt="IotShadow">
+  diagrams.aws.iot.IotShadow
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-shadow.png" alt="IotShadow"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-shadow.png" alt="IotShadow" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotShadow**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-simulator.png" alt="IotSimulator">
+  diagrams.aws.iot.IotSimulator
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-simulator.png" alt="IotSimulator"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-simulator.png" alt="IotSimulator" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotSimulator**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-sitewise.png" alt="IotSitewise">
+  diagrams.aws.iot.IotSitewise
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-sitewise.png" alt="IotSitewise"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-sitewise.png" alt="IotSitewise" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotSitewise**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-thermostat.png" alt="IotThermostat">
+  diagrams.aws.iot.IotThermostat
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-thermostat.png" alt="IotThermostat"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-thermostat.png" alt="IotThermostat" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotThermostat**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-things-graph.png" alt="IotThingsGraph">
+  diagrams.aws.iot.IotThingsGraph
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-things-graph.png" alt="IotThingsGraph"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-things-graph.png" alt="IotThingsGraph" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotThingsGraph**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-topic.png" alt="IotTopic">
+  diagrams.aws.iot.IotTopic
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-topic.png" alt="IotTopic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-topic.png" alt="IotTopic" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotTopic**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-travel.png" alt="IotTravel">
+  diagrams.aws.iot.IotTravel
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-travel.png" alt="IotTravel"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-travel.png" alt="IotTravel" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotTravel**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-utility.png" alt="IotUtility">
+  diagrams.aws.iot.IotUtility
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-utility.png" alt="IotUtility"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-utility.png" alt="IotUtility" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotUtility**
+<div class="tooltip">
+  <img src="/img/resources/aws/iot/iot-windfarm.png" alt="IotWindfarm">
+  diagrams.aws.iot.IotWindfarm
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/iot/iot-windfarm.png" alt="IotWindfarm"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/iot/iot-windfarm.png" alt="IotWindfarm" style="float: left; padding-right: 5px;" >
-**diagrams.aws.iot.IotWindfarm**
 
 ## aws.management
 
+<div class="tooltip">
+  <img src="/img/resources/aws/management/auto-scaling.png" alt="AutoScaling">
+  diagrams.aws.management.AutoScaling
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/auto-scaling.png" alt="AutoScaling"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/auto-scaling.png" alt="AutoScaling" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.AutoScaling**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/cloudformation-change-set.png" alt="CloudformationChangeSet">
+  diagrams.aws.management.CloudformationChangeSet
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudformation-change-set.png" alt="CloudformationChangeSet"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/cloudformation-change-set.png" alt="CloudformationChangeSet" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.CloudformationChangeSet**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/cloudformation-stack.png" alt="CloudformationStack">
+  diagrams.aws.management.CloudformationStack
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudformation-stack.png" alt="CloudformationStack"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/cloudformation-stack.png" alt="CloudformationStack" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.CloudformationStack**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/cloudformation-template.png" alt="CloudformationTemplate">
+  diagrams.aws.management.CloudformationTemplate
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudformation-template.png" alt="CloudformationTemplate"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/cloudformation-template.png" alt="CloudformationTemplate" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.CloudformationTemplate**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/cloudformation.png" alt="Cloudformation">
+  diagrams.aws.management.Cloudformation
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudformation.png" alt="Cloudformation"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/cloudformation.png" alt="Cloudformation" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.Cloudformation**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/cloudtrail.png" alt="Cloudtrail">
+  diagrams.aws.management.Cloudtrail
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudtrail.png" alt="Cloudtrail"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/cloudtrail.png" alt="Cloudtrail" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.Cloudtrail**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/cloudwatch-alarm.png" alt="CloudwatchAlarm">
+  diagrams.aws.management.CloudwatchAlarm
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudwatch-alarm.png" alt="CloudwatchAlarm"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/cloudwatch-alarm.png" alt="CloudwatchAlarm" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.CloudwatchAlarm**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/cloudwatch-event-event-based.png" alt="CloudwatchEventEventBased">
+  diagrams.aws.management.CloudwatchEventEventBased
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudwatch-event-event-based.png" alt="CloudwatchEventEventBased"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/cloudwatch-event-event-based.png" alt="CloudwatchEventEventBased" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.CloudwatchEventEventBased**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/cloudwatch-event-time-based.png" alt="CloudwatchEventTimeBased">
+  diagrams.aws.management.CloudwatchEventTimeBased
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudwatch-event-time-based.png" alt="CloudwatchEventTimeBased"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/cloudwatch-event-time-based.png" alt="CloudwatchEventTimeBased" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.CloudwatchEventTimeBased**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/cloudwatch-rule.png" alt="CloudwatchRule">
+  diagrams.aws.management.CloudwatchRule
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudwatch-rule.png" alt="CloudwatchRule"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/cloudwatch-rule.png" alt="CloudwatchRule" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.CloudwatchRule**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/cloudwatch.png" alt="Cloudwatch">
+  diagrams.aws.management.Cloudwatch
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudwatch.png" alt="Cloudwatch"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/cloudwatch.png" alt="Cloudwatch" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.Cloudwatch**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/codeguru.png" alt="Codeguru">
+  diagrams.aws.management.Codeguru
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/codeguru.png" alt="Codeguru"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/codeguru.png" alt="Codeguru" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.Codeguru**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/command-line-interface.png" alt="CommandLineInterface">
+  diagrams.aws.management.CommandLineInterface
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/command-line-interface.png" alt="CommandLineInterface"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/command-line-interface.png" alt="CommandLineInterface" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.CommandLineInterface**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/config.png" alt="Config">
+  diagrams.aws.management.Config
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/config.png" alt="Config"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/config.png" alt="Config" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.Config**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/control-tower.png" alt="ControlTower">
+  diagrams.aws.management.ControlTower
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/control-tower.png" alt="ControlTower"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/control-tower.png" alt="ControlTower" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.ControlTower**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/license-manager.png" alt="LicenseManager">
+  diagrams.aws.management.LicenseManager
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/license-manager.png" alt="LicenseManager"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/license-manager.png" alt="LicenseManager" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.LicenseManager**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/managed-services.png" alt="ManagedServices">
+  diagrams.aws.management.ManagedServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/managed-services.png" alt="ManagedServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/managed-services.png" alt="ManagedServices" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.ManagedServices**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/management-and-governance.png" alt="ManagementAndGovernance">
+  diagrams.aws.management.ManagementAndGovernance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/management-and-governance.png" alt="ManagementAndGovernance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/management-and-governance.png" alt="ManagementAndGovernance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.ManagementAndGovernance**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/management-console.png" alt="ManagementConsole">
+  diagrams.aws.management.ManagementConsole
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/management-console.png" alt="ManagementConsole"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/management-console.png" alt="ManagementConsole" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.ManagementConsole**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/opsworks-apps.png" alt="OpsworksApps">
+  diagrams.aws.management.OpsworksApps
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/opsworks-apps.png" alt="OpsworksApps"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/opsworks-apps.png" alt="OpsworksApps" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.OpsworksApps**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/opsworks-deployments.png" alt="OpsworksDeployments">
+  diagrams.aws.management.OpsworksDeployments
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/opsworks-deployments.png" alt="OpsworksDeployments"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/opsworks-deployments.png" alt="OpsworksDeployments" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.OpsworksDeployments**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/opsworks-instances.png" alt="OpsworksInstances">
+  diagrams.aws.management.OpsworksInstances
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/opsworks-instances.png" alt="OpsworksInstances"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/opsworks-instances.png" alt="OpsworksInstances" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.OpsworksInstances**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/opsworks-layers.png" alt="OpsworksLayers">
+  diagrams.aws.management.OpsworksLayers
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/opsworks-layers.png" alt="OpsworksLayers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/opsworks-layers.png" alt="OpsworksLayers" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.OpsworksLayers**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/opsworks-monitoring.png" alt="OpsworksMonitoring">
+  diagrams.aws.management.OpsworksMonitoring
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/opsworks-monitoring.png" alt="OpsworksMonitoring"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/opsworks-monitoring.png" alt="OpsworksMonitoring" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.OpsworksMonitoring**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/opsworks-permissions.png" alt="OpsworksPermissions">
+  diagrams.aws.management.OpsworksPermissions
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/opsworks-permissions.png" alt="OpsworksPermissions"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/opsworks-permissions.png" alt="OpsworksPermissions" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.OpsworksPermissions**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/opsworks-resources.png" alt="OpsworksResources">
+  diagrams.aws.management.OpsworksResources
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/opsworks-resources.png" alt="OpsworksResources"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/opsworks-resources.png" alt="OpsworksResources" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.OpsworksResources**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/opsworks-stack.png" alt="OpsworksStack">
+  diagrams.aws.management.OpsworksStack
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/opsworks-stack.png" alt="OpsworksStack"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/opsworks-stack.png" alt="OpsworksStack" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.OpsworksStack**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/opsworks.png" alt="Opsworks">
+  diagrams.aws.management.Opsworks
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/opsworks.png" alt="Opsworks"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/opsworks.png" alt="Opsworks" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.Opsworks**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/organizations-account.png" alt="OrganizationsAccount">
+  diagrams.aws.management.OrganizationsAccount
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/organizations-account.png" alt="OrganizationsAccount"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/organizations-account.png" alt="OrganizationsAccount" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.OrganizationsAccount**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/organizations-organizational-unit.png" alt="OrganizationsOrganizationalUnit">
+  diagrams.aws.management.OrganizationsOrganizationalUnit
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/organizations-organizational-unit.png" alt="OrganizationsOrganizationalUnit"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/organizations-organizational-unit.png" alt="OrganizationsOrganizationalUnit" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.OrganizationsOrganizationalUnit**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/organizations.png" alt="Organizations">
+  diagrams.aws.management.Organizations
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/organizations.png" alt="Organizations"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/organizations.png" alt="Organizations" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.Organizations**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/personal-health-dashboard.png" alt="PersonalHealthDashboard">
+  diagrams.aws.management.PersonalHealthDashboard
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/personal-health-dashboard.png" alt="PersonalHealthDashboard"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/personal-health-dashboard.png" alt="PersonalHealthDashboard" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.PersonalHealthDashboard**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/service-catalog.png" alt="ServiceCatalog">
+  diagrams.aws.management.ServiceCatalog
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/service-catalog.png" alt="ServiceCatalog"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/service-catalog.png" alt="ServiceCatalog" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.ServiceCatalog**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/systems-manager-automation.png" alt="SystemsManagerAutomation">
+  diagrams.aws.management.SystemsManagerAutomation
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/systems-manager-automation.png" alt="SystemsManagerAutomation"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/systems-manager-automation.png" alt="SystemsManagerAutomation" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.SystemsManagerAutomation**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/systems-manager-documents.png" alt="SystemsManagerDocuments">
+  diagrams.aws.management.SystemsManagerDocuments
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/systems-manager-documents.png" alt="SystemsManagerDocuments"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/systems-manager-documents.png" alt="SystemsManagerDocuments" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.SystemsManagerDocuments**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/systems-manager-inventory.png" alt="SystemsManagerInventory">
+  diagrams.aws.management.SystemsManagerInventory
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/systems-manager-inventory.png" alt="SystemsManagerInventory"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/systems-manager-inventory.png" alt="SystemsManagerInventory" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.SystemsManagerInventory**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/systems-manager-maintenance-windows.png" alt="SystemsManagerMaintenanceWindows">
+  diagrams.aws.management.SystemsManagerMaintenanceWindows
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/systems-manager-maintenance-windows.png" alt="SystemsManagerMaintenanceWindows"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/systems-manager-maintenance-windows.png" alt="SystemsManagerMaintenanceWindows" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.SystemsManagerMaintenanceWindows**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/systems-manager-opscenter.png" alt="SystemsManagerOpscenter">
+  diagrams.aws.management.SystemsManagerOpscenter
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/systems-manager-opscenter.png" alt="SystemsManagerOpscenter"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/systems-manager-opscenter.png" alt="SystemsManagerOpscenter" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.SystemsManagerOpscenter**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/systems-manager-parameter-store.png" alt="SystemsManagerParameterStore">
+  diagrams.aws.management.SystemsManagerParameterStore, ParameterStore (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/systems-manager-parameter-store.png" alt="SystemsManagerParameterStore"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/systems-manager-parameter-store.png" alt="SystemsManagerParameterStore" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.SystemsManagerParameterStore**, **ParameterStore** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/management/systems-manager-patch-manager.png" alt="SystemsManagerPatchManager">
+  diagrams.aws.management.SystemsManagerPatchManager
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/systems-manager-patch-manager.png" alt="SystemsManagerPatchManager"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/systems-manager-patch-manager.png" alt="SystemsManagerPatchManager" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.SystemsManagerPatchManager**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/systems-manager-run-command.png" alt="SystemsManagerRunCommand">
+  diagrams.aws.management.SystemsManagerRunCommand
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/systems-manager-run-command.png" alt="SystemsManagerRunCommand"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/systems-manager-run-command.png" alt="SystemsManagerRunCommand" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.SystemsManagerRunCommand**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/systems-manager-state-manager.png" alt="SystemsManagerStateManager">
+  diagrams.aws.management.SystemsManagerStateManager
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/systems-manager-state-manager.png" alt="SystemsManagerStateManager"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/systems-manager-state-manager.png" alt="SystemsManagerStateManager" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.SystemsManagerStateManager**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/systems-manager.png" alt="SystemsManager">
+  diagrams.aws.management.SystemsManager, SSM (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/systems-manager.png" alt="SystemsManager"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/systems-manager.png" alt="SystemsManager" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.SystemsManager**, **SSM** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/management/trusted-advisor-checklist-cost.png" alt="TrustedAdvisorChecklistCost">
+  diagrams.aws.management.TrustedAdvisorChecklistCost
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/trusted-advisor-checklist-cost.png" alt="TrustedAdvisorChecklistCost"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/trusted-advisor-checklist-cost.png" alt="TrustedAdvisorChecklistCost" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.TrustedAdvisorChecklistCost**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/trusted-advisor-checklist-fault-tolerant.png" alt="TrustedAdvisorChecklistFaultTolerant">
+  diagrams.aws.management.TrustedAdvisorChecklistFaultTolerant
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/trusted-advisor-checklist-fault-tolerant.png" alt="TrustedAdvisorChecklistFaultTolerant"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/trusted-advisor-checklist-fault-tolerant.png" alt="TrustedAdvisorChecklistFaultTolerant" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.TrustedAdvisorChecklistFaultTolerant**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/trusted-advisor-checklist-performance.png" alt="TrustedAdvisorChecklistPerformance">
+  diagrams.aws.management.TrustedAdvisorChecklistPerformance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/trusted-advisor-checklist-performance.png" alt="TrustedAdvisorChecklistPerformance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/trusted-advisor-checklist-performance.png" alt="TrustedAdvisorChecklistPerformance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.TrustedAdvisorChecklistPerformance**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/trusted-advisor-checklist-security.png" alt="TrustedAdvisorChecklistSecurity">
+  diagrams.aws.management.TrustedAdvisorChecklistSecurity
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/trusted-advisor-checklist-security.png" alt="TrustedAdvisorChecklistSecurity"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/trusted-advisor-checklist-security.png" alt="TrustedAdvisorChecklistSecurity" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.TrustedAdvisorChecklistSecurity**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/trusted-advisor-checklist.png" alt="TrustedAdvisorChecklist">
+  diagrams.aws.management.TrustedAdvisorChecklist
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/trusted-advisor-checklist.png" alt="TrustedAdvisorChecklist"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/trusted-advisor-checklist.png" alt="TrustedAdvisorChecklist" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.TrustedAdvisorChecklist**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/trusted-advisor.png" alt="TrustedAdvisor">
+  diagrams.aws.management.TrustedAdvisor
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/trusted-advisor.png" alt="TrustedAdvisor"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/trusted-advisor.png" alt="TrustedAdvisor" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.TrustedAdvisor**
+<div class="tooltip">
+  <img src="/img/resources/aws/management/well-architected-tool.png" alt="WellArchitectedTool">
+  diagrams.aws.management.WellArchitectedTool
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/well-architected-tool.png" alt="WellArchitectedTool"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/management/well-architected-tool.png" alt="WellArchitectedTool" style="float: left; padding-right: 5px;" >
-**diagrams.aws.management.WellArchitectedTool**
 
 ## aws.media
 
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elastic-transcoder.png" alt="ElasticTranscoder">
+  diagrams.aws.media.ElasticTranscoder
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elastic-transcoder.png" alt="ElasticTranscoder"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elastic-transcoder.png" alt="ElasticTranscoder" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElasticTranscoder**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elemental-conductor.png" alt="ElementalConductor">
+  diagrams.aws.media.ElementalConductor
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elemental-conductor.png" alt="ElementalConductor"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elemental-conductor.png" alt="ElementalConductor" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElementalConductor**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elemental-delta.png" alt="ElementalDelta">
+  diagrams.aws.media.ElementalDelta
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elemental-delta.png" alt="ElementalDelta"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elemental-delta.png" alt="ElementalDelta" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElementalDelta**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elemental-live.png" alt="ElementalLive">
+  diagrams.aws.media.ElementalLive
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elemental-live.png" alt="ElementalLive"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elemental-live.png" alt="ElementalLive" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElementalLive**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elemental-mediaconnect.png" alt="ElementalMediaconnect">
+  diagrams.aws.media.ElementalMediaconnect
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elemental-mediaconnect.png" alt="ElementalMediaconnect"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elemental-mediaconnect.png" alt="ElementalMediaconnect" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElementalMediaconnect**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elemental-mediaconvert.png" alt="ElementalMediaconvert">
+  diagrams.aws.media.ElementalMediaconvert
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elemental-mediaconvert.png" alt="ElementalMediaconvert"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elemental-mediaconvert.png" alt="ElementalMediaconvert" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElementalMediaconvert**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elemental-medialive.png" alt="ElementalMedialive">
+  diagrams.aws.media.ElementalMedialive
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elemental-medialive.png" alt="ElementalMedialive"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elemental-medialive.png" alt="ElementalMedialive" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElementalMedialive**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elemental-mediapackage.png" alt="ElementalMediapackage">
+  diagrams.aws.media.ElementalMediapackage
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elemental-mediapackage.png" alt="ElementalMediapackage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elemental-mediapackage.png" alt="ElementalMediapackage" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElementalMediapackage**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elemental-mediastore.png" alt="ElementalMediastore">
+  diagrams.aws.media.ElementalMediastore
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elemental-mediastore.png" alt="ElementalMediastore"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elemental-mediastore.png" alt="ElementalMediastore" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElementalMediastore**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elemental-mediatailor.png" alt="ElementalMediatailor">
+  diagrams.aws.media.ElementalMediatailor
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elemental-mediatailor.png" alt="ElementalMediatailor"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elemental-mediatailor.png" alt="ElementalMediatailor" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElementalMediatailor**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/elemental-server.png" alt="ElementalServer">
+  diagrams.aws.media.ElementalServer
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/elemental-server.png" alt="ElementalServer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/elemental-server.png" alt="ElementalServer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.ElementalServer**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/kinesis-video-streams.png" alt="KinesisVideoStreams">
+  diagrams.aws.media.KinesisVideoStreams
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/kinesis-video-streams.png" alt="KinesisVideoStreams"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/kinesis-video-streams.png" alt="KinesisVideoStreams" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.KinesisVideoStreams**
+<div class="tooltip">
+  <img src="/img/resources/aws/media/media-services.png" alt="MediaServices">
+  diagrams.aws.media.MediaServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/media/media-services.png" alt="MediaServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/media/media-services.png" alt="MediaServices" style="float: left; padding-right: 5px;" >
-**diagrams.aws.media.MediaServices**
 
 ## aws.migration
 
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/application-discovery-service.png" alt="ApplicationDiscoveryService">
+  diagrams.aws.migration.ApplicationDiscoveryService, ADS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/application-discovery-service.png" alt="ApplicationDiscoveryService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/application-discovery-service.png" alt="ApplicationDiscoveryService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.ApplicationDiscoveryService**, **ADS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/cloudendure-migration.png" alt="CloudendureMigration">
+  diagrams.aws.migration.CloudendureMigration, CEM (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/cloudendure-migration.png" alt="CloudendureMigration"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/cloudendure-migration.png" alt="CloudendureMigration" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.CloudendureMigration**, **CEM** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/database-migration-service.png" alt="DatabaseMigrationService">
+  diagrams.aws.migration.DatabaseMigrationService, DMS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/database-migration-service.png" alt="DatabaseMigrationService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/database-migration-service.png" alt="DatabaseMigrationService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.DatabaseMigrationService**, **DMS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/datasync-agent.png" alt="DatasyncAgent">
+  diagrams.aws.migration.DatasyncAgent
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/datasync-agent.png" alt="DatasyncAgent"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/datasync-agent.png" alt="DatasyncAgent" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.DatasyncAgent**
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/datasync.png" alt="Datasync">
+  diagrams.aws.migration.Datasync
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/datasync.png" alt="Datasync"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/datasync.png" alt="Datasync" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.Datasync**
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/migration-and-transfer.png" alt="MigrationAndTransfer">
+  diagrams.aws.migration.MigrationAndTransfer, MAT (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/migration-and-transfer.png" alt="MigrationAndTransfer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/migration-and-transfer.png" alt="MigrationAndTransfer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.MigrationAndTransfer**, **MAT** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/migration-hub.png" alt="MigrationHub">
+  diagrams.aws.migration.MigrationHub
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/migration-hub.png" alt="MigrationHub"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/migration-hub.png" alt="MigrationHub" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.MigrationHub**
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/server-migration-service.png" alt="ServerMigrationService">
+  diagrams.aws.migration.ServerMigrationService, SMS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/server-migration-service.png" alt="ServerMigrationService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/server-migration-service.png" alt="ServerMigrationService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.ServerMigrationService**, **SMS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/snowball-edge.png" alt="SnowballEdge">
+  diagrams.aws.migration.SnowballEdge
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/snowball-edge.png" alt="SnowballEdge"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/snowball-edge.png" alt="SnowballEdge" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.SnowballEdge**
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/snowball.png" alt="Snowball">
+  diagrams.aws.migration.Snowball
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/snowball.png" alt="Snowball"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/snowball.png" alt="Snowball" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.Snowball**
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/snowmobile.png" alt="Snowmobile">
+  diagrams.aws.migration.Snowmobile
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/snowmobile.png" alt="Snowmobile"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/snowmobile.png" alt="Snowmobile" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.Snowmobile**
+<div class="tooltip">
+  <img src="/img/resources/aws/migration/transfer-for-sftp.png" alt="TransferForSftp">
+  diagrams.aws.migration.TransferForSftp
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/migration/transfer-for-sftp.png" alt="TransferForSftp"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/migration/transfer-for-sftp.png" alt="TransferForSftp" style="float: left; padding-right: 5px;" >
-**diagrams.aws.migration.TransferForSftp**
 
 ## aws.ml
 
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/apache-mxnet-on-aws.png" alt="ApacheMxnetOnAWS">
+  diagrams.aws.ml.ApacheMxnetOnAWS
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/apache-mxnet-on-aws.png" alt="ApacheMxnetOnAWS"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/apache-mxnet-on-aws.png" alt="ApacheMxnetOnAWS" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.ApacheMxnetOnAWS**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/augmented-ai.png" alt="AugmentedAi">
+  diagrams.aws.ml.AugmentedAi
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/augmented-ai.png" alt="AugmentedAi"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/augmented-ai.png" alt="AugmentedAi" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.AugmentedAi**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/comprehend.png" alt="Comprehend">
+  diagrams.aws.ml.Comprehend
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/comprehend.png" alt="Comprehend"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/comprehend.png" alt="Comprehend" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Comprehend**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/deep-learning-amis.png" alt="DeepLearningAmis">
+  diagrams.aws.ml.DeepLearningAmis
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/deep-learning-amis.png" alt="DeepLearningAmis"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/deep-learning-amis.png" alt="DeepLearningAmis" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.DeepLearningAmis**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/deep-learning-containers.png" alt="DeepLearningContainers">
+  diagrams.aws.ml.DeepLearningContainers, DLC (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/deep-learning-containers.png" alt="DeepLearningContainers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/deep-learning-containers.png" alt="DeepLearningContainers" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.DeepLearningContainers**, **DLC** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/deepcomposer.png" alt="Deepcomposer">
+  diagrams.aws.ml.Deepcomposer
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/deepcomposer.png" alt="Deepcomposer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/deepcomposer.png" alt="Deepcomposer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Deepcomposer**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/deeplens.png" alt="Deeplens">
+  diagrams.aws.ml.Deeplens
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/deeplens.png" alt="Deeplens"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/deeplens.png" alt="Deeplens" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Deeplens**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/deepracer.png" alt="Deepracer">
+  diagrams.aws.ml.Deepracer
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/deepracer.png" alt="Deepracer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/deepracer.png" alt="Deepracer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Deepracer**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/elastic-inference.png" alt="ElasticInference">
+  diagrams.aws.ml.ElasticInference
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/elastic-inference.png" alt="ElasticInference"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/elastic-inference.png" alt="ElasticInference" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.ElasticInference**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/forecast.png" alt="Forecast">
+  diagrams.aws.ml.Forecast
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/forecast.png" alt="Forecast"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/forecast.png" alt="Forecast" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Forecast**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/fraud-detector.png" alt="FraudDetector">
+  diagrams.aws.ml.FraudDetector
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/fraud-detector.png" alt="FraudDetector"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/fraud-detector.png" alt="FraudDetector" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.FraudDetector**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/kendra.png" alt="Kendra">
+  diagrams.aws.ml.Kendra
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/kendra.png" alt="Kendra"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/kendra.png" alt="Kendra" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Kendra**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/lex.png" alt="Lex">
+  diagrams.aws.ml.Lex
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/lex.png" alt="Lex"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/lex.png" alt="Lex" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Lex**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/machine-learning.png" alt="MachineLearning">
+  diagrams.aws.ml.MachineLearning
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/machine-learning.png" alt="MachineLearning"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/machine-learning.png" alt="MachineLearning" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.MachineLearning**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/personalize.png" alt="Personalize">
+  diagrams.aws.ml.Personalize
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/personalize.png" alt="Personalize"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/personalize.png" alt="Personalize" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Personalize**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/polly.png" alt="Polly">
+  diagrams.aws.ml.Polly
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/polly.png" alt="Polly"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/polly.png" alt="Polly" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Polly**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/rekognition-image.png" alt="RekognitionImage">
+  diagrams.aws.ml.RekognitionImage
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/rekognition-image.png" alt="RekognitionImage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/rekognition-image.png" alt="RekognitionImage" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.RekognitionImage**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/rekognition-video.png" alt="RekognitionVideo">
+  diagrams.aws.ml.RekognitionVideo
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/rekognition-video.png" alt="RekognitionVideo"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/rekognition-video.png" alt="RekognitionVideo" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.RekognitionVideo**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/rekognition.png" alt="Rekognition">
+  diagrams.aws.ml.Rekognition
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/rekognition.png" alt="Rekognition"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/rekognition.png" alt="Rekognition" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Rekognition**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/sagemaker-ground-truth.png" alt="SagemakerGroundTruth">
+  diagrams.aws.ml.SagemakerGroundTruth
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/sagemaker-ground-truth.png" alt="SagemakerGroundTruth"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/sagemaker-ground-truth.png" alt="SagemakerGroundTruth" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.SagemakerGroundTruth**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/sagemaker-model.png" alt="SagemakerModel">
+  diagrams.aws.ml.SagemakerModel
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/sagemaker-model.png" alt="SagemakerModel"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/sagemaker-model.png" alt="SagemakerModel" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.SagemakerModel**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/sagemaker-notebook.png" alt="SagemakerNotebook">
+  diagrams.aws.ml.SagemakerNotebook
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/sagemaker-notebook.png" alt="SagemakerNotebook"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/sagemaker-notebook.png" alt="SagemakerNotebook" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.SagemakerNotebook**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/sagemaker-training-job.png" alt="SagemakerTrainingJob">
+  diagrams.aws.ml.SagemakerTrainingJob
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/sagemaker-training-job.png" alt="SagemakerTrainingJob"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/sagemaker-training-job.png" alt="SagemakerTrainingJob" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.SagemakerTrainingJob**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/sagemaker.png" alt="Sagemaker">
+  diagrams.aws.ml.Sagemaker
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/sagemaker.png" alt="Sagemaker"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/sagemaker.png" alt="Sagemaker" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Sagemaker**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/tensorflow-on-aws.png" alt="TensorflowOnAWS">
+  diagrams.aws.ml.TensorflowOnAWS
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/tensorflow-on-aws.png" alt="TensorflowOnAWS"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/tensorflow-on-aws.png" alt="TensorflowOnAWS" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.TensorflowOnAWS**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/textract.png" alt="Textract">
+  diagrams.aws.ml.Textract
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/textract.png" alt="Textract"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/textract.png" alt="Textract" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Textract**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/transcribe.png" alt="Transcribe">
+  diagrams.aws.ml.Transcribe
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/transcribe.png" alt="Transcribe"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/transcribe.png" alt="Transcribe" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Transcribe**
+<div class="tooltip">
+  <img src="/img/resources/aws/ml/translate.png" alt="Translate">
+  diagrams.aws.ml.Translate
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/ml/translate.png" alt="Translate"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/ml/translate.png" alt="Translate" style="float: left; padding-right: 5px;" >
-**diagrams.aws.ml.Translate**
 
 ## aws.mobile
 
+<div class="tooltip">
+  <img src="/img/resources/aws/mobile/amplify.png" alt="Amplify">
+  diagrams.aws.mobile.Amplify
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/mobile/amplify.png" alt="Amplify"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/mobile/amplify.png" alt="Amplify" style="float: left; padding-right: 5px;" >
-**diagrams.aws.mobile.Amplify**
+<div class="tooltip">
+  <img src="/img/resources/aws/mobile/api-gateway-endpoint.png" alt="APIGatewayEndpoint">
+  diagrams.aws.mobile.APIGatewayEndpoint
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/mobile/api-gateway-endpoint.png" alt="APIGatewayEndpoint"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/mobile/api-gateway-endpoint.png" alt="APIGatewayEndpoint" style="float: left; padding-right: 5px;" >
-**diagrams.aws.mobile.APIGatewayEndpoint**
+<div class="tooltip">
+  <img src="/img/resources/aws/mobile/api-gateway.png" alt="APIGateway">
+  diagrams.aws.mobile.APIGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/mobile/api-gateway.png" alt="APIGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/mobile/api-gateway.png" alt="APIGateway" style="float: left; padding-right: 5px;" >
-**diagrams.aws.mobile.APIGateway**
+<div class="tooltip">
+  <img src="/img/resources/aws/mobile/appsync.png" alt="Appsync">
+  diagrams.aws.mobile.Appsync
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/mobile/appsync.png" alt="Appsync"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/mobile/appsync.png" alt="Appsync" style="float: left; padding-right: 5px;" >
-**diagrams.aws.mobile.Appsync**
+<div class="tooltip">
+  <img src="/img/resources/aws/mobile/device-farm.png" alt="DeviceFarm">
+  diagrams.aws.mobile.DeviceFarm
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/mobile/device-farm.png" alt="DeviceFarm"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/mobile/device-farm.png" alt="DeviceFarm" style="float: left; padding-right: 5px;" >
-**diagrams.aws.mobile.DeviceFarm**
+<div class="tooltip">
+  <img src="/img/resources/aws/mobile/mobile.png" alt="Mobile">
+  diagrams.aws.mobile.Mobile
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/mobile/mobile.png" alt="Mobile"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/mobile/mobile.png" alt="Mobile" style="float: left; padding-right: 5px;" >
-**diagrams.aws.mobile.Mobile**
+<div class="tooltip">
+  <img src="/img/resources/aws/mobile/pinpoint.png" alt="Pinpoint">
+  diagrams.aws.mobile.Pinpoint
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/mobile/pinpoint.png" alt="Pinpoint"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/mobile/pinpoint.png" alt="Pinpoint" style="float: left; padding-right: 5px;" >
-**diagrams.aws.mobile.Pinpoint**
 
 ## aws.network
 
+<div class="tooltip">
+  <img src="/img/resources/aws/network/api-gateway-endpoint.png" alt="APIGatewayEndpoint">
+  diagrams.aws.network.APIGatewayEndpoint
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/api-gateway-endpoint.png" alt="APIGatewayEndpoint"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/api-gateway-endpoint.png" alt="APIGatewayEndpoint" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.APIGatewayEndpoint**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/api-gateway.png" alt="APIGateway">
+  diagrams.aws.network.APIGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/api-gateway.png" alt="APIGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/api-gateway.png" alt="APIGateway" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.APIGateway**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/app-mesh.png" alt="AppMesh">
+  diagrams.aws.network.AppMesh
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/app-mesh.png" alt="AppMesh"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/app-mesh.png" alt="AppMesh" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.AppMesh**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/client-vpn.png" alt="ClientVpn">
+  diagrams.aws.network.ClientVpn
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/client-vpn.png" alt="ClientVpn"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/client-vpn.png" alt="ClientVpn" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.ClientVpn**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/cloud-map.png" alt="CloudMap">
+  diagrams.aws.network.CloudMap
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/cloud-map.png" alt="CloudMap"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/cloud-map.png" alt="CloudMap" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.CloudMap**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/cloudfront-download-distribution.png" alt="CloudFrontDownloadDistribution">
+  diagrams.aws.network.CloudFrontDownloadDistribution
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/cloudfront-download-distribution.png" alt="CloudFrontDownloadDistribution"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/cloudfront-download-distribution.png" alt="CloudFrontDownloadDistribution" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.CloudFrontDownloadDistribution**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/cloudfront-edge-location.png" alt="CloudFrontEdgeLocation">
+  diagrams.aws.network.CloudFrontEdgeLocation
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/cloudfront-edge-location.png" alt="CloudFrontEdgeLocation"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/cloudfront-edge-location.png" alt="CloudFrontEdgeLocation" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.CloudFrontEdgeLocation**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/cloudfront-streaming-distribution.png" alt="CloudFrontStreamingDistribution">
+  diagrams.aws.network.CloudFrontStreamingDistribution
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/cloudfront-streaming-distribution.png" alt="CloudFrontStreamingDistribution"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/cloudfront-streaming-distribution.png" alt="CloudFrontStreamingDistribution" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.CloudFrontStreamingDistribution**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/cloudfront.png" alt="CloudFront">
+  diagrams.aws.network.CloudFront, CF (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/cloudfront.png" alt="CloudFront"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/cloudfront.png" alt="CloudFront" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.CloudFront**, **CF** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/network/direct-connect.png" alt="DirectConnect">
+  diagrams.aws.network.DirectConnect
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/direct-connect.png" alt="DirectConnect"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/direct-connect.png" alt="DirectConnect" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.DirectConnect**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/elastic-load-balancing.png" alt="ElasticLoadBalancing">
+  diagrams.aws.network.ElasticLoadBalancing, ELB (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/elastic-load-balancing.png" alt="ElasticLoadBalancing"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/elastic-load-balancing.png" alt="ElasticLoadBalancing" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.ElasticLoadBalancing**, **ELB** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/network/elb-application-load-balancer.png" alt="ElbApplicationLoadBalancer">
+  diagrams.aws.network.ElbApplicationLoadBalancer, ALB (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/elb-application-load-balancer.png" alt="ElbApplicationLoadBalancer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/elb-application-load-balancer.png" alt="ElbApplicationLoadBalancer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.ElbApplicationLoadBalancer**, **ALB** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/network/elb-classic-load-balancer.png" alt="ElbClassicLoadBalancer">
+  diagrams.aws.network.ElbClassicLoadBalancer, CLB (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/elb-classic-load-balancer.png" alt="ElbClassicLoadBalancer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/elb-classic-load-balancer.png" alt="ElbClassicLoadBalancer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.ElbClassicLoadBalancer**, **CLB** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/network/elb-network-load-balancer.png" alt="ElbNetworkLoadBalancer">
+  diagrams.aws.network.ElbNetworkLoadBalancer, NLB (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/elb-network-load-balancer.png" alt="ElbNetworkLoadBalancer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/elb-network-load-balancer.png" alt="ElbNetworkLoadBalancer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.ElbNetworkLoadBalancer**, **NLB** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/network/endpoint.png" alt="Endpoint">
+  diagrams.aws.network.Endpoint
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/endpoint.png" alt="Endpoint"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/endpoint.png" alt="Endpoint" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.Endpoint**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/global-accelerator.png" alt="GlobalAccelerator">
+  diagrams.aws.network.GlobalAccelerator, GAX (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/global-accelerator.png" alt="GlobalAccelerator"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/global-accelerator.png" alt="GlobalAccelerator" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.GlobalAccelerator**, **GAX** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/network/internet-gateway.png" alt="InternetGateway">
+  diagrams.aws.network.InternetGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/internet-gateway.png" alt="InternetGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/internet-gateway.png" alt="InternetGateway" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.InternetGateway**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/nacl.png" alt="Nacl">
+  diagrams.aws.network.Nacl
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/nacl.png" alt="Nacl"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/nacl.png" alt="Nacl" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.Nacl**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/nat-gateway.png" alt="NATGateway">
+  diagrams.aws.network.NATGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/nat-gateway.png" alt="NATGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/nat-gateway.png" alt="NATGateway" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.NATGateway**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/networking-and-content-delivery.png" alt="NetworkingAndContentDelivery">
+  diagrams.aws.network.NetworkingAndContentDelivery
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/networking-and-content-delivery.png" alt="NetworkingAndContentDelivery"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/networking-and-content-delivery.png" alt="NetworkingAndContentDelivery" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.NetworkingAndContentDelivery**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/private-subnet.png" alt="PrivateSubnet">
+  diagrams.aws.network.PrivateSubnet
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/private-subnet.png" alt="PrivateSubnet"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/private-subnet.png" alt="PrivateSubnet" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.PrivateSubnet**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/privatelink.png" alt="Privatelink">
+  diagrams.aws.network.Privatelink
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/privatelink.png" alt="Privatelink"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/privatelink.png" alt="Privatelink" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.Privatelink**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/public-subnet.png" alt="PublicSubnet">
+  diagrams.aws.network.PublicSubnet
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/public-subnet.png" alt="PublicSubnet"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/public-subnet.png" alt="PublicSubnet" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.PublicSubnet**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/route-53-hosted-zone.png" alt="Route53HostedZone">
+  diagrams.aws.network.Route53HostedZone
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/route-53-hosted-zone.png" alt="Route53HostedZone"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/route-53-hosted-zone.png" alt="Route53HostedZone" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.Route53HostedZone**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/route-53.png" alt="Route53">
+  diagrams.aws.network.Route53
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/route-53.png" alt="Route53"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/route-53.png" alt="Route53" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.Route53**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/route-table.png" alt="RouteTable">
+  diagrams.aws.network.RouteTable
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/route-table.png" alt="RouteTable"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/route-table.png" alt="RouteTable" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.RouteTable**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/site-to-site-vpn.png" alt="SiteToSiteVpn">
+  diagrams.aws.network.SiteToSiteVpn
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/site-to-site-vpn.png" alt="SiteToSiteVpn"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/site-to-site-vpn.png" alt="SiteToSiteVpn" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.SiteToSiteVpn**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/transit-gateway.png" alt="TransitGateway">
+  diagrams.aws.network.TransitGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/transit-gateway.png" alt="TransitGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/transit-gateway.png" alt="TransitGateway" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.TransitGateway**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/vpc-customer-gateway.png" alt="VPCCustomerGateway">
+  diagrams.aws.network.VPCCustomerGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/vpc-customer-gateway.png" alt="VPCCustomerGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/vpc-customer-gateway.png" alt="VPCCustomerGateway" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.VPCCustomerGateway**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/vpc-elastic-network-adapter.png" alt="VPCElasticNetworkAdapter">
+  diagrams.aws.network.VPCElasticNetworkAdapter
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/vpc-elastic-network-adapter.png" alt="VPCElasticNetworkAdapter"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/vpc-elastic-network-adapter.png" alt="VPCElasticNetworkAdapter" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.VPCElasticNetworkAdapter**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/vpc-elastic-network-interface.png" alt="VPCElasticNetworkInterface">
+  diagrams.aws.network.VPCElasticNetworkInterface
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/vpc-elastic-network-interface.png" alt="VPCElasticNetworkInterface"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/vpc-elastic-network-interface.png" alt="VPCElasticNetworkInterface" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.VPCElasticNetworkInterface**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/vpc-flow-logs.png" alt="VPCFlowLogs">
+  diagrams.aws.network.VPCFlowLogs
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/vpc-flow-logs.png" alt="VPCFlowLogs"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/vpc-flow-logs.png" alt="VPCFlowLogs" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.VPCFlowLogs**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/vpc-peering.png" alt="VPCPeering">
+  diagrams.aws.network.VPCPeering
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/vpc-peering.png" alt="VPCPeering"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/vpc-peering.png" alt="VPCPeering" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.VPCPeering**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/vpc-router.png" alt="VPCRouter">
+  diagrams.aws.network.VPCRouter
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/vpc-router.png" alt="VPCRouter"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/vpc-router.png" alt="VPCRouter" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.VPCRouter**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/vpc-traffic-mirroring.png" alt="VPCTrafficMirroring">
+  diagrams.aws.network.VPCTrafficMirroring
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/vpc-traffic-mirroring.png" alt="VPCTrafficMirroring"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/vpc-traffic-mirroring.png" alt="VPCTrafficMirroring" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.VPCTrafficMirroring**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/vpc.png" alt="VPC">
+  diagrams.aws.network.VPC
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/vpc.png" alt="VPC"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/vpc.png" alt="VPC" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.VPC**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/vpn-connection.png" alt="VpnConnection">
+  diagrams.aws.network.VpnConnection
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/vpn-connection.png" alt="VpnConnection"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/vpn-connection.png" alt="VpnConnection" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.VpnConnection**
+<div class="tooltip">
+  <img src="/img/resources/aws/network/vpn-gateway.png" alt="VpnGateway">
+  diagrams.aws.network.VpnGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/network/vpn-gateway.png" alt="VpnGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/network/vpn-gateway.png" alt="VpnGateway" style="float: left; padding-right: 5px;" >
-**diagrams.aws.network.VpnGateway**
 
 ## aws.quantum
 
+<div class="tooltip">
+  <img src="/img/resources/aws/quantum/braket.png" alt="Braket">
+  diagrams.aws.quantum.Braket
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/quantum/braket.png" alt="Braket"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/quantum/braket.png" alt="Braket" style="float: left; padding-right: 5px;" >
-**diagrams.aws.quantum.Braket**
+<div class="tooltip">
+  <img src="/img/resources/aws/quantum/quantum-technologies.png" alt="QuantumTechnologies">
+  diagrams.aws.quantum.QuantumTechnologies
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/quantum/quantum-technologies.png" alt="QuantumTechnologies"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/quantum/quantum-technologies.png" alt="QuantumTechnologies" style="float: left; padding-right: 5px;" >
-**diagrams.aws.quantum.QuantumTechnologies**
 
 ## aws.robotics
 
+<div class="tooltip">
+  <img src="/img/resources/aws/robotics/robomaker-cloud-extension-ros.png" alt="RobomakerCloudExtensionRos">
+  diagrams.aws.robotics.RobomakerCloudExtensionRos
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/robotics/robomaker-cloud-extension-ros.png" alt="RobomakerCloudExtensionRos"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/robotics/robomaker-cloud-extension-ros.png" alt="RobomakerCloudExtensionRos" style="float: left; padding-right: 5px;" >
-**diagrams.aws.robotics.RobomakerCloudExtensionRos**
+<div class="tooltip">
+  <img src="/img/resources/aws/robotics/robomaker-development-environment.png" alt="RobomakerDevelopmentEnvironment">
+  diagrams.aws.robotics.RobomakerDevelopmentEnvironment
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/robotics/robomaker-development-environment.png" alt="RobomakerDevelopmentEnvironment"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/robotics/robomaker-development-environment.png" alt="RobomakerDevelopmentEnvironment" style="float: left; padding-right: 5px;" >
-**diagrams.aws.robotics.RobomakerDevelopmentEnvironment**
+<div class="tooltip">
+  <img src="/img/resources/aws/robotics/robomaker-fleet-management.png" alt="RobomakerFleetManagement">
+  diagrams.aws.robotics.RobomakerFleetManagement
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/robotics/robomaker-fleet-management.png" alt="RobomakerFleetManagement"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/robotics/robomaker-fleet-management.png" alt="RobomakerFleetManagement" style="float: left; padding-right: 5px;" >
-**diagrams.aws.robotics.RobomakerFleetManagement**
+<div class="tooltip">
+  <img src="/img/resources/aws/robotics/robomaker-simulator.png" alt="RobomakerSimulator">
+  diagrams.aws.robotics.RobomakerSimulator
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/robotics/robomaker-simulator.png" alt="RobomakerSimulator"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/robotics/robomaker-simulator.png" alt="RobomakerSimulator" style="float: left; padding-right: 5px;" >
-**diagrams.aws.robotics.RobomakerSimulator**
+<div class="tooltip">
+  <img src="/img/resources/aws/robotics/robomaker.png" alt="Robomaker">
+  diagrams.aws.robotics.Robomaker
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/robotics/robomaker.png" alt="Robomaker"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/robotics/robomaker.png" alt="Robomaker" style="float: left; padding-right: 5px;" >
-**diagrams.aws.robotics.Robomaker**
+<div class="tooltip">
+  <img src="/img/resources/aws/robotics/robotics.png" alt="Robotics">
+  diagrams.aws.robotics.Robotics
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/robotics/robotics.png" alt="Robotics"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/robotics/robotics.png" alt="Robotics" style="float: left; padding-right: 5px;" >
-**diagrams.aws.robotics.Robotics**
 
 ## aws.satellite
 
+<div class="tooltip">
+  <img src="/img/resources/aws/satellite/ground-station.png" alt="GroundStation">
+  diagrams.aws.satellite.GroundStation
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/satellite/ground-station.png" alt="GroundStation"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/satellite/ground-station.png" alt="GroundStation" style="float: left; padding-right: 5px;" >
-**diagrams.aws.satellite.GroundStation**
+<div class="tooltip">
+  <img src="/img/resources/aws/satellite/satellite.png" alt="Satellite">
+  diagrams.aws.satellite.Satellite
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/satellite/satellite.png" alt="Satellite"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/satellite/satellite.png" alt="Satellite" style="float: left; padding-right: 5px;" >
-**diagrams.aws.satellite.Satellite**
 
 ## aws.security
 
+<div class="tooltip">
+  <img src="/img/resources/aws/security/ad-connector.png" alt="AdConnector">
+  diagrams.aws.security.AdConnector
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/ad-connector.png" alt="AdConnector"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/ad-connector.png" alt="AdConnector" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.AdConnector**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/artifact.png" alt="Artifact">
+  diagrams.aws.security.Artifact
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/artifact.png" alt="Artifact"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/artifact.png" alt="Artifact" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.Artifact**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/certificate-authority.png" alt="CertificateAuthority">
+  diagrams.aws.security.CertificateAuthority
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/certificate-authority.png" alt="CertificateAuthority"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/certificate-authority.png" alt="CertificateAuthority" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.CertificateAuthority**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/certificate-manager.png" alt="CertificateManager">
+  diagrams.aws.security.CertificateManager, ACM (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/certificate-manager.png" alt="CertificateManager"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/certificate-manager.png" alt="CertificateManager" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.CertificateManager**, **ACM** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/cloud-directory.png" alt="CloudDirectory">
+  diagrams.aws.security.CloudDirectory
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/cloud-directory.png" alt="CloudDirectory"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/cloud-directory.png" alt="CloudDirectory" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.CloudDirectory**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/cloudhsm.png" alt="Cloudhsm">
+  diagrams.aws.security.Cloudhsm, CloudHSM (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/cloudhsm.png" alt="Cloudhsm"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/cloudhsm.png" alt="Cloudhsm" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.Cloudhsm**, **CloudHSM** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/cognito.png" alt="Cognito">
+  diagrams.aws.security.Cognito
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/cognito.png" alt="Cognito"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/cognito.png" alt="Cognito" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.Cognito**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/detective.png" alt="Detective">
+  diagrams.aws.security.Detective
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/detective.png" alt="Detective"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/detective.png" alt="Detective" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.Detective**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/directory-service.png" alt="DirectoryService">
+  diagrams.aws.security.DirectoryService, DS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/directory-service.png" alt="DirectoryService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/directory-service.png" alt="DirectoryService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.DirectoryService**, **DS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/firewall-manager.png" alt="FirewallManager">
+  diagrams.aws.security.FirewallManager, FMS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/firewall-manager.png" alt="FirewallManager"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/firewall-manager.png" alt="FirewallManager" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.FirewallManager**, **FMS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/guardduty.png" alt="Guardduty">
+  diagrams.aws.security.Guardduty
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/guardduty.png" alt="Guardduty"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/guardduty.png" alt="Guardduty" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.Guardduty**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-access-analyzer.png" alt="IdentityAndAccessManagementIamAccessAnalyzer">
+  diagrams.aws.security.IdentityAndAccessManagementIamAccessAnalyzer, IAMAccessAnalyzer (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-access-analyzer.png" alt="IdentityAndAccessManagementIamAccessAnalyzer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-access-analyzer.png" alt="IdentityAndAccessManagementIamAccessAnalyzer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamAccessAnalyzer**, **IAMAccessAnalyzer** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-add-on.png" alt="IdentityAndAccessManagementIamAddOn">
+  diagrams.aws.security.IdentityAndAccessManagementIamAddOn
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-add-on.png" alt="IdentityAndAccessManagementIamAddOn"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-add-on.png" alt="IdentityAndAccessManagementIamAddOn" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamAddOn**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-aws-sts-alternate.png" alt="IdentityAndAccessManagementIamAWSStsAlternate">
+  diagrams.aws.security.IdentityAndAccessManagementIamAWSStsAlternate
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-aws-sts-alternate.png" alt="IdentityAndAccessManagementIamAWSStsAlternate"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-aws-sts-alternate.png" alt="IdentityAndAccessManagementIamAWSStsAlternate" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamAWSStsAlternate**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-aws-sts.png" alt="IdentityAndAccessManagementIamAWSSts">
+  diagrams.aws.security.IdentityAndAccessManagementIamAWSSts, IAMAWSSts (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-aws-sts.png" alt="IdentityAndAccessManagementIamAWSSts"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-aws-sts.png" alt="IdentityAndAccessManagementIamAWSSts" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamAWSSts**, **IAMAWSSts** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-data-encryption-key.png" alt="IdentityAndAccessManagementIamDataEncryptionKey">
+  diagrams.aws.security.IdentityAndAccessManagementIamDataEncryptionKey
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-data-encryption-key.png" alt="IdentityAndAccessManagementIamDataEncryptionKey"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-data-encryption-key.png" alt="IdentityAndAccessManagementIamDataEncryptionKey" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamDataEncryptionKey**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-encrypted-data.png" alt="IdentityAndAccessManagementIamEncryptedData">
+  diagrams.aws.security.IdentityAndAccessManagementIamEncryptedData
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-encrypted-data.png" alt="IdentityAndAccessManagementIamEncryptedData"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-encrypted-data.png" alt="IdentityAndAccessManagementIamEncryptedData" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamEncryptedData**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-long-term-security-credential.png" alt="IdentityAndAccessManagementIamLongTermSecurityCredential">
+  diagrams.aws.security.IdentityAndAccessManagementIamLongTermSecurityCredential
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-long-term-security-credential.png" alt="IdentityAndAccessManagementIamLongTermSecurityCredential"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-long-term-security-credential.png" alt="IdentityAndAccessManagementIamLongTermSecurityCredential" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamLongTermSecurityCredential**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-mfa-token.png" alt="IdentityAndAccessManagementIamMfaToken">
+  diagrams.aws.security.IdentityAndAccessManagementIamMfaToken
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-mfa-token.png" alt="IdentityAndAccessManagementIamMfaToken"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-mfa-token.png" alt="IdentityAndAccessManagementIamMfaToken" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamMfaToken**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-permissions.png" alt="IdentityAndAccessManagementIamPermissions">
+  diagrams.aws.security.IdentityAndAccessManagementIamPermissions, IAMPermissions (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-permissions.png" alt="IdentityAndAccessManagementIamPermissions"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-permissions.png" alt="IdentityAndAccessManagementIamPermissions" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamPermissions**, **IAMPermissions** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-role.png" alt="IdentityAndAccessManagementIamRole">
+  diagrams.aws.security.IdentityAndAccessManagementIamRole, IAMRole (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-role.png" alt="IdentityAndAccessManagementIamRole"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-role.png" alt="IdentityAndAccessManagementIamRole" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamRole**, **IAMRole** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam-temporary-security-credential.png" alt="IdentityAndAccessManagementIamTemporarySecurityCredential">
+  diagrams.aws.security.IdentityAndAccessManagementIamTemporarySecurityCredential
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam-temporary-security-credential.png" alt="IdentityAndAccessManagementIamTemporarySecurityCredential"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam-temporary-security-credential.png" alt="IdentityAndAccessManagementIamTemporarySecurityCredential" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIamTemporarySecurityCredential**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/identity-and-access-management-iam.png" alt="IdentityAndAccessManagementIam">
+  diagrams.aws.security.IdentityAndAccessManagementIam, IAM (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/identity-and-access-management-iam.png" alt="IdentityAndAccessManagementIam"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/identity-and-access-management-iam.png" alt="IdentityAndAccessManagementIam" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.IdentityAndAccessManagementIam**, **IAM** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/inspector-agent.png" alt="InspectorAgent">
+  diagrams.aws.security.InspectorAgent
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/inspector-agent.png" alt="InspectorAgent"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/inspector-agent.png" alt="InspectorAgent" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.InspectorAgent**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/inspector.png" alt="Inspector">
+  diagrams.aws.security.Inspector
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/inspector.png" alt="Inspector"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/inspector.png" alt="Inspector" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.Inspector**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/key-management-service.png" alt="KeyManagementService">
+  diagrams.aws.security.KeyManagementService, KMS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/key-management-service.png" alt="KeyManagementService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/key-management-service.png" alt="KeyManagementService" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.KeyManagementService**, **KMS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/macie.png" alt="Macie">
+  diagrams.aws.security.Macie
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/macie.png" alt="Macie"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/macie.png" alt="Macie" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.Macie**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/managed-microsoft-ad.png" alt="ManagedMicrosoftAd">
+  diagrams.aws.security.ManagedMicrosoftAd
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/managed-microsoft-ad.png" alt="ManagedMicrosoftAd"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/managed-microsoft-ad.png" alt="ManagedMicrosoftAd" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.ManagedMicrosoftAd**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/resource-access-manager.png" alt="ResourceAccessManager">
+  diagrams.aws.security.ResourceAccessManager, RAM (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/resource-access-manager.png" alt="ResourceAccessManager"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/resource-access-manager.png" alt="ResourceAccessManager" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.ResourceAccessManager**, **RAM** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/security/secrets-manager.png" alt="SecretsManager">
+  diagrams.aws.security.SecretsManager
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/secrets-manager.png" alt="SecretsManager"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/secrets-manager.png" alt="SecretsManager" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.SecretsManager**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/security-hub-finding.png" alt="SecurityHubFinding">
+  diagrams.aws.security.SecurityHubFinding
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/security-hub-finding.png" alt="SecurityHubFinding"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/security-hub-finding.png" alt="SecurityHubFinding" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.SecurityHubFinding**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/security-hub.png" alt="SecurityHub">
+  diagrams.aws.security.SecurityHub
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/security-hub.png" alt="SecurityHub"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/security-hub.png" alt="SecurityHub" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.SecurityHub**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/security-identity-and-compliance.png" alt="SecurityIdentityAndCompliance">
+  diagrams.aws.security.SecurityIdentityAndCompliance
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/security-identity-and-compliance.png" alt="SecurityIdentityAndCompliance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/security-identity-and-compliance.png" alt="SecurityIdentityAndCompliance" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.SecurityIdentityAndCompliance**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/shield-advanced.png" alt="ShieldAdvanced">
+  diagrams.aws.security.ShieldAdvanced
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/shield-advanced.png" alt="ShieldAdvanced"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/shield-advanced.png" alt="ShieldAdvanced" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.ShieldAdvanced**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/shield.png" alt="Shield">
+  diagrams.aws.security.Shield
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/shield.png" alt="Shield"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/shield.png" alt="Shield" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.Shield**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/simple-ad.png" alt="SimpleAd">
+  diagrams.aws.security.SimpleAd
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/simple-ad.png" alt="SimpleAd"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/simple-ad.png" alt="SimpleAd" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.SimpleAd**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/single-sign-on.png" alt="SingleSignOn">
+  diagrams.aws.security.SingleSignOn
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/single-sign-on.png" alt="SingleSignOn"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/single-sign-on.png" alt="SingleSignOn" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.SingleSignOn**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/waf-filtering-rule.png" alt="WAFFilteringRule">
+  diagrams.aws.security.WAFFilteringRule
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/waf-filtering-rule.png" alt="WAFFilteringRule"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/waf-filtering-rule.png" alt="WAFFilteringRule" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.WAFFilteringRule**
+<div class="tooltip">
+  <img src="/img/resources/aws/security/waf.png" alt="WAF">
+  diagrams.aws.security.WAF
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/security/waf.png" alt="WAF"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/security/waf.png" alt="WAF" style="float: left; padding-right: 5px;" >
-**diagrams.aws.security.WAF**
 
 ## aws.storage
 
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/backup.png" alt="Backup">
+  diagrams.aws.storage.Backup
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/backup.png" alt="Backup"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/backup.png" alt="Backup" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.Backup**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/cloudendure-disaster-recovery.png" alt="CloudendureDisasterRecovery">
+  diagrams.aws.storage.CloudendureDisasterRecovery, CDR (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/cloudendure-disaster-recovery.png" alt="CloudendureDisasterRecovery"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/cloudendure-disaster-recovery.png" alt="CloudendureDisasterRecovery" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.CloudendureDisasterRecovery**, **CDR** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/efs-infrequentaccess-primary-bg.png" alt="EFSInfrequentaccessPrimaryBg">
+  diagrams.aws.storage.EFSInfrequentaccessPrimaryBg
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/efs-infrequentaccess-primary-bg.png" alt="EFSInfrequentaccessPrimaryBg"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/efs-infrequentaccess-primary-bg.png" alt="EFSInfrequentaccessPrimaryBg" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.EFSInfrequentaccessPrimaryBg**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/efs-standard-primary-bg.png" alt="EFSStandardPrimaryBg">
+  diagrams.aws.storage.EFSStandardPrimaryBg
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/efs-standard-primary-bg.png" alt="EFSStandardPrimaryBg"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/efs-standard-primary-bg.png" alt="EFSStandardPrimaryBg" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.EFSStandardPrimaryBg**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/elastic-block-store-ebs-snapshot.png" alt="ElasticBlockStoreEBSSnapshot">
+  diagrams.aws.storage.ElasticBlockStoreEBSSnapshot
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/elastic-block-store-ebs-snapshot.png" alt="ElasticBlockStoreEBSSnapshot"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/elastic-block-store-ebs-snapshot.png" alt="ElasticBlockStoreEBSSnapshot" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.ElasticBlockStoreEBSSnapshot**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/elastic-block-store-ebs-volume.png" alt="ElasticBlockStoreEBSVolume">
+  diagrams.aws.storage.ElasticBlockStoreEBSVolume
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/elastic-block-store-ebs-volume.png" alt="ElasticBlockStoreEBSVolume"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/elastic-block-store-ebs-volume.png" alt="ElasticBlockStoreEBSVolume" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.ElasticBlockStoreEBSVolume**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/elastic-block-store-ebs.png" alt="ElasticBlockStoreEBS">
+  diagrams.aws.storage.ElasticBlockStoreEBS, EBS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/elastic-block-store-ebs.png" alt="ElasticBlockStoreEBS"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/elastic-block-store-ebs.png" alt="ElasticBlockStoreEBS" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.ElasticBlockStoreEBS**, **EBS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/elastic-file-system-efs-file-system.png" alt="ElasticFileSystemEFSFileSystem">
+  diagrams.aws.storage.ElasticFileSystemEFSFileSystem
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/elastic-file-system-efs-file-system.png" alt="ElasticFileSystemEFSFileSystem"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/elastic-file-system-efs-file-system.png" alt="ElasticFileSystemEFSFileSystem" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.ElasticFileSystemEFSFileSystem**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/elastic-file-system-efs.png" alt="ElasticFileSystemEFS">
+  diagrams.aws.storage.ElasticFileSystemEFS, EFS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/elastic-file-system-efs.png" alt="ElasticFileSystemEFS"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/elastic-file-system-efs.png" alt="ElasticFileSystemEFS" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.ElasticFileSystemEFS**, **EFS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/fsx-for-lustre.png" alt="FsxForLustre">
+  diagrams.aws.storage.FsxForLustre
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/fsx-for-lustre.png" alt="FsxForLustre"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/fsx-for-lustre.png" alt="FsxForLustre" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.FsxForLustre**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/fsx-for-windows-file-server.png" alt="FsxForWindowsFileServer">
+  diagrams.aws.storage.FsxForWindowsFileServer
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/fsx-for-windows-file-server.png" alt="FsxForWindowsFileServer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/fsx-for-windows-file-server.png" alt="FsxForWindowsFileServer" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.FsxForWindowsFileServer**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/fsx.png" alt="Fsx">
+  diagrams.aws.storage.Fsx, FSx (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/fsx.png" alt="Fsx"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/fsx.png" alt="Fsx" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.Fsx**, **FSx** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/multiple-volumes-resource.png" alt="MultipleVolumesResource">
+  diagrams.aws.storage.MultipleVolumesResource
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/multiple-volumes-resource.png" alt="MultipleVolumesResource"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/multiple-volumes-resource.png" alt="MultipleVolumesResource" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.MultipleVolumesResource**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/s3-glacier-archive.png" alt="S3GlacierArchive">
+  diagrams.aws.storage.S3GlacierArchive
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/s3-glacier-archive.png" alt="S3GlacierArchive"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/s3-glacier-archive.png" alt="S3GlacierArchive" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.S3GlacierArchive**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/s3-glacier-vault.png" alt="S3GlacierVault">
+  diagrams.aws.storage.S3GlacierVault
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/s3-glacier-vault.png" alt="S3GlacierVault"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/s3-glacier-vault.png" alt="S3GlacierVault" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.S3GlacierVault**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/s3-glacier.png" alt="S3Glacier">
+  diagrams.aws.storage.S3Glacier
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/s3-glacier.png" alt="S3Glacier"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/s3-glacier.png" alt="S3Glacier" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.S3Glacier**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/simple-storage-service-s3-bucket-with-objects.png" alt="SimpleStorageServiceS3BucketWithObjects">
+  diagrams.aws.storage.SimpleStorageServiceS3BucketWithObjects
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/simple-storage-service-s3-bucket-with-objects.png" alt="SimpleStorageServiceS3BucketWithObjects"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/simple-storage-service-s3-bucket-with-objects.png" alt="SimpleStorageServiceS3BucketWithObjects" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.SimpleStorageServiceS3BucketWithObjects**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/simple-storage-service-s3-bucket.png" alt="SimpleStorageServiceS3Bucket">
+  diagrams.aws.storage.SimpleStorageServiceS3Bucket
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/simple-storage-service-s3-bucket.png" alt="SimpleStorageServiceS3Bucket"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/simple-storage-service-s3-bucket.png" alt="SimpleStorageServiceS3Bucket" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.SimpleStorageServiceS3Bucket**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/simple-storage-service-s3-object.png" alt="SimpleStorageServiceS3Object">
+  diagrams.aws.storage.SimpleStorageServiceS3Object
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/simple-storage-service-s3-object.png" alt="SimpleStorageServiceS3Object"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/simple-storage-service-s3-object.png" alt="SimpleStorageServiceS3Object" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.SimpleStorageServiceS3Object**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/simple-storage-service-s3.png" alt="SimpleStorageServiceS3">
+  diagrams.aws.storage.SimpleStorageServiceS3, S3 (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/simple-storage-service-s3.png" alt="SimpleStorageServiceS3"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/simple-storage-service-s3.png" alt="SimpleStorageServiceS3" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.SimpleStorageServiceS3**, **S3** (alias)
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/snow-family-snowball-import-export.png" alt="SnowFamilySnowballImportExport">
+  diagrams.aws.storage.SnowFamilySnowballImportExport
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/snow-family-snowball-import-export.png" alt="SnowFamilySnowballImportExport"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/snow-family-snowball-import-export.png" alt="SnowFamilySnowballImportExport" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.SnowFamilySnowballImportExport**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/snowball-edge.png" alt="SnowballEdge">
+  diagrams.aws.storage.SnowballEdge
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/snowball-edge.png" alt="SnowballEdge"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/snowball-edge.png" alt="SnowballEdge" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.SnowballEdge**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/snowball.png" alt="Snowball">
+  diagrams.aws.storage.Snowball
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/snowball.png" alt="Snowball"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/snowball.png" alt="Snowball" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.Snowball**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/snowmobile.png" alt="Snowmobile">
+  diagrams.aws.storage.Snowmobile
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/snowmobile.png" alt="Snowmobile"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/snowmobile.png" alt="Snowmobile" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.Snowmobile**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/storage-gateway-cached-volume.png" alt="StorageGatewayCachedVolume">
+  diagrams.aws.storage.StorageGatewayCachedVolume
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/storage-gateway-cached-volume.png" alt="StorageGatewayCachedVolume"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/storage-gateway-cached-volume.png" alt="StorageGatewayCachedVolume" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.StorageGatewayCachedVolume**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/storage-gateway-non-cached-volume.png" alt="StorageGatewayNonCachedVolume">
+  diagrams.aws.storage.StorageGatewayNonCachedVolume
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/storage-gateway-non-cached-volume.png" alt="StorageGatewayNonCachedVolume"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/storage-gateway-non-cached-volume.png" alt="StorageGatewayNonCachedVolume" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.StorageGatewayNonCachedVolume**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/storage-gateway-virtual-tape-library.png" alt="StorageGatewayVirtualTapeLibrary">
+  diagrams.aws.storage.StorageGatewayVirtualTapeLibrary
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/storage-gateway-virtual-tape-library.png" alt="StorageGatewayVirtualTapeLibrary"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/storage-gateway-virtual-tape-library.png" alt="StorageGatewayVirtualTapeLibrary" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.StorageGatewayVirtualTapeLibrary**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/storage-gateway.png" alt="StorageGateway">
+  diagrams.aws.storage.StorageGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/storage-gateway.png" alt="StorageGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/storage-gateway.png" alt="StorageGateway" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.StorageGateway**
+<div class="tooltip">
+  <img src="/img/resources/aws/storage/storage.png" alt="Storage">
+  diagrams.aws.storage.Storage
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/storage/storage.png" alt="Storage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/aws/storage/storage.png" alt="Storage" style="float: left; padding-right: 5px;" >
-**diagrams.aws.storage.Storage**

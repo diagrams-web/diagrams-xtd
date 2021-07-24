@@ -7,48 +7,84 @@ Node classes list of outscale provider.
 
 ## outscale.compute
 
+<div class="tooltip">
+  <img src="/img/resources/outscale/compute/compute.png" alt="Compute">
+  diagrams.outscale.compute.Compute
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/compute/compute.png" alt="Compute"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/compute/compute.png" alt="Compute" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.compute.Compute**
+<div class="tooltip">
+  <img src="/img/resources/outscale/compute/direct-connect.png" alt="DirectConnect">
+  diagrams.outscale.compute.DirectConnect
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/compute/direct-connect.png" alt="DirectConnect"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/compute/direct-connect.png" alt="DirectConnect" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.compute.DirectConnect**
 
 ## outscale.network
 
+<div class="tooltip">
+  <img src="/img/resources/outscale/network/client-vpn.png" alt="ClientVpn">
+  diagrams.outscale.network.ClientVpn
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/network/client-vpn.png" alt="ClientVpn"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/network/client-vpn.png" alt="ClientVpn" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.network.ClientVpn**
+<div class="tooltip">
+  <img src="/img/resources/outscale/network/internet-service.png" alt="InternetService">
+  diagrams.outscale.network.InternetService
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/network/internet-service.png" alt="InternetService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/network/internet-service.png" alt="InternetService" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.network.InternetService**
+<div class="tooltip">
+  <img src="/img/resources/outscale/network/load-balancer.png" alt="LoadBalancer">
+  diagrams.outscale.network.LoadBalancer
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/network/load-balancer.png" alt="LoadBalancer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/network/load-balancer.png" alt="LoadBalancer" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.network.LoadBalancer**
+<div class="tooltip">
+  <img src="/img/resources/outscale/network/nat-service.png" alt="NatService">
+  diagrams.outscale.network.NatService
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/network/nat-service.png" alt="NatService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/network/nat-service.png" alt="NatService" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.network.NatService**
+<div class="tooltip">
+  <img src="/img/resources/outscale/network/net.png" alt="Net">
+  diagrams.outscale.network.Net
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/network/net.png" alt="Net"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/network/net.png" alt="Net" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.network.Net**
+<div class="tooltip">
+  <img src="/img/resources/outscale/network/site-to-site-vpng.png" alt="SiteToSiteVpng">
+  diagrams.outscale.network.SiteToSiteVpng
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/network/site-to-site-vpng.png" alt="SiteToSiteVpng"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/network/site-to-site-vpng.png" alt="SiteToSiteVpng" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.network.SiteToSiteVpng**
 
 ## outscale.security
 
+<div class="tooltip">
+  <img src="/img/resources/outscale/security/firewall.png" alt="Firewall">
+  diagrams.outscale.security.Firewall
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/security/firewall.png" alt="Firewall"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/security/firewall.png" alt="Firewall" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.security.Firewall**
+<div class="tooltip">
+  <img src="/img/resources/outscale/security/identity-and-access-management.png" alt="IdentityAndAccessManagement">
+  diagrams.outscale.security.IdentityAndAccessManagement
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/security/identity-and-access-management.png" alt="IdentityAndAccessManagement"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/security/identity-and-access-management.png" alt="IdentityAndAccessManagement" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.security.IdentityAndAccessManagement**
 
 ## outscale.storage
 
+<div class="tooltip">
+  <img src="/img/resources/outscale/storage/simple-storage-service.png" alt="SimpleStorageService">
+  diagrams.outscale.storage.SimpleStorageService
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/storage/simple-storage-service.png" alt="SimpleStorageService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/storage/simple-storage-service.png" alt="SimpleStorageService" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.storage.SimpleStorageService**
+<div class="tooltip">
+  <img src="/img/resources/outscale/storage/storage.png" alt="Storage">
+  diagrams.outscale.storage.Storage
+  <span class="tooltiptext"><img width="256" src="/img/resources/outscale/storage/storage.png" alt="Storage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/outscale/storage/storage.png" alt="Storage" style="float: left; padding-right: 5px;" >
-**diagrams.outscale.storage.Storage**

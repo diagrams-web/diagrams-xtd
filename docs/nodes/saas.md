@@ -7,99 +7,168 @@ Node classes list of saas provider.
 
 ## saas.alerting
 
+<div class="tooltip">
+  <img src="/img/resources/saas/alerting/newrelic.png" alt="Newrelic">
+  diagrams.saas.alerting.Newrelic
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/alerting/newrelic.png" alt="Newrelic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/alerting/newrelic.png" alt="Newrelic" style="float: left; padding-right: 5px;" >
-**diagrams.saas.alerting.Newrelic**
+<div class="tooltip">
+  <img src="/img/resources/saas/alerting/opsgenie.png" alt="Opsgenie">
+  diagrams.saas.alerting.Opsgenie
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/alerting/opsgenie.png" alt="Opsgenie"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/alerting/opsgenie.png" alt="Opsgenie" style="float: left; padding-right: 5px;" >
-**diagrams.saas.alerting.Opsgenie**
+<div class="tooltip">
+  <img src="/img/resources/saas/alerting/pushover.png" alt="Pushover">
+  diagrams.saas.alerting.Pushover
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/alerting/pushover.png" alt="Pushover"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/alerting/pushover.png" alt="Pushover" style="float: left; padding-right: 5px;" >
-**diagrams.saas.alerting.Pushover**
 
 ## saas.analytics
 
+<div class="tooltip">
+  <img src="/img/resources/saas/analytics/snowflake.png" alt="Snowflake">
+  diagrams.saas.analytics.Snowflake
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/analytics/snowflake.png" alt="Snowflake"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/analytics/snowflake.png" alt="Snowflake" style="float: left; padding-right: 5px;" >
-**diagrams.saas.analytics.Snowflake**
+<div class="tooltip">
+  <img src="/img/resources/saas/analytics/stitch.png" alt="Stitch">
+  diagrams.saas.analytics.Stitch
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/analytics/stitch.png" alt="Stitch"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/analytics/stitch.png" alt="Stitch" style="float: left; padding-right: 5px;" >
-**diagrams.saas.analytics.Stitch**
 
 ## saas.cdn
 
+<div class="tooltip">
+  <img src="/img/resources/saas/cdn/akamai.png" alt="Akamai">
+  diagrams.saas.cdn.Akamai
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/cdn/akamai.png" alt="Akamai"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/cdn/akamai.png" alt="Akamai" style="float: left; padding-right: 5px;" >
-**diagrams.saas.cdn.Akamai**
+<div class="tooltip">
+  <img src="/img/resources/saas/cdn/cloudflare.png" alt="Cloudflare">
+  diagrams.saas.cdn.Cloudflare
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/cdn/cloudflare.png" alt="Cloudflare"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/cdn/cloudflare.png" alt="Cloudflare" style="float: left; padding-right: 5px;" >
-**diagrams.saas.cdn.Cloudflare**
 
 ## saas.chat
 
+<div class="tooltip">
+  <img src="/img/resources/saas/chat/discord.png" alt="Discord">
+  diagrams.saas.chat.Discord
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/chat/discord.png" alt="Discord"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/chat/discord.png" alt="Discord" style="float: left; padding-right: 5px;" >
-**diagrams.saas.chat.Discord**
+<div class="tooltip">
+  <img src="/img/resources/saas/chat/mattermost.png" alt="Mattermost">
+  diagrams.saas.chat.Mattermost
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/chat/mattermost.png" alt="Mattermost"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/chat/mattermost.png" alt="Mattermost" style="float: left; padding-right: 5px;" >
-**diagrams.saas.chat.Mattermost**
+<div class="tooltip">
+  <img src="/img/resources/saas/chat/rocket-chat.png" alt="RocketChat">
+  diagrams.saas.chat.RocketChat
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/chat/rocket-chat.png" alt="RocketChat"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/chat/rocket-chat.png" alt="RocketChat" style="float: left; padding-right: 5px;" >
-**diagrams.saas.chat.RocketChat**
+<div class="tooltip">
+  <img src="/img/resources/saas/chat/slack.png" alt="Slack">
+  diagrams.saas.chat.Slack
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/chat/slack.png" alt="Slack"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/chat/slack.png" alt="Slack" style="float: left; padding-right: 5px;" >
-**diagrams.saas.chat.Slack**
+<div class="tooltip">
+  <img src="/img/resources/saas/chat/teams.png" alt="Teams">
+  diagrams.saas.chat.Teams
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/chat/teams.png" alt="Teams"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/chat/teams.png" alt="Teams" style="float: left; padding-right: 5px;" >
-**diagrams.saas.chat.Teams**
+<div class="tooltip">
+  <img src="/img/resources/saas/chat/telegram.png" alt="Telegram">
+  diagrams.saas.chat.Telegram
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/chat/telegram.png" alt="Telegram"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/chat/telegram.png" alt="Telegram" style="float: left; padding-right: 5px;" >
-**diagrams.saas.chat.Telegram**
 
 ## saas.filesharing
 
+<div class="tooltip">
+  <img src="/img/resources/saas/filesharing/nextcloud.png" alt="Nextcloud">
+  diagrams.saas.filesharing.Nextcloud
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/filesharing/nextcloud.png" alt="Nextcloud"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/filesharing/nextcloud.png" alt="Nextcloud" style="float: left; padding-right: 5px;" >
-**diagrams.saas.filesharing.Nextcloud**
 
 ## saas.identity
 
+<div class="tooltip">
+  <img src="/img/resources/saas/identity/auth0.png" alt="Auth0">
+  diagrams.saas.identity.Auth0
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/identity/auth0.png" alt="Auth0"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/identity/auth0.png" alt="Auth0" style="float: left; padding-right: 5px;" >
-**diagrams.saas.identity.Auth0**
+<div class="tooltip">
+  <img src="/img/resources/saas/identity/okta.png" alt="Okta">
+  diagrams.saas.identity.Okta
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/identity/okta.png" alt="Okta"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/identity/okta.png" alt="Okta" style="float: left; padding-right: 5px;" >
-**diagrams.saas.identity.Okta**
 
 ## saas.logging
 
+<div class="tooltip">
+  <img src="/img/resources/saas/logging/datadog.png" alt="Datadog">
+  diagrams.saas.logging.Datadog, DataDog (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/logging/datadog.png" alt="Datadog"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/logging/datadog.png" alt="Datadog" style="float: left; padding-right: 5px;" >
-**diagrams.saas.logging.Datadog**, **DataDog** (alias)
+<div class="tooltip">
+  <img src="/img/resources/saas/logging/newrelic.png" alt="Newrelic">
+  diagrams.saas.logging.Newrelic, NewRelic (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/logging/newrelic.png" alt="Newrelic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/logging/newrelic.png" alt="Newrelic" style="float: left; padding-right: 5px;" >
-**diagrams.saas.logging.Newrelic**, **NewRelic** (alias)
+<div class="tooltip">
+  <img src="/img/resources/saas/logging/papertrail.png" alt="Papertrail">
+  diagrams.saas.logging.Papertrail
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/logging/papertrail.png" alt="Papertrail"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/logging/papertrail.png" alt="Papertrail" style="float: left; padding-right: 5px;" >
-**diagrams.saas.logging.Papertrail**
 
 ## saas.media
 
+<div class="tooltip">
+  <img src="/img/resources/saas/media/cloudinary.png" alt="Cloudinary">
+  diagrams.saas.media.Cloudinary
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/media/cloudinary.png" alt="Cloudinary"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/media/cloudinary.png" alt="Cloudinary" style="float: left; padding-right: 5px;" >
-**diagrams.saas.media.Cloudinary**
 
 ## saas.recommendation
 
+<div class="tooltip">
+  <img src="/img/resources/saas/recommendation/recombee.png" alt="Recombee">
+  diagrams.saas.recommendation.Recombee
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/recommendation/recombee.png" alt="Recombee"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/recommendation/recombee.png" alt="Recombee" style="float: left; padding-right: 5px;" >
-**diagrams.saas.recommendation.Recombee**
 
 ## saas.social
 
+<div class="tooltip">
+  <img src="/img/resources/saas/social/facebook.png" alt="Facebook">
+  diagrams.saas.social.Facebook
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/social/facebook.png" alt="Facebook"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/social/facebook.png" alt="Facebook" style="float: left; padding-right: 5px;" >
-**diagrams.saas.social.Facebook**
+<div class="tooltip">
+  <img src="/img/resources/saas/social/twitter.png" alt="Twitter">
+  diagrams.saas.social.Twitter
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/social/twitter.png" alt="Twitter"></span>
+</div><br>
 
-<img width="30" src="/img/resources/saas/social/twitter.png" alt="Twitter" style="float: left; padding-right: 5px;" >
-**diagrams.saas.social.Twitter**

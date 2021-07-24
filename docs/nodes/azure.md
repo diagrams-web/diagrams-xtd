@@ -7,708 +7,1371 @@ Node classes list of azure provider.
 
 ## azure.analytics
 
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/analysis-services.png" alt="AnalysisServices">
+  diagrams.azure.analytics.AnalysisServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/analysis-services.png" alt="AnalysisServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/analysis-services.png" alt="AnalysisServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.AnalysisServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/data-explorer-clusters.png" alt="DataExplorerClusters">
+  diagrams.azure.analytics.DataExplorerClusters
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/data-explorer-clusters.png" alt="DataExplorerClusters"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/data-explorer-clusters.png" alt="DataExplorerClusters" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.DataExplorerClusters**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/data-factories.png" alt="DataFactories">
+  diagrams.azure.analytics.DataFactories
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/data-factories.png" alt="DataFactories"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/data-factories.png" alt="DataFactories" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.DataFactories**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/data-lake-analytics.png" alt="DataLakeAnalytics">
+  diagrams.azure.analytics.DataLakeAnalytics
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/data-lake-analytics.png" alt="DataLakeAnalytics"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/data-lake-analytics.png" alt="DataLakeAnalytics" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.DataLakeAnalytics**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/data-lake-store-gen1.png" alt="DataLakeStoreGen1">
+  diagrams.azure.analytics.DataLakeStoreGen1
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/data-lake-store-gen1.png" alt="DataLakeStoreGen1"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/data-lake-store-gen1.png" alt="DataLakeStoreGen1" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.DataLakeStoreGen1**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/databricks.png" alt="Databricks">
+  diagrams.azure.analytics.Databricks
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/databricks.png" alt="Databricks"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/databricks.png" alt="Databricks" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.Databricks**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/event-hub-clusters.png" alt="EventHubClusters">
+  diagrams.azure.analytics.EventHubClusters
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/event-hub-clusters.png" alt="EventHubClusters"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/event-hub-clusters.png" alt="EventHubClusters" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.EventHubClusters**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/event-hubs.png" alt="EventHubs">
+  diagrams.azure.analytics.EventHubs
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/event-hubs.png" alt="EventHubs"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/event-hubs.png" alt="EventHubs" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.EventHubs**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/hdinsightclusters.png" alt="Hdinsightclusters">
+  diagrams.azure.analytics.Hdinsightclusters
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/hdinsightclusters.png" alt="Hdinsightclusters"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/hdinsightclusters.png" alt="Hdinsightclusters" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.Hdinsightclusters**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/log-analytics-workspaces.png" alt="LogAnalyticsWorkspaces">
+  diagrams.azure.analytics.LogAnalyticsWorkspaces
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/log-analytics-workspaces.png" alt="LogAnalyticsWorkspaces"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/log-analytics-workspaces.png" alt="LogAnalyticsWorkspaces" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.LogAnalyticsWorkspaces**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/stream-analytics-jobs.png" alt="StreamAnalyticsJobs">
+  diagrams.azure.analytics.StreamAnalyticsJobs
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/stream-analytics-jobs.png" alt="StreamAnalyticsJobs"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/stream-analytics-jobs.png" alt="StreamAnalyticsJobs" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.StreamAnalyticsJobs**
+<div class="tooltip">
+  <img src="/img/resources/azure/analytics/synapse-analytics.png" alt="SynapseAnalytics">
+  diagrams.azure.analytics.SynapseAnalytics
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/analytics/synapse-analytics.png" alt="SynapseAnalytics"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/analytics/synapse-analytics.png" alt="SynapseAnalytics" style="float: left; padding-right: 5px;" >
-**diagrams.azure.analytics.SynapseAnalytics**
 
 ## azure.compute
 
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/app-services.png" alt="AppServices">
+  diagrams.azure.compute.AppServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/app-services.png" alt="AppServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/app-services.png" alt="AppServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.AppServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/automanaged-vm.png" alt="AutomanagedVM">
+  diagrams.azure.compute.AutomanagedVM
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/automanaged-vm.png" alt="AutomanagedVM"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/automanaged-vm.png" alt="AutomanagedVM" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.AutomanagedVM**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/availability-sets.png" alt="AvailabilitySets">
+  diagrams.azure.compute.AvailabilitySets
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/availability-sets.png" alt="AvailabilitySets"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/availability-sets.png" alt="AvailabilitySets" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.AvailabilitySets**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/batch-accounts.png" alt="BatchAccounts">
+  diagrams.azure.compute.BatchAccounts
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/batch-accounts.png" alt="BatchAccounts"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/batch-accounts.png" alt="BatchAccounts" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.BatchAccounts**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/citrix-virtual-desktops-essentials.png" alt="CitrixVirtualDesktopsEssentials">
+  diagrams.azure.compute.CitrixVirtualDesktopsEssentials
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/citrix-virtual-desktops-essentials.png" alt="CitrixVirtualDesktopsEssentials"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/citrix-virtual-desktops-essentials.png" alt="CitrixVirtualDesktopsEssentials" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.CitrixVirtualDesktopsEssentials**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/cloud-services-classic.png" alt="CloudServicesClassic">
+  diagrams.azure.compute.CloudServicesClassic
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/cloud-services-classic.png" alt="CloudServicesClassic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/cloud-services-classic.png" alt="CloudServicesClassic" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.CloudServicesClassic**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/cloud-services.png" alt="CloudServices">
+  diagrams.azure.compute.CloudServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/cloud-services.png" alt="CloudServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/cloud-services.png" alt="CloudServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.CloudServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/cloudsimple-virtual-machines.png" alt="CloudsimpleVirtualMachines">
+  diagrams.azure.compute.CloudsimpleVirtualMachines
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/cloudsimple-virtual-machines.png" alt="CloudsimpleVirtualMachines"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/cloudsimple-virtual-machines.png" alt="CloudsimpleVirtualMachines" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.CloudsimpleVirtualMachines**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/container-instances.png" alt="ContainerInstances">
+  diagrams.azure.compute.ContainerInstances
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/container-instances.png" alt="ContainerInstances"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/container-instances.png" alt="ContainerInstances" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.ContainerInstances**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/container-registries.png" alt="ContainerRegistries">
+  diagrams.azure.compute.ContainerRegistries, ACR (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/container-registries.png" alt="ContainerRegistries"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/container-registries.png" alt="ContainerRegistries" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.ContainerRegistries**, **ACR** (alias)
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/disk-encryption-sets.png" alt="DiskEncryptionSets">
+  diagrams.azure.compute.DiskEncryptionSets
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/disk-encryption-sets.png" alt="DiskEncryptionSets"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/disk-encryption-sets.png" alt="DiskEncryptionSets" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.DiskEncryptionSets**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/disk-snapshots.png" alt="DiskSnapshots">
+  diagrams.azure.compute.DiskSnapshots
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/disk-snapshots.png" alt="DiskSnapshots"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/disk-snapshots.png" alt="DiskSnapshots" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.DiskSnapshots**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/disks.png" alt="Disks">
+  diagrams.azure.compute.Disks
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/disks.png" alt="Disks"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/disks.png" alt="Disks" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.Disks**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/function-apps.png" alt="FunctionApps">
+  diagrams.azure.compute.FunctionApps
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/function-apps.png" alt="FunctionApps"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/function-apps.png" alt="FunctionApps" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.FunctionApps**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/image-definitions.png" alt="ImageDefinitions">
+  diagrams.azure.compute.ImageDefinitions
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/image-definitions.png" alt="ImageDefinitions"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/image-definitions.png" alt="ImageDefinitions" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.ImageDefinitions**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/image-versions.png" alt="ImageVersions">
+  diagrams.azure.compute.ImageVersions
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/image-versions.png" alt="ImageVersions"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/image-versions.png" alt="ImageVersions" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.ImageVersions**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/kubernetes-services.png" alt="KubernetesServices">
+  diagrams.azure.compute.KubernetesServices, AKS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/kubernetes-services.png" alt="KubernetesServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/kubernetes-services.png" alt="KubernetesServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.KubernetesServices**, **AKS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/mesh-applications.png" alt="MeshApplications">
+  diagrams.azure.compute.MeshApplications
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/mesh-applications.png" alt="MeshApplications"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/mesh-applications.png" alt="MeshApplications" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.MeshApplications**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/os-images.png" alt="OsImages">
+  diagrams.azure.compute.OsImages
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/os-images.png" alt="OsImages"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/os-images.png" alt="OsImages" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.OsImages**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/sap-hana-on-azure.png" alt="SAPHANAOnAzure">
+  diagrams.azure.compute.SAPHANAOnAzure
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/sap-hana-on-azure.png" alt="SAPHANAOnAzure"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/sap-hana-on-azure.png" alt="SAPHANAOnAzure" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.SAPHANAOnAzure**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/service-fabric-clusters.png" alt="ServiceFabricClusters">
+  diagrams.azure.compute.ServiceFabricClusters
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/service-fabric-clusters.png" alt="ServiceFabricClusters"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/service-fabric-clusters.png" alt="ServiceFabricClusters" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.ServiceFabricClusters**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/shared-image-galleries.png" alt="SharedImageGalleries">
+  diagrams.azure.compute.SharedImageGalleries
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/shared-image-galleries.png" alt="SharedImageGalleries"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/shared-image-galleries.png" alt="SharedImageGalleries" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.SharedImageGalleries**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/spring-cloud.png" alt="SpringCloud">
+  diagrams.azure.compute.SpringCloud
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/spring-cloud.png" alt="SpringCloud"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/spring-cloud.png" alt="SpringCloud" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.SpringCloud**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/vm-classic.png" alt="VMClassic">
+  diagrams.azure.compute.VMClassic
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/vm-classic.png" alt="VMClassic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/vm-classic.png" alt="VMClassic" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.VMClassic**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/vm-images.png" alt="VMImages">
+  diagrams.azure.compute.VMImages
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/vm-images.png" alt="VMImages"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/vm-images.png" alt="VMImages" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.VMImages**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/vm-linux.png" alt="VMLinux">
+  diagrams.azure.compute.VMLinux
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/vm-linux.png" alt="VMLinux"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/vm-linux.png" alt="VMLinux" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.VMLinux**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/vm-scale-set.png" alt="VMScaleSet">
+  diagrams.azure.compute.VMScaleSet, VMSS (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/vm-scale-set.png" alt="VMScaleSet"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/vm-scale-set.png" alt="VMScaleSet" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.VMScaleSet**, **VMSS** (alias)
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/vm-windows.png" alt="VMWindows">
+  diagrams.azure.compute.VMWindows
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/vm-windows.png" alt="VMWindows"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/vm-windows.png" alt="VMWindows" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.VMWindows**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/vm.png" alt="VM">
+  diagrams.azure.compute.VM
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/vm.png" alt="VM"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/vm.png" alt="VM" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.VM**
+<div class="tooltip">
+  <img src="/img/resources/azure/compute/workspaces.png" alt="Workspaces">
+  diagrams.azure.compute.Workspaces
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/workspaces.png" alt="Workspaces"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/compute/workspaces.png" alt="Workspaces" style="float: left; padding-right: 5px;" >
-**diagrams.azure.compute.Workspaces**
 
 ## azure.database
 
+<div class="tooltip">
+  <img src="/img/resources/azure/database/blob-storage.png" alt="BlobStorage">
+  diagrams.azure.database.BlobStorage
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/blob-storage.png" alt="BlobStorage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/blob-storage.png" alt="BlobStorage" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.BlobStorage**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/cache-for-redis.png" alt="CacheForRedis">
+  diagrams.azure.database.CacheForRedis
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/cache-for-redis.png" alt="CacheForRedis"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/cache-for-redis.png" alt="CacheForRedis" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.CacheForRedis**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/cosmos-db.png" alt="CosmosDb">
+  diagrams.azure.database.CosmosDb
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/cosmos-db.png" alt="CosmosDb"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/cosmos-db.png" alt="CosmosDb" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.CosmosDb**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/data-explorer-clusters.png" alt="DataExplorerClusters">
+  diagrams.azure.database.DataExplorerClusters
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/data-explorer-clusters.png" alt="DataExplorerClusters"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/data-explorer-clusters.png" alt="DataExplorerClusters" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.DataExplorerClusters**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/data-factory.png" alt="DataFactory">
+  diagrams.azure.database.DataFactory
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/data-factory.png" alt="DataFactory"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/data-factory.png" alt="DataFactory" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.DataFactory**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/data-lake.png" alt="DataLake">
+  diagrams.azure.database.DataLake
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/data-lake.png" alt="DataLake"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/data-lake.png" alt="DataLake" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.DataLake**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/database-for-mariadb-servers.png" alt="DatabaseForMariadbServers">
+  diagrams.azure.database.DatabaseForMariadbServers
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/database-for-mariadb-servers.png" alt="DatabaseForMariadbServers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/database-for-mariadb-servers.png" alt="DatabaseForMariadbServers" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.DatabaseForMariadbServers**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/database-for-mysql-servers.png" alt="DatabaseForMysqlServers">
+  diagrams.azure.database.DatabaseForMysqlServers
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/database-for-mysql-servers.png" alt="DatabaseForMysqlServers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/database-for-mysql-servers.png" alt="DatabaseForMysqlServers" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.DatabaseForMysqlServers**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/database-for-postgresql-servers.png" alt="DatabaseForPostgresqlServers">
+  diagrams.azure.database.DatabaseForPostgresqlServers
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/database-for-postgresql-servers.png" alt="DatabaseForPostgresqlServers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/database-for-postgresql-servers.png" alt="DatabaseForPostgresqlServers" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.DatabaseForPostgresqlServers**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/elastic-database-pools.png" alt="ElasticDatabasePools">
+  diagrams.azure.database.ElasticDatabasePools
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/elastic-database-pools.png" alt="ElasticDatabasePools"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/elastic-database-pools.png" alt="ElasticDatabasePools" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.ElasticDatabasePools**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/elastic-job-agents.png" alt="ElasticJobAgents">
+  diagrams.azure.database.ElasticJobAgents
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/elastic-job-agents.png" alt="ElasticJobAgents"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/elastic-job-agents.png" alt="ElasticJobAgents" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.ElasticJobAgents**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/instance-pools.png" alt="InstancePools">
+  diagrams.azure.database.InstancePools
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/instance-pools.png" alt="InstancePools"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/instance-pools.png" alt="InstancePools" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.InstancePools**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/managed-databases.png" alt="ManagedDatabases">
+  diagrams.azure.database.ManagedDatabases
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/managed-databases.png" alt="ManagedDatabases"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/managed-databases.png" alt="ManagedDatabases" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.ManagedDatabases**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/sql-databases.png" alt="SQLDatabases">
+  diagrams.azure.database.SQLDatabases
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/sql-databases.png" alt="SQLDatabases"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/sql-databases.png" alt="SQLDatabases" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.SQLDatabases**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/sql-datawarehouse.png" alt="SQLDatawarehouse">
+  diagrams.azure.database.SQLDatawarehouse
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/sql-datawarehouse.png" alt="SQLDatawarehouse"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/sql-datawarehouse.png" alt="SQLDatawarehouse" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.SQLDatawarehouse**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/sql-managed-instances.png" alt="SQLManagedInstances">
+  diagrams.azure.database.SQLManagedInstances
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/sql-managed-instances.png" alt="SQLManagedInstances"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/sql-managed-instances.png" alt="SQLManagedInstances" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.SQLManagedInstances**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/sql-server-stretch-databases.png" alt="SQLServerStretchDatabases">
+  diagrams.azure.database.SQLServerStretchDatabases
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/sql-server-stretch-databases.png" alt="SQLServerStretchDatabases"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/sql-server-stretch-databases.png" alt="SQLServerStretchDatabases" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.SQLServerStretchDatabases**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/sql-servers.png" alt="SQLServers">
+  diagrams.azure.database.SQLServers
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/sql-servers.png" alt="SQLServers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/sql-servers.png" alt="SQLServers" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.SQLServers**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/sql-vm.png" alt="SQLVM">
+  diagrams.azure.database.SQLVM
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/sql-vm.png" alt="SQLVM"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/sql-vm.png" alt="SQLVM" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.SQLVM**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/sql.png" alt="SQL">
+  diagrams.azure.database.SQL
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/sql.png" alt="SQL"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/sql.png" alt="SQL" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.SQL**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/ssis-lift-and-shift-ir.png" alt="SsisLiftAndShiftIr">
+  diagrams.azure.database.SsisLiftAndShiftIr
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/ssis-lift-and-shift-ir.png" alt="SsisLiftAndShiftIr"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/ssis-lift-and-shift-ir.png" alt="SsisLiftAndShiftIr" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.SsisLiftAndShiftIr**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/synapse-analytics.png" alt="SynapseAnalytics">
+  diagrams.azure.database.SynapseAnalytics
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/synapse-analytics.png" alt="SynapseAnalytics"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/synapse-analytics.png" alt="SynapseAnalytics" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.SynapseAnalytics**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/virtual-clusters.png" alt="VirtualClusters">
+  diagrams.azure.database.VirtualClusters
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/virtual-clusters.png" alt="VirtualClusters"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/virtual-clusters.png" alt="VirtualClusters" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.VirtualClusters**
+<div class="tooltip">
+  <img src="/img/resources/azure/database/virtual-datacenter.png" alt="VirtualDatacenter">
+  diagrams.azure.database.VirtualDatacenter
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/database/virtual-datacenter.png" alt="VirtualDatacenter"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/database/virtual-datacenter.png" alt="VirtualDatacenter" style="float: left; padding-right: 5px;" >
-**diagrams.azure.database.VirtualDatacenter**
 
 ## azure.devops
 
+<div class="tooltip">
+  <img src="/img/resources/azure/devops/application-insights.png" alt="ApplicationInsights">
+  diagrams.azure.devops.ApplicationInsights
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/devops/application-insights.png" alt="ApplicationInsights"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/devops/application-insights.png" alt="ApplicationInsights" style="float: left; padding-right: 5px;" >
-**diagrams.azure.devops.ApplicationInsights**
+<div class="tooltip">
+  <img src="/img/resources/azure/devops/artifacts.png" alt="Artifacts">
+  diagrams.azure.devops.Artifacts
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/devops/artifacts.png" alt="Artifacts"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/devops/artifacts.png" alt="Artifacts" style="float: left; padding-right: 5px;" >
-**diagrams.azure.devops.Artifacts**
+<div class="tooltip">
+  <img src="/img/resources/azure/devops/boards.png" alt="Boards">
+  diagrams.azure.devops.Boards
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/devops/boards.png" alt="Boards"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/devops/boards.png" alt="Boards" style="float: left; padding-right: 5px;" >
-**diagrams.azure.devops.Boards**
+<div class="tooltip">
+  <img src="/img/resources/azure/devops/devops.png" alt="Devops">
+  diagrams.azure.devops.Devops
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/devops/devops.png" alt="Devops"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/devops/devops.png" alt="Devops" style="float: left; padding-right: 5px;" >
-**diagrams.azure.devops.Devops**
+<div class="tooltip">
+  <img src="/img/resources/azure/devops/devtest-labs.png" alt="DevtestLabs">
+  diagrams.azure.devops.DevtestLabs
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/devops/devtest-labs.png" alt="DevtestLabs"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/devops/devtest-labs.png" alt="DevtestLabs" style="float: left; padding-right: 5px;" >
-**diagrams.azure.devops.DevtestLabs**
+<div class="tooltip">
+  <img src="/img/resources/azure/devops/lab-services.png" alt="LabServices">
+  diagrams.azure.devops.LabServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/devops/lab-services.png" alt="LabServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/devops/lab-services.png" alt="LabServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.devops.LabServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/devops/pipelines.png" alt="Pipelines">
+  diagrams.azure.devops.Pipelines
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/devops/pipelines.png" alt="Pipelines"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/devops/pipelines.png" alt="Pipelines" style="float: left; padding-right: 5px;" >
-**diagrams.azure.devops.Pipelines**
+<div class="tooltip">
+  <img src="/img/resources/azure/devops/repos.png" alt="Repos">
+  diagrams.azure.devops.Repos
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/devops/repos.png" alt="Repos"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/devops/repos.png" alt="Repos" style="float: left; padding-right: 5px;" >
-**diagrams.azure.devops.Repos**
+<div class="tooltip">
+  <img src="/img/resources/azure/devops/test-plans.png" alt="TestPlans">
+  diagrams.azure.devops.TestPlans
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/devops/test-plans.png" alt="TestPlans"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/devops/test-plans.png" alt="TestPlans" style="float: left; padding-right: 5px;" >
-**diagrams.azure.devops.TestPlans**
 
 ## azure.general
 
+<div class="tooltip">
+  <img src="/img/resources/azure/general/allresources.png" alt="Allresources">
+  diagrams.azure.general.Allresources
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/allresources.png" alt="Allresources"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/allresources.png" alt="Allresources" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Allresources**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/azurehome.png" alt="Azurehome">
+  diagrams.azure.general.Azurehome
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/azurehome.png" alt="Azurehome"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/azurehome.png" alt="Azurehome" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Azurehome**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/developertools.png" alt="Developertools">
+  diagrams.azure.general.Developertools
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/developertools.png" alt="Developertools"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/developertools.png" alt="Developertools" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Developertools**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/helpsupport.png" alt="Helpsupport">
+  diagrams.azure.general.Helpsupport
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/helpsupport.png" alt="Helpsupport"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/helpsupport.png" alt="Helpsupport" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Helpsupport**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/information.png" alt="Information">
+  diagrams.azure.general.Information
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/information.png" alt="Information"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/information.png" alt="Information" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Information**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/managementgroups.png" alt="Managementgroups">
+  diagrams.azure.general.Managementgroups
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/managementgroups.png" alt="Managementgroups"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/managementgroups.png" alt="Managementgroups" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Managementgroups**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/marketplace.png" alt="Marketplace">
+  diagrams.azure.general.Marketplace
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/marketplace.png" alt="Marketplace"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/marketplace.png" alt="Marketplace" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Marketplace**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/quickstartcenter.png" alt="Quickstartcenter">
+  diagrams.azure.general.Quickstartcenter
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/quickstartcenter.png" alt="Quickstartcenter"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/quickstartcenter.png" alt="Quickstartcenter" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Quickstartcenter**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/recent.png" alt="Recent">
+  diagrams.azure.general.Recent
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/recent.png" alt="Recent"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/recent.png" alt="Recent" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Recent**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/reservations.png" alt="Reservations">
+  diagrams.azure.general.Reservations
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/reservations.png" alt="Reservations"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/reservations.png" alt="Reservations" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Reservations**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/resource.png" alt="Resource">
+  diagrams.azure.general.Resource
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/resource.png" alt="Resource"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/resource.png" alt="Resource" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Resource**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/resourcegroups.png" alt="Resourcegroups">
+  diagrams.azure.general.Resourcegroups
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/resourcegroups.png" alt="Resourcegroups"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/resourcegroups.png" alt="Resourcegroups" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Resourcegroups**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/servicehealth.png" alt="Servicehealth">
+  diagrams.azure.general.Servicehealth
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/servicehealth.png" alt="Servicehealth"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/servicehealth.png" alt="Servicehealth" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Servicehealth**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/shareddashboard.png" alt="Shareddashboard">
+  diagrams.azure.general.Shareddashboard
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/shareddashboard.png" alt="Shareddashboard"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/shareddashboard.png" alt="Shareddashboard" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Shareddashboard**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/subscriptions.png" alt="Subscriptions">
+  diagrams.azure.general.Subscriptions
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/subscriptions.png" alt="Subscriptions"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/subscriptions.png" alt="Subscriptions" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Subscriptions**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/support.png" alt="Support">
+  diagrams.azure.general.Support
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/support.png" alt="Support"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/support.png" alt="Support" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Support**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/supportrequests.png" alt="Supportrequests">
+  diagrams.azure.general.Supportrequests
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/supportrequests.png" alt="Supportrequests"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/supportrequests.png" alt="Supportrequests" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Supportrequests**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/tag.png" alt="Tag">
+  diagrams.azure.general.Tag
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/tag.png" alt="Tag"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/tag.png" alt="Tag" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Tag**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/tags.png" alt="Tags">
+  diagrams.azure.general.Tags
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/tags.png" alt="Tags"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/tags.png" alt="Tags" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Tags**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/templates.png" alt="Templates">
+  diagrams.azure.general.Templates
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/templates.png" alt="Templates"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/templates.png" alt="Templates" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Templates**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/twousericon.png" alt="Twousericon">
+  diagrams.azure.general.Twousericon
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/twousericon.png" alt="Twousericon"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/twousericon.png" alt="Twousericon" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Twousericon**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/userhealthicon.png" alt="Userhealthicon">
+  diagrams.azure.general.Userhealthicon
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/userhealthicon.png" alt="Userhealthicon"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/userhealthicon.png" alt="Userhealthicon" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Userhealthicon**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/usericon.png" alt="Usericon">
+  diagrams.azure.general.Usericon
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/usericon.png" alt="Usericon"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/usericon.png" alt="Usericon" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Usericon**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/userprivacy.png" alt="Userprivacy">
+  diagrams.azure.general.Userprivacy
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/userprivacy.png" alt="Userprivacy"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/userprivacy.png" alt="Userprivacy" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Userprivacy**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/userresource.png" alt="Userresource">
+  diagrams.azure.general.Userresource
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/userresource.png" alt="Userresource"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/userresource.png" alt="Userresource" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Userresource**
+<div class="tooltip">
+  <img src="/img/resources/azure/general/whatsnew.png" alt="Whatsnew">
+  diagrams.azure.general.Whatsnew
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/general/whatsnew.png" alt="Whatsnew"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/general/whatsnew.png" alt="Whatsnew" style="float: left; padding-right: 5px;" >
-**diagrams.azure.general.Whatsnew**
 
 ## azure.identity
 
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/access-review.png" alt="AccessReview">
+  diagrams.azure.identity.AccessReview
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/access-review.png" alt="AccessReview"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/access-review.png" alt="AccessReview" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.AccessReview**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/active-directory-connect-health.png" alt="ActiveDirectoryConnectHealth">
+  diagrams.azure.identity.ActiveDirectoryConnectHealth
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/active-directory-connect-health.png" alt="ActiveDirectoryConnectHealth"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/active-directory-connect-health.png" alt="ActiveDirectoryConnectHealth" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.ActiveDirectoryConnectHealth**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/active-directory.png" alt="ActiveDirectory">
+  diagrams.azure.identity.ActiveDirectory
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/active-directory.png" alt="ActiveDirectory"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/active-directory.png" alt="ActiveDirectory" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.ActiveDirectory**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/ad-b2c.png" alt="ADB2C">
+  diagrams.azure.identity.ADB2C
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/ad-b2c.png" alt="ADB2C"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/ad-b2c.png" alt="ADB2C" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.ADB2C**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/ad-domain-services.png" alt="ADDomainServices">
+  diagrams.azure.identity.ADDomainServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/ad-domain-services.png" alt="ADDomainServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/ad-domain-services.png" alt="ADDomainServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.ADDomainServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/ad-identity-protection.png" alt="ADIdentityProtection">
+  diagrams.azure.identity.ADIdentityProtection
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/ad-identity-protection.png" alt="ADIdentityProtection"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/ad-identity-protection.png" alt="ADIdentityProtection" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.ADIdentityProtection**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/ad-privileged-identity-management.png" alt="ADPrivilegedIdentityManagement">
+  diagrams.azure.identity.ADPrivilegedIdentityManagement
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/ad-privileged-identity-management.png" alt="ADPrivilegedIdentityManagement"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/ad-privileged-identity-management.png" alt="ADPrivilegedIdentityManagement" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.ADPrivilegedIdentityManagement**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/app-registrations.png" alt="AppRegistrations">
+  diagrams.azure.identity.AppRegistrations
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/app-registrations.png" alt="AppRegistrations"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/app-registrations.png" alt="AppRegistrations" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.AppRegistrations**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/conditional-access.png" alt="ConditionalAccess">
+  diagrams.azure.identity.ConditionalAccess
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/conditional-access.png" alt="ConditionalAccess"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/conditional-access.png" alt="ConditionalAccess" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.ConditionalAccess**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/enterprise-applications.png" alt="EnterpriseApplications">
+  diagrams.azure.identity.EnterpriseApplications
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/enterprise-applications.png" alt="EnterpriseApplications"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/enterprise-applications.png" alt="EnterpriseApplications" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.EnterpriseApplications**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/groups.png" alt="Groups">
+  diagrams.azure.identity.Groups
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/groups.png" alt="Groups"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/groups.png" alt="Groups" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.Groups**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/identity-governance.png" alt="IdentityGovernance">
+  diagrams.azure.identity.IdentityGovernance
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/identity-governance.png" alt="IdentityGovernance"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/identity-governance.png" alt="IdentityGovernance" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.IdentityGovernance**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/information-protection.png" alt="InformationProtection">
+  diagrams.azure.identity.InformationProtection
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/information-protection.png" alt="InformationProtection"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/information-protection.png" alt="InformationProtection" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.InformationProtection**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/managed-identities.png" alt="ManagedIdentities">
+  diagrams.azure.identity.ManagedIdentities
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/managed-identities.png" alt="ManagedIdentities"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/managed-identities.png" alt="ManagedIdentities" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.ManagedIdentities**
+<div class="tooltip">
+  <img src="/img/resources/azure/identity/users.png" alt="Users">
+  diagrams.azure.identity.Users
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/identity/users.png" alt="Users"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/identity/users.png" alt="Users" style="float: left; padding-right: 5px;" >
-**diagrams.azure.identity.Users**
 
 ## azure.integration
 
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/api-for-fhir.png" alt="APIForFhir">
+  diagrams.azure.integration.APIForFhir
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/api-for-fhir.png" alt="APIForFhir"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/api-for-fhir.png" alt="APIForFhir" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.APIForFhir**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/api-management.png" alt="APIManagement">
+  diagrams.azure.integration.APIManagement
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/api-management.png" alt="APIManagement"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/api-management.png" alt="APIManagement" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.APIManagement**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/app-configuration.png" alt="AppConfiguration">
+  diagrams.azure.integration.AppConfiguration
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/app-configuration.png" alt="AppConfiguration"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/app-configuration.png" alt="AppConfiguration" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.AppConfiguration**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/data-catalog.png" alt="DataCatalog">
+  diagrams.azure.integration.DataCatalog
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/data-catalog.png" alt="DataCatalog"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/data-catalog.png" alt="DataCatalog" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.DataCatalog**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/event-grid-domains.png" alt="EventGridDomains">
+  diagrams.azure.integration.EventGridDomains
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/event-grid-domains.png" alt="EventGridDomains"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/event-grid-domains.png" alt="EventGridDomains" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.EventGridDomains**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/event-grid-subscriptions.png" alt="EventGridSubscriptions">
+  diagrams.azure.integration.EventGridSubscriptions
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/event-grid-subscriptions.png" alt="EventGridSubscriptions"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/event-grid-subscriptions.png" alt="EventGridSubscriptions" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.EventGridSubscriptions**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/event-grid-topics.png" alt="EventGridTopics">
+  diagrams.azure.integration.EventGridTopics
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/event-grid-topics.png" alt="EventGridTopics"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/event-grid-topics.png" alt="EventGridTopics" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.EventGridTopics**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/integration-accounts.png" alt="IntegrationAccounts">
+  diagrams.azure.integration.IntegrationAccounts
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/integration-accounts.png" alt="IntegrationAccounts"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/integration-accounts.png" alt="IntegrationAccounts" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.IntegrationAccounts**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/integration-service-environments.png" alt="IntegrationServiceEnvironments">
+  diagrams.azure.integration.IntegrationServiceEnvironments
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/integration-service-environments.png" alt="IntegrationServiceEnvironments"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/integration-service-environments.png" alt="IntegrationServiceEnvironments" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.IntegrationServiceEnvironments**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/logic-apps-custom-connector.png" alt="LogicAppsCustomConnector">
+  diagrams.azure.integration.LogicAppsCustomConnector
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/logic-apps-custom-connector.png" alt="LogicAppsCustomConnector"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/logic-apps-custom-connector.png" alt="LogicAppsCustomConnector" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.LogicAppsCustomConnector**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/logic-apps.png" alt="LogicApps">
+  diagrams.azure.integration.LogicApps
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/logic-apps.png" alt="LogicApps"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/logic-apps.png" alt="LogicApps" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.LogicApps**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/partner-topic.png" alt="PartnerTopic">
+  diagrams.azure.integration.PartnerTopic
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/partner-topic.png" alt="PartnerTopic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/partner-topic.png" alt="PartnerTopic" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.PartnerTopic**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/sendgrid-accounts.png" alt="SendgridAccounts">
+  diagrams.azure.integration.SendgridAccounts
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/sendgrid-accounts.png" alt="SendgridAccounts"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/sendgrid-accounts.png" alt="SendgridAccounts" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.SendgridAccounts**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/service-bus-relays.png" alt="ServiceBusRelays">
+  diagrams.azure.integration.ServiceBusRelays
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/service-bus-relays.png" alt="ServiceBusRelays"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/service-bus-relays.png" alt="ServiceBusRelays" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.ServiceBusRelays**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/service-bus.png" alt="ServiceBus">
+  diagrams.azure.integration.ServiceBus
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/service-bus.png" alt="ServiceBus"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/service-bus.png" alt="ServiceBus" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.ServiceBus**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/service-catalog-managed-application-definitions.png" alt="ServiceCatalogManagedApplicationDefinitions">
+  diagrams.azure.integration.ServiceCatalogManagedApplicationDefinitions
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/service-catalog-managed-application-definitions.png" alt="ServiceCatalogManagedApplicationDefinitions"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/service-catalog-managed-application-definitions.png" alt="ServiceCatalogManagedApplicationDefinitions" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.ServiceCatalogManagedApplicationDefinitions**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/software-as-a-service.png" alt="SoftwareAsAService">
+  diagrams.azure.integration.SoftwareAsAService
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/software-as-a-service.png" alt="SoftwareAsAService"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/software-as-a-service.png" alt="SoftwareAsAService" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.SoftwareAsAService**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/storsimple-device-managers.png" alt="StorsimpleDeviceManagers">
+  diagrams.azure.integration.StorsimpleDeviceManagers
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/storsimple-device-managers.png" alt="StorsimpleDeviceManagers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/storsimple-device-managers.png" alt="StorsimpleDeviceManagers" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.StorsimpleDeviceManagers**
+<div class="tooltip">
+  <img src="/img/resources/azure/integration/system-topic.png" alt="SystemTopic">
+  diagrams.azure.integration.SystemTopic
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/integration/system-topic.png" alt="SystemTopic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/integration/system-topic.png" alt="SystemTopic" style="float: left; padding-right: 5px;" >
-**diagrams.azure.integration.SystemTopic**
 
 ## azure.iot
 
+<div class="tooltip">
+  <img src="/img/resources/azure/iot/device-provisioning-services.png" alt="DeviceProvisioningServices">
+  diagrams.azure.iot.DeviceProvisioningServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/iot/device-provisioning-services.png" alt="DeviceProvisioningServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/iot/device-provisioning-services.png" alt="DeviceProvisioningServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.iot.DeviceProvisioningServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/iot/digital-twins.png" alt="DigitalTwins">
+  diagrams.azure.iot.DigitalTwins
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/iot/digital-twins.png" alt="DigitalTwins"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/iot/digital-twins.png" alt="DigitalTwins" style="float: left; padding-right: 5px;" >
-**diagrams.azure.iot.DigitalTwins**
+<div class="tooltip">
+  <img src="/img/resources/azure/iot/iot-central-applications.png" alt="IotCentralApplications">
+  diagrams.azure.iot.IotCentralApplications
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/iot/iot-central-applications.png" alt="IotCentralApplications"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/iot/iot-central-applications.png" alt="IotCentralApplications" style="float: left; padding-right: 5px;" >
-**diagrams.azure.iot.IotCentralApplications**
+<div class="tooltip">
+  <img src="/img/resources/azure/iot/iot-hub-security.png" alt="IotHubSecurity">
+  diagrams.azure.iot.IotHubSecurity
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/iot/iot-hub-security.png" alt="IotHubSecurity"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/iot/iot-hub-security.png" alt="IotHubSecurity" style="float: left; padding-right: 5px;" >
-**diagrams.azure.iot.IotHubSecurity**
+<div class="tooltip">
+  <img src="/img/resources/azure/iot/iot-hub.png" alt="IotHub">
+  diagrams.azure.iot.IotHub
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/iot/iot-hub.png" alt="IotHub"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/iot/iot-hub.png" alt="IotHub" style="float: left; padding-right: 5px;" >
-**diagrams.azure.iot.IotHub**
+<div class="tooltip">
+  <img src="/img/resources/azure/iot/maps.png" alt="Maps">
+  diagrams.azure.iot.Maps
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/iot/maps.png" alt="Maps"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/iot/maps.png" alt="Maps" style="float: left; padding-right: 5px;" >
-**diagrams.azure.iot.Maps**
+<div class="tooltip">
+  <img src="/img/resources/azure/iot/sphere.png" alt="Sphere">
+  diagrams.azure.iot.Sphere
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/iot/sphere.png" alt="Sphere"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/iot/sphere.png" alt="Sphere" style="float: left; padding-right: 5px;" >
-**diagrams.azure.iot.Sphere**
+<div class="tooltip">
+  <img src="/img/resources/azure/iot/time-series-insights-environments.png" alt="TimeSeriesInsightsEnvironments">
+  diagrams.azure.iot.TimeSeriesInsightsEnvironments
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/iot/time-series-insights-environments.png" alt="TimeSeriesInsightsEnvironments"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/iot/time-series-insights-environments.png" alt="TimeSeriesInsightsEnvironments" style="float: left; padding-right: 5px;" >
-**diagrams.azure.iot.TimeSeriesInsightsEnvironments**
+<div class="tooltip">
+  <img src="/img/resources/azure/iot/time-series-insights-events-sources.png" alt="TimeSeriesInsightsEventsSources">
+  diagrams.azure.iot.TimeSeriesInsightsEventsSources
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/iot/time-series-insights-events-sources.png" alt="TimeSeriesInsightsEventsSources"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/iot/time-series-insights-events-sources.png" alt="TimeSeriesInsightsEventsSources" style="float: left; padding-right: 5px;" >
-**diagrams.azure.iot.TimeSeriesInsightsEventsSources**
+<div class="tooltip">
+  <img src="/img/resources/azure/iot/windows-10-iot-core-services.png" alt="Windows10IotCoreServices">
+  diagrams.azure.iot.Windows10IotCoreServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/iot/windows-10-iot-core-services.png" alt="Windows10IotCoreServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/iot/windows-10-iot-core-services.png" alt="Windows10IotCoreServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.iot.Windows10IotCoreServices**
 
 ## azure.migration
 
+<div class="tooltip">
+  <img src="/img/resources/azure/migration/data-box-edge.png" alt="DataBoxEdge">
+  diagrams.azure.migration.DataBoxEdge
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/migration/data-box-edge.png" alt="DataBoxEdge"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/migration/data-box-edge.png" alt="DataBoxEdge" style="float: left; padding-right: 5px;" >
-**diagrams.azure.migration.DataBoxEdge**
+<div class="tooltip">
+  <img src="/img/resources/azure/migration/data-box.png" alt="DataBox">
+  diagrams.azure.migration.DataBox
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/migration/data-box.png" alt="DataBox"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/migration/data-box.png" alt="DataBox" style="float: left; padding-right: 5px;" >
-**diagrams.azure.migration.DataBox**
+<div class="tooltip">
+  <img src="/img/resources/azure/migration/database-migration-services.png" alt="DatabaseMigrationServices">
+  diagrams.azure.migration.DatabaseMigrationServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/migration/database-migration-services.png" alt="DatabaseMigrationServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/migration/database-migration-services.png" alt="DatabaseMigrationServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.migration.DatabaseMigrationServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/migration/migration-projects.png" alt="MigrationProjects">
+  diagrams.azure.migration.MigrationProjects
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/migration/migration-projects.png" alt="MigrationProjects"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/migration/migration-projects.png" alt="MigrationProjects" style="float: left; padding-right: 5px;" >
-**diagrams.azure.migration.MigrationProjects**
+<div class="tooltip">
+  <img src="/img/resources/azure/migration/recovery-services-vaults.png" alt="RecoveryServicesVaults">
+  diagrams.azure.migration.RecoveryServicesVaults
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/migration/recovery-services-vaults.png" alt="RecoveryServicesVaults"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/migration/recovery-services-vaults.png" alt="RecoveryServicesVaults" style="float: left; padding-right: 5px;" >
-**diagrams.azure.migration.RecoveryServicesVaults**
 
 ## azure.ml
 
+<div class="tooltip">
+  <img src="/img/resources/azure/ml/batch-ai.png" alt="BatchAI">
+  diagrams.azure.ml.BatchAI
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/ml/batch-ai.png" alt="BatchAI"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/ml/batch-ai.png" alt="BatchAI" style="float: left; padding-right: 5px;" >
-**diagrams.azure.ml.BatchAI**
+<div class="tooltip">
+  <img src="/img/resources/azure/ml/bot-services.png" alt="BotServices">
+  diagrams.azure.ml.BotServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/ml/bot-services.png" alt="BotServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/ml/bot-services.png" alt="BotServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.ml.BotServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/ml/cognitive-services.png" alt="CognitiveServices">
+  diagrams.azure.ml.CognitiveServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/ml/cognitive-services.png" alt="CognitiveServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/ml/cognitive-services.png" alt="CognitiveServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.ml.CognitiveServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/ml/genomics-accounts.png" alt="GenomicsAccounts">
+  diagrams.azure.ml.GenomicsAccounts
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/ml/genomics-accounts.png" alt="GenomicsAccounts"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/ml/genomics-accounts.png" alt="GenomicsAccounts" style="float: left; padding-right: 5px;" >
-**diagrams.azure.ml.GenomicsAccounts**
+<div class="tooltip">
+  <img src="/img/resources/azure/ml/machine-learning-service-workspaces.png" alt="MachineLearningServiceWorkspaces">
+  diagrams.azure.ml.MachineLearningServiceWorkspaces
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/ml/machine-learning-service-workspaces.png" alt="MachineLearningServiceWorkspaces"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/ml/machine-learning-service-workspaces.png" alt="MachineLearningServiceWorkspaces" style="float: left; padding-right: 5px;" >
-**diagrams.azure.ml.MachineLearningServiceWorkspaces**
+<div class="tooltip">
+  <img src="/img/resources/azure/ml/machine-learning-studio-web-service-plans.png" alt="MachineLearningStudioWebServicePlans">
+  diagrams.azure.ml.MachineLearningStudioWebServicePlans
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/ml/machine-learning-studio-web-service-plans.png" alt="MachineLearningStudioWebServicePlans"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/ml/machine-learning-studio-web-service-plans.png" alt="MachineLearningStudioWebServicePlans" style="float: left; padding-right: 5px;" >
-**diagrams.azure.ml.MachineLearningStudioWebServicePlans**
+<div class="tooltip">
+  <img src="/img/resources/azure/ml/machine-learning-studio-web-services.png" alt="MachineLearningStudioWebServices">
+  diagrams.azure.ml.MachineLearningStudioWebServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/ml/machine-learning-studio-web-services.png" alt="MachineLearningStudioWebServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/ml/machine-learning-studio-web-services.png" alt="MachineLearningStudioWebServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.ml.MachineLearningStudioWebServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/ml/machine-learning-studio-workspaces.png" alt="MachineLearningStudioWorkspaces">
+  diagrams.azure.ml.MachineLearningStudioWorkspaces
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/ml/machine-learning-studio-workspaces.png" alt="MachineLearningStudioWorkspaces"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/ml/machine-learning-studio-workspaces.png" alt="MachineLearningStudioWorkspaces" style="float: left; padding-right: 5px;" >
-**diagrams.azure.ml.MachineLearningStudioWorkspaces**
 
 ## azure.mobile
 
+<div class="tooltip">
+  <img src="/img/resources/azure/mobile/app-service-mobile.png" alt="AppServiceMobile">
+  diagrams.azure.mobile.AppServiceMobile
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/mobile/app-service-mobile.png" alt="AppServiceMobile"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/mobile/app-service-mobile.png" alt="AppServiceMobile" style="float: left; padding-right: 5px;" >
-**diagrams.azure.mobile.AppServiceMobile**
+<div class="tooltip">
+  <img src="/img/resources/azure/mobile/mobile-engagement.png" alt="MobileEngagement">
+  diagrams.azure.mobile.MobileEngagement
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/mobile/mobile-engagement.png" alt="MobileEngagement"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/mobile/mobile-engagement.png" alt="MobileEngagement" style="float: left; padding-right: 5px;" >
-**diagrams.azure.mobile.MobileEngagement**
+<div class="tooltip">
+  <img src="/img/resources/azure/mobile/notification-hubs.png" alt="NotificationHubs">
+  diagrams.azure.mobile.NotificationHubs
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/mobile/notification-hubs.png" alt="NotificationHubs"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/mobile/notification-hubs.png" alt="NotificationHubs" style="float: left; padding-right: 5px;" >
-**diagrams.azure.mobile.NotificationHubs**
 
 ## azure.network
 
+<div class="tooltip">
+  <img src="/img/resources/azure/network/application-gateway.png" alt="ApplicationGateway">
+  diagrams.azure.network.ApplicationGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/application-gateway.png" alt="ApplicationGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/application-gateway.png" alt="ApplicationGateway" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.ApplicationGateway**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/application-security-groups.png" alt="ApplicationSecurityGroups">
+  diagrams.azure.network.ApplicationSecurityGroups
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/application-security-groups.png" alt="ApplicationSecurityGroups"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/application-security-groups.png" alt="ApplicationSecurityGroups" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.ApplicationSecurityGroups**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/cdn-profiles.png" alt="CDNProfiles">
+  diagrams.azure.network.CDNProfiles
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/cdn-profiles.png" alt="CDNProfiles"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/cdn-profiles.png" alt="CDNProfiles" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.CDNProfiles**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/connections.png" alt="Connections">
+  diagrams.azure.network.Connections
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/connections.png" alt="Connections"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/connections.png" alt="Connections" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.Connections**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/ddos-protection-plans.png" alt="DDOSProtectionPlans">
+  diagrams.azure.network.DDOSProtectionPlans
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/ddos-protection-plans.png" alt="DDOSProtectionPlans"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/ddos-protection-plans.png" alt="DDOSProtectionPlans" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.DDOSProtectionPlans**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/dns-private-zones.png" alt="DNSPrivateZones">
+  diagrams.azure.network.DNSPrivateZones
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/dns-private-zones.png" alt="DNSPrivateZones"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/dns-private-zones.png" alt="DNSPrivateZones" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.DNSPrivateZones**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/dns-zones.png" alt="DNSZones">
+  diagrams.azure.network.DNSZones
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/dns-zones.png" alt="DNSZones"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/dns-zones.png" alt="DNSZones" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.DNSZones**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/expressroute-circuits.png" alt="ExpressrouteCircuits">
+  diagrams.azure.network.ExpressrouteCircuits
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/expressroute-circuits.png" alt="ExpressrouteCircuits"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/expressroute-circuits.png" alt="ExpressrouteCircuits" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.ExpressrouteCircuits**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/firewall.png" alt="Firewall">
+  diagrams.azure.network.Firewall
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/firewall.png" alt="Firewall"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/firewall.png" alt="Firewall" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.Firewall**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/front-doors.png" alt="FrontDoors">
+  diagrams.azure.network.FrontDoors
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/front-doors.png" alt="FrontDoors"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/front-doors.png" alt="FrontDoors" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.FrontDoors**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/load-balancers.png" alt="LoadBalancers">
+  diagrams.azure.network.LoadBalancers
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/load-balancers.png" alt="LoadBalancers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/load-balancers.png" alt="LoadBalancers" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.LoadBalancers**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/local-network-gateways.png" alt="LocalNetworkGateways">
+  diagrams.azure.network.LocalNetworkGateways
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/local-network-gateways.png" alt="LocalNetworkGateways"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/local-network-gateways.png" alt="LocalNetworkGateways" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.LocalNetworkGateways**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/network-interfaces.png" alt="NetworkInterfaces">
+  diagrams.azure.network.NetworkInterfaces
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/network-interfaces.png" alt="NetworkInterfaces"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/network-interfaces.png" alt="NetworkInterfaces" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.NetworkInterfaces**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/network-security-groups-classic.png" alt="NetworkSecurityGroupsClassic">
+  diagrams.azure.network.NetworkSecurityGroupsClassic
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/network-security-groups-classic.png" alt="NetworkSecurityGroupsClassic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/network-security-groups-classic.png" alt="NetworkSecurityGroupsClassic" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.NetworkSecurityGroupsClassic**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/network-watcher.png" alt="NetworkWatcher">
+  diagrams.azure.network.NetworkWatcher
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/network-watcher.png" alt="NetworkWatcher"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/network-watcher.png" alt="NetworkWatcher" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.NetworkWatcher**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/on-premises-data-gateways.png" alt="OnPremisesDataGateways">
+  diagrams.azure.network.OnPremisesDataGateways
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/on-premises-data-gateways.png" alt="OnPremisesDataGateways"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/on-premises-data-gateways.png" alt="OnPremisesDataGateways" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.OnPremisesDataGateways**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/public-ip-addresses.png" alt="PublicIpAddresses">
+  diagrams.azure.network.PublicIpAddresses
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/public-ip-addresses.png" alt="PublicIpAddresses"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/public-ip-addresses.png" alt="PublicIpAddresses" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.PublicIpAddresses**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/reserved-ip-addresses-classic.png" alt="ReservedIpAddressesClassic">
+  diagrams.azure.network.ReservedIpAddressesClassic
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/reserved-ip-addresses-classic.png" alt="ReservedIpAddressesClassic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/reserved-ip-addresses-classic.png" alt="ReservedIpAddressesClassic" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.ReservedIpAddressesClassic**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/route-filters.png" alt="RouteFilters">
+  diagrams.azure.network.RouteFilters
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/route-filters.png" alt="RouteFilters"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/route-filters.png" alt="RouteFilters" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.RouteFilters**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/route-tables.png" alt="RouteTables">
+  diagrams.azure.network.RouteTables
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/route-tables.png" alt="RouteTables"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/route-tables.png" alt="RouteTables" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.RouteTables**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/service-endpoint-policies.png" alt="ServiceEndpointPolicies">
+  diagrams.azure.network.ServiceEndpointPolicies
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/service-endpoint-policies.png" alt="ServiceEndpointPolicies"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/service-endpoint-policies.png" alt="ServiceEndpointPolicies" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.ServiceEndpointPolicies**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/subnets.png" alt="Subnets">
+  diagrams.azure.network.Subnets
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/subnets.png" alt="Subnets"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/subnets.png" alt="Subnets" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.Subnets**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/traffic-manager-profiles.png" alt="TrafficManagerProfiles">
+  diagrams.azure.network.TrafficManagerProfiles
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/traffic-manager-profiles.png" alt="TrafficManagerProfiles"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/traffic-manager-profiles.png" alt="TrafficManagerProfiles" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.TrafficManagerProfiles**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/virtual-network-classic.png" alt="VirtualNetworkClassic">
+  diagrams.azure.network.VirtualNetworkClassic
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/virtual-network-classic.png" alt="VirtualNetworkClassic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/virtual-network-classic.png" alt="VirtualNetworkClassic" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.VirtualNetworkClassic**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/virtual-network-gateways.png" alt="VirtualNetworkGateways">
+  diagrams.azure.network.VirtualNetworkGateways
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/virtual-network-gateways.png" alt="VirtualNetworkGateways"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/virtual-network-gateways.png" alt="VirtualNetworkGateways" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.VirtualNetworkGateways**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/virtual-networks.png" alt="VirtualNetworks">
+  diagrams.azure.network.VirtualNetworks
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/virtual-networks.png" alt="VirtualNetworks"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/virtual-networks.png" alt="VirtualNetworks" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.VirtualNetworks**
+<div class="tooltip">
+  <img src="/img/resources/azure/network/virtual-wans.png" alt="VirtualWans">
+  diagrams.azure.network.VirtualWans
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/virtual-wans.png" alt="VirtualWans"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/network/virtual-wans.png" alt="VirtualWans" style="float: left; padding-right: 5px;" >
-**diagrams.azure.network.VirtualWans**
 
 ## azure.security
 
+<div class="tooltip">
+  <img src="/img/resources/azure/security/application-security-groups.png" alt="ApplicationSecurityGroups">
+  diagrams.azure.security.ApplicationSecurityGroups
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/security/application-security-groups.png" alt="ApplicationSecurityGroups"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/security/application-security-groups.png" alt="ApplicationSecurityGroups" style="float: left; padding-right: 5px;" >
-**diagrams.azure.security.ApplicationSecurityGroups**
+<div class="tooltip">
+  <img src="/img/resources/azure/security/conditional-access.png" alt="ConditionalAccess">
+  diagrams.azure.security.ConditionalAccess
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/security/conditional-access.png" alt="ConditionalAccess"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/security/conditional-access.png" alt="ConditionalAccess" style="float: left; padding-right: 5px;" >
-**diagrams.azure.security.ConditionalAccess**
+<div class="tooltip">
+  <img src="/img/resources/azure/security/defender.png" alt="Defender">
+  diagrams.azure.security.Defender
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/security/defender.png" alt="Defender"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/security/defender.png" alt="Defender" style="float: left; padding-right: 5px;" >
-**diagrams.azure.security.Defender**
+<div class="tooltip">
+  <img src="/img/resources/azure/security/extended-security-updates.png" alt="ExtendedSecurityUpdates">
+  diagrams.azure.security.ExtendedSecurityUpdates
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/security/extended-security-updates.png" alt="ExtendedSecurityUpdates"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/security/extended-security-updates.png" alt="ExtendedSecurityUpdates" style="float: left; padding-right: 5px;" >
-**diagrams.azure.security.ExtendedSecurityUpdates**
+<div class="tooltip">
+  <img src="/img/resources/azure/security/key-vaults.png" alt="KeyVaults">
+  diagrams.azure.security.KeyVaults
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/security/key-vaults.png" alt="KeyVaults"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/security/key-vaults.png" alt="KeyVaults" style="float: left; padding-right: 5px;" >
-**diagrams.azure.security.KeyVaults**
+<div class="tooltip">
+  <img src="/img/resources/azure/security/security-center.png" alt="SecurityCenter">
+  diagrams.azure.security.SecurityCenter
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/security/security-center.png" alt="SecurityCenter"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/security/security-center.png" alt="SecurityCenter" style="float: left; padding-right: 5px;" >
-**diagrams.azure.security.SecurityCenter**
+<div class="tooltip">
+  <img src="/img/resources/azure/security/sentinel.png" alt="Sentinel">
+  diagrams.azure.security.Sentinel
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/security/sentinel.png" alt="Sentinel"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/security/sentinel.png" alt="Sentinel" style="float: left; padding-right: 5px;" >
-**diagrams.azure.security.Sentinel**
 
 ## azure.storage
 
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/archive-storage.png" alt="ArchiveStorage">
+  diagrams.azure.storage.ArchiveStorage
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/archive-storage.png" alt="ArchiveStorage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/archive-storage.png" alt="ArchiveStorage" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.ArchiveStorage**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/azurefxtedgefiler.png" alt="Azurefxtedgefiler">
+  diagrams.azure.storage.Azurefxtedgefiler
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/azurefxtedgefiler.png" alt="Azurefxtedgefiler"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/azurefxtedgefiler.png" alt="Azurefxtedgefiler" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.Azurefxtedgefiler**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/blob-storage.png" alt="BlobStorage">
+  diagrams.azure.storage.BlobStorage
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/blob-storage.png" alt="BlobStorage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/blob-storage.png" alt="BlobStorage" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.BlobStorage**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/data-box-edge-data-box-gateway.png" alt="DataBoxEdgeDataBoxGateway">
+  diagrams.azure.storage.DataBoxEdgeDataBoxGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/data-box-edge-data-box-gateway.png" alt="DataBoxEdgeDataBoxGateway"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/data-box-edge-data-box-gateway.png" alt="DataBoxEdgeDataBoxGateway" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.DataBoxEdgeDataBoxGateway**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/data-box.png" alt="DataBox">
+  diagrams.azure.storage.DataBox
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/data-box.png" alt="DataBox"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/data-box.png" alt="DataBox" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.DataBox**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/data-lake-storage.png" alt="DataLakeStorage">
+  diagrams.azure.storage.DataLakeStorage
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/data-lake-storage.png" alt="DataLakeStorage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/data-lake-storage.png" alt="DataLakeStorage" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.DataLakeStorage**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/general-storage.png" alt="GeneralStorage">
+  diagrams.azure.storage.GeneralStorage
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/general-storage.png" alt="GeneralStorage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/general-storage.png" alt="GeneralStorage" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.GeneralStorage**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/netapp-files.png" alt="NetappFiles">
+  diagrams.azure.storage.NetappFiles
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/netapp-files.png" alt="NetappFiles"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/netapp-files.png" alt="NetappFiles" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.NetappFiles**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/queues-storage.png" alt="QueuesStorage">
+  diagrams.azure.storage.QueuesStorage
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/queues-storage.png" alt="QueuesStorage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/queues-storage.png" alt="QueuesStorage" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.QueuesStorage**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/storage-accounts-classic.png" alt="StorageAccountsClassic">
+  diagrams.azure.storage.StorageAccountsClassic
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/storage-accounts-classic.png" alt="StorageAccountsClassic"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/storage-accounts-classic.png" alt="StorageAccountsClassic" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.StorageAccountsClassic**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/storage-accounts.png" alt="StorageAccounts">
+  diagrams.azure.storage.StorageAccounts
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/storage-accounts.png" alt="StorageAccounts"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/storage-accounts.png" alt="StorageAccounts" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.StorageAccounts**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/storage-explorer.png" alt="StorageExplorer">
+  diagrams.azure.storage.StorageExplorer
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/storage-explorer.png" alt="StorageExplorer"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/storage-explorer.png" alt="StorageExplorer" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.StorageExplorer**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/storage-sync-services.png" alt="StorageSyncServices">
+  diagrams.azure.storage.StorageSyncServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/storage-sync-services.png" alt="StorageSyncServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/storage-sync-services.png" alt="StorageSyncServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.StorageSyncServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/storsimple-data-managers.png" alt="StorsimpleDataManagers">
+  diagrams.azure.storage.StorsimpleDataManagers
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/storsimple-data-managers.png" alt="StorsimpleDataManagers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/storsimple-data-managers.png" alt="StorsimpleDataManagers" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.StorsimpleDataManagers**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/storsimple-device-managers.png" alt="StorsimpleDeviceManagers">
+  diagrams.azure.storage.StorsimpleDeviceManagers
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/storsimple-device-managers.png" alt="StorsimpleDeviceManagers"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/storsimple-device-managers.png" alt="StorsimpleDeviceManagers" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.StorsimpleDeviceManagers**
+<div class="tooltip">
+  <img src="/img/resources/azure/storage/table-storage.png" alt="TableStorage">
+  diagrams.azure.storage.TableStorage
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/storage/table-storage.png" alt="TableStorage"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/storage/table-storage.png" alt="TableStorage" style="float: left; padding-right: 5px;" >
-**diagrams.azure.storage.TableStorage**
 
 ## azure.web
 
+<div class="tooltip">
+  <img src="/img/resources/azure/web/api-connections.png" alt="APIConnections">
+  diagrams.azure.web.APIConnections
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/web/api-connections.png" alt="APIConnections"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/web/api-connections.png" alt="APIConnections" style="float: left; padding-right: 5px;" >
-**diagrams.azure.web.APIConnections**
+<div class="tooltip">
+  <img src="/img/resources/azure/web/app-service-certificates.png" alt="AppServiceCertificates">
+  diagrams.azure.web.AppServiceCertificates
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/web/app-service-certificates.png" alt="AppServiceCertificates"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/web/app-service-certificates.png" alt="AppServiceCertificates" style="float: left; padding-right: 5px;" >
-**diagrams.azure.web.AppServiceCertificates**
+<div class="tooltip">
+  <img src="/img/resources/azure/web/app-service-domains.png" alt="AppServiceDomains">
+  diagrams.azure.web.AppServiceDomains
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/web/app-service-domains.png" alt="AppServiceDomains"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/web/app-service-domains.png" alt="AppServiceDomains" style="float: left; padding-right: 5px;" >
-**diagrams.azure.web.AppServiceDomains**
+<div class="tooltip">
+  <img src="/img/resources/azure/web/app-service-environments.png" alt="AppServiceEnvironments">
+  diagrams.azure.web.AppServiceEnvironments
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/web/app-service-environments.png" alt="AppServiceEnvironments"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/web/app-service-environments.png" alt="AppServiceEnvironments" style="float: left; padding-right: 5px;" >
-**diagrams.azure.web.AppServiceEnvironments**
+<div class="tooltip">
+  <img src="/img/resources/azure/web/app-service-plans.png" alt="AppServicePlans">
+  diagrams.azure.web.AppServicePlans
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/web/app-service-plans.png" alt="AppServicePlans"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/web/app-service-plans.png" alt="AppServicePlans" style="float: left; padding-right: 5px;" >
-**diagrams.azure.web.AppServicePlans**
+<div class="tooltip">
+  <img src="/img/resources/azure/web/app-services.png" alt="AppServices">
+  diagrams.azure.web.AppServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/web/app-services.png" alt="AppServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/web/app-services.png" alt="AppServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.web.AppServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/web/media-services.png" alt="MediaServices">
+  diagrams.azure.web.MediaServices
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/web/media-services.png" alt="MediaServices"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/web/media-services.png" alt="MediaServices" style="float: left; padding-right: 5px;" >
-**diagrams.azure.web.MediaServices**
+<div class="tooltip">
+  <img src="/img/resources/azure/web/notification-hub-namespaces.png" alt="NotificationHubNamespaces">
+  diagrams.azure.web.NotificationHubNamespaces
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/web/notification-hub-namespaces.png" alt="NotificationHubNamespaces"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/web/notification-hub-namespaces.png" alt="NotificationHubNamespaces" style="float: left; padding-right: 5px;" >
-**diagrams.azure.web.NotificationHubNamespaces**
+<div class="tooltip">
+  <img src="/img/resources/azure/web/search.png" alt="Search">
+  diagrams.azure.web.Search
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/web/search.png" alt="Search"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/web/search.png" alt="Search" style="float: left; padding-right: 5px;" >
-**diagrams.azure.web.Search**
+<div class="tooltip">
+  <img src="/img/resources/azure/web/signalr.png" alt="Signalr">
+  diagrams.azure.web.Signalr
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/web/signalr.png" alt="Signalr"></span>
+</div><br>
 
-<img width="30" src="/img/resources/azure/web/signalr.png" alt="Signalr" style="float: left; padding-right: 5px;" >
-**diagrams.azure.web.Signalr**
