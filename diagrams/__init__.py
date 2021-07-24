@@ -94,9 +94,18 @@ class _Cluster:
             for subgraph in self.subgraphs:
                 yield from subgraph.nodes_iter
 
+    def _validate_direction(self, direction: str):
+        direction = direction.upper()
+        for v in self.__directions:
+            if v == direction:
+                return True
+        return False
 
-class Diagram:
-    __directions = ("TB", "BT", "LR", "RL")
+    def __str__(self) -> str:
+        return str(self.dot)
+
+
+class Diagram(_Cluster):
     __curvestyles = ("ortho", "curved")
     __outformats = ("png", "jpg", "svg", "pdf")
 
@@ -160,15 +169,19 @@ class Diagram:
         :param node_attr: Provide node_attr dot config attributes.
         :param edge_attr: Provide edge_attr dot config attributes.
         """
+
         self.name = name
         if not name and not filename:
-            filename = "diagrams_image"
+          filename = "diagrams_image"
         elif not filename:
             filename = "_".join(self.name.split()).lower()
         self.filename = filename
-        self.dot = Digraph(self.name, filename=self.filename)
+
+        super().__init__(self.name, filename=self.filename)
+        self.edges = {}
 
         # Set attributes.
+        self.dot.attr(compound="true")
         for k, v in self._default_graph_attrs.items():
             self.dot.graph_attr[k] = v
         self.dot.graph_attr["label"] = self.name
@@ -196,11 +209,9 @@ class Diagram:
 
         self.show = show
 
-    def __str__(self) -> str:
-        return str(self.dot)
-
     def __enter__(self):
         setdiagram(self)
+        super().__enter__()
         return self
 
     def __exit__(self, *args):
@@ -221,17 +232,9 @@ class Diagram:
         self.render()
         # Remove the graphviz file leaving only the image.
         os.remove(self.filename)
-        setdiagram(None)
 
     def _repr_png_(self):
         return self.dot.pipe(format="png")
-
-    def _validate_direction(self, direction: str) -> bool:
-        direction = direction.upper()
-        for v in self.__directions:
-            if v == direction:
-                return True
-        return False
 
     def _validate_curvestyle(self, curvestyle: str) -> bool:
         curvestyle = curvestyle.lower()
@@ -247,24 +250,16 @@ class Diagram:
                 return True
         return False
 
-    def node(self, nodeid: str, label: str, **attrs) -> None:
-        """Create a new node."""
-        self.dot.node(nodeid, label=label, **attrs)
-
     def connect(self, node: "Node", node2: "Node", edge: "Edge") -> None:
         """Connect the two Nodes."""
-        self.dot.edge(node.nodeid, node2.nodeid, **edge.attrs)
-
-    def subgraph(self, dot: Digraph) -> None:
-        """Create a subgraph for clustering"""
-        self.dot.subgraph(dot)
+        self.edges[(node, node2)] = edge
 
     def render(self) -> None:
         self.dot.render(format=self.outformat, view=self.show, quiet=True)
 
 
-class Cluster:
-    __directions = ("TB", "BT", "LR", "RL")
+class Node(_Cluster):
+    """Node represents a node for a specific backend service."""
     __bgcolors = ("#E5F5FD", "#EBF3E7", "#ECE8F6", "#FDF7E3")
 
     # fmt: off
@@ -276,99 +271,6 @@ class Cluster:
         "fontname": "Sans-Serif",
         "fontsize": "12",
     }
-    _icon = None
-    _icon_size = 0
-
-    # fmt: on
-
-    # FIXME:
-    #  Cluster direction does not work now. Graphviz couldn't render
-    #  correctly for a subgraph that has a different rank direction.
-    def __init__(
-        self,
-        label: str = "cluster",
-        direction: str = "LR",
-        icon: object = None,
-        icon_size: int = 30,
-        graph_attr: dict = {},
-    ):
-        """Cluster represents a cluster context.
-
-        :param label: Cluster label.
-        :param direction: Data flow direction. Default is 'left to right'.
-        :param graph_attr: Provide graph_attr dot config attributes.
-        """
-        self.label = label
-        self.name = "cluster_" + self.label
-
-        if not self._icon:
-            self.icon = icon
-        if not self._icon_size:
-            self._icon_size = icon_size
-
-        self.dot = Digraph(self.name)
-
-        # Set attributes.
-        for k, v in self._default_graph_attrs.items():
-            self.dot.graph_attr[k] = v
-        self.dot.graph_attr["label"] = self.label
-
-        # if an icon is set, try to find and instantiate a Node without calling __init__()
-        # then find it's icon by calling _load_icon()
-        if self._icon:
-            _node = self._icon(_no_init=True)
-            if isinstance(_node, Node):
-                self._icon_label = '<<TABLE border="0"><TR><TD fixedsize="true" width="' + str(self._icon_size) + '" height="' + str(self._icon_size) + '"><IMG SRC="' + _node._load_icon() + '"></IMG></TD><TD>' + self.label + '</TD></TR></TABLE>>'
-                self.dot.graph_attr["label"] = self._icon_label
-        else:
-            self.dot.graph_attr["label"] = self.label
-
-        if not self._validate_direction(direction):
-            raise ValueError(f'"{direction}" is not a valid direction')
-        self.dot.graph_attr["rankdir"] = direction
-
-        # Node must be belong to a diagrams.
-        self._diagram = getdiagram()
-        if self._diagram is None:
-            raise EnvironmentError("Global diagrams context not set up")
-        self._parent = getcluster()
-
-        # Set cluster depth for distinguishing the background color
-        self.depth = self._parent.depth + 1 if self._parent else 0
-        coloridx = self.depth % len(self.__bgcolors)
-        self.dot.graph_attr["bgcolor"] = self.__bgcolors[coloridx]
-
-        # Merge passed in attributes
-        self.dot.graph_attr.update(graph_attr)
-
-    def __enter__(self):
-        setcluster(self)
-        return self
-
-    def __exit__(self, exc_type, exc_value, traceback):
-        if self._parent:
-            self._parent.subgraph(self.dot)
-        else:
-            self._diagram.subgraph(self.dot)
-        setcluster(self._parent)
-
-    def _validate_direction(self, direction: str):
-        direction = direction.upper()
-        for v in self.__directions:
-            if v == direction:
-                return True
-        return False
-
-    def node(self, nodeid: str, label: str, **attrs) -> None:
-        """Create a new node in the cluster."""
-        self.dot.node(nodeid, label=label, **attrs)
-
-    def subgraph(self, dot: Digraph) -> None:
-        self.dot.subgraph(dot)
-
-
-class Node:
-    """Node represents a node for a specific backend service."""
 
     _provider = None
     _type = None
@@ -378,6 +280,8 @@ class Node:
     _icon_size = 30
     _direction = "LR"
     _height = 1.9
+
+    # fmt: on
 
     def __new__(cls, *args, **kwargs):
         instance = object.__new__(cls)
@@ -433,8 +337,10 @@ class Node:
         self._attrs = {
             "shape": "none",
             "height": str(self._height + padding),
-            "image": self._load_icon(),
-        } if self._icon else {}
+            "image": icon_path,
+        } if icon_path else {}
+
+        self._attrs['tooltip'] = (icon if icon else self).__class__.__name__
 
         # fmt: on
         self._attrs.update(attrs)
@@ -449,6 +355,8 @@ class Node:
 
         # Set attributes.
         for k, v in self._default_graph_attrs.items():
+            self.dot.graph_attr[k] = v
+        for k, v in self._attrs.items():
             self.dot.graph_attr[k] = v
 
         icon = self._load_icon()
@@ -465,14 +373,9 @@ class Node:
         self.dot.graph_attr["rankdir"] = self._direction
 
         # Set cluster depth for distinguishing the background color
-        self.depth = self._parent.depth + 1 if self._parent.depth else 1
+        self.depth = self._parent.depth + 1
         coloridx = self.depth % len(self.__bgcolors)
         self.dot.graph_attr["bgcolor"] = self.__bgcolors[coloridx]
-
-        for params, attributs in self._attrs.items():
-            if params == 'graph_attr':
-                for k, v in attributs.items():
-                    self.dot.graph_attr[k] = v
 
         return self
 
@@ -565,10 +468,10 @@ class Node:
         """
         if not isinstance(node, Node):
             ValueError(f"{node} is not a valid Node")
-        if not isinstance(edge, Edge):
-            ValueError(f"{edge} is not a valid Edge")
+        if not isinstance(node, Edge):
+            ValueError(f"{node} is not a valid Edge")
         # An edge must be added on the global diagrams, not a cluster.
-        self._diagram.connect(self, node, edge)
+        getdiagram().connect(self, node, edge)
         return node
 
     @staticmethod
@@ -628,6 +531,7 @@ class Edge:
             # Graphviz complaining about using label for edges, so replace it with xlabel.
             # Update: xlabel option causes the misaligned label position: https://github.com/mingrammer/diagrams/issues/83
             self._attrs["label"] = label
+            self._attrs["tooltip"] = label
         if color:
             self._attrs["color"] = color
         if style:
