@@ -483,6 +483,13 @@ class Node(_Cluster):
         return uuid.uuid4().hex
 
     def _load_icon(self):
+        if not isinstance(self._icon, str):
+            icon_instance = self._icon
+            try:
+                self._icon = icon_instance._icon
+                self._icon_dir = icon_instance._icon_dir
+            except AttributeError:
+                pass
         if self._icon and self._icon_dir:
             basedir = Path(os.path.abspath(os.path.dirname(__file__)))
             return os.path.join(basedir.parent, self._icon_dir, self._icon)
