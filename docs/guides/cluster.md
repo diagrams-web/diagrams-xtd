@@ -83,19 +83,85 @@ from diagrams.aws.compute import ECS
 from diagrams.aws.database import RDS, Aurora
 from diagrams.aws.network import Route53, VPC
 
-with Diagram("Simple Web Service with DB Cluster", show=False):
+with Diagram("Simple Web Service with DB Cluster Icon", show=False):
     dns = Route53("dns")
     web = ECS("service")
 
     with Cluster(label='VPC',icon=VPC):
-        with Cluster("DB Cluster",icon=Aurora,icon_size=30):
-            db_master = RDS("master")
-            db_master - [RDS("slave1"),
-                         RDS("slave2")]
-        with Aurora("DB Cluster", cluster=True):
-            db_master = RDS("master")
-            db_master - [RDS("slave1"),
-                         RDS("slave2")]
+        with Cluster("DB Cluster A", icon=Aurora, icon_size=30):
+            db_main = RDS("main")
+            db_main - [RDS("replica1"),
+                         RDS("replica2")]
+        with Aurora("DB Cluster B", cluster=True):
+            db_main = RDS("main")
+            db_main - [RDS("replica1"),
+                         RDS("replica2")]
 
-        dns >> web >> db_master
+        dns >> web >> db_main
 ```
+
+![Simple Web Service with DB Cluster Icon](/img/simple_web_service_with_db_cluster_icon.png)
+
+Another example with already defined Cluster with Node icon for AWS
+
+```python
+from diagrams import Diagram, Edge
+from diagrams.aws.cluster import *
+from diagrams.aws.compute import EC2
+from diagrams.onprem.container import Docker
+from diagrams.onprem.cluster import *
+from diagrams.aws.network import ELB
+
+with Diagram(name="AWS cluster with icon", direction="TB", show=False):
+    with Cluster("AWS"):
+        with Region("eu-west-1"):
+            with AvailabilityZone("eu-west-1a"):
+                with VirtualPrivateCloud(""):
+                    with PrivateSubnet("Private"):
+                        with SecurityGroup("web sg"):
+                            with AutoScalling(""):
+                                with EC2Contents("A"):
+                                    d1 = Docker("Container")
+                                with ServerContents("A1"):
+                                    d2 = Docker("Container")
+
+                    with PublicSubnet("Public"):
+                        with SecurityGroup("elb sg"):
+                            lb = ELB()
+
+    lb >> Edge(forward=True, reverse=True) >> d1
+    lb >> Edge(forward=True, reverse=True) >> d2
+```
+
+![AWS cluster with icon](/img/aws_cluster_with_icon.png)
+
+And for Azure
+
+```python
+from diagrams import Diagram, Edge
+from diagrams.azure.cluster import *
+from diagrams.azure.compute import VM
+from diagrams.onprem.container import Docker
+from diagrams.onprem.cluster import *
+from diagrams.azure.network import LoadBalancers
+
+with Diagram(name="Azure cluster with icon", direction="TB", show=False):
+    with Cluster("Azure"):
+        with Region("East US2"):
+            with AvailabilityZone("Zone 2"):
+                with VirtualNetwork(""):
+                    with SubnetWithNSG("Private"):
+                        # with VMScaleSet(""): # Depends on PR-404
+                        with VMContents("A"):
+                            d1 = Docker("Container")
+                        with ServerContents("A1"):
+                            d2 = Docker("Container")
+
+                    with Subnet("Public"):
+                        lb = LoadBalancers()
+
+    lb >> Edge(forward=True, reverse=True) >> d1
+    lb >> Edge(forward=True, reverse=True) >> d2
+```
+
+![Azure cluster with icon](/img/azure_cluster_with_icon.png)
