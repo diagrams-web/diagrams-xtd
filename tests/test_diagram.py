@@ -108,6 +108,18 @@ class DiagramTest(unittest.TestCase):
             Node("node1")
         self.assertTrue(os.path.exists(f"{self.name}.png"))
 
+    def test_outformat_list(self):
+        """Check that outformat render all the files from the list."""
+        self.name = 'diagrams_image'
+        with Diagram(show=False, outformat=["dot", "png"]):
+            Node("node1")
+        # both files must exist
+        self.assertTrue(os.path.exists(f"{self.name}.png"))
+        self.assertTrue(os.path.exists(f"{self.name}.dot"))
+
+        # clean the dot file as it only generated here
+        os.remove(self.name + ".dot")
+
 
 class ClusterTest(unittest.TestCase):
     def setUp(self):

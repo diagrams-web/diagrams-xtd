@@ -4,6 +4,7 @@
 
  Have this PR inside:
 
+- [feat(output): Generate dot file and support multi outformat.(#441)] https://github.com/mingrammer/diagrams/pull/592
 - [docs(edge): Add @clayms examples] https://github.com/mingrammer/diagrams/pull/495
 - [Node as cluster] https://github.com/mingrammer/diagrams/pull/438
 - [ Add icons to docs] https://github.com/mingrammer/diagrams/pull/499
