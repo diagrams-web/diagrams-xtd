@@ -4,5 +4,6 @@
 
  Have this PR inside:
 
+- [docs(edge): Add @clayms examples] https://github.com/mingrammer/diagrams/pull/495
 - [Node as cluster] https://github.com/mingrammer/diagrams/pull/438
 - [ Add icons to docs] https://github.com/mingrammer/diagrams/pull/499
