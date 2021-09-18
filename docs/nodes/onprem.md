@@ -296,6 +296,12 @@ Node classes list of onprem provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/onprem/container/k3s.png" alt="K3S">
+  diagrams.onprem.container.K3S
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/container/k3s.png" alt="K3S"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/onprem/container/lxc.png" alt="Lxc">
   diagrams.onprem.container.Lxc, LXC (alias)
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/container/lxc.png" alt="Lxc"></span>
@@ -494,6 +500,12 @@ Node classes list of onprem provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/onprem/iac/puppet.png" alt="Puppet">
+  diagrams.onprem.iac.Puppet
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/iac/puppet.png" alt="Puppet"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/onprem/iac/terraform.png" alt="Terraform">
   diagrams.onprem.iac.Terraform
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/iac/terraform.png" alt="Terraform"></span>
@@ -590,6 +602,12 @@ Node classes list of onprem provider.
   <img src="/img/resources/onprem/monitoring/datadog.png" alt="Datadog">
   diagrams.onprem.monitoring.Datadog
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/monitoring/datadog.png" alt="Datadog"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/onprem/monitoring/dynatrace.png" alt="Dynatrace">
+  diagrams.onprem.monitoring.Dynatrace
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/monitoring/dynatrace.png" alt="Dynatrace"></span>
 </div><br>
 
 <div class="tooltip">
@@ -800,6 +818,12 @@ Node classes list of onprem provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/onprem/network/tyk.png" alt="Tyk">
+  diagrams.onprem.network.Tyk
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/network/tyk.png" alt="Tyk"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/onprem/network/vyos.png" alt="Vyos">
   diagrams.onprem.network.Vyos, VyOS (alias)
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/network/vyos.png" alt="Vyos"></span>
@@ -950,6 +974,12 @@ Node classes list of onprem provider.
   <img src="/img/resources/onprem/vcs/gitlab.png" alt="Gitlab">
   diagrams.onprem.vcs.Gitlab
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/vcs/gitlab.png" alt="Gitlab"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/onprem/vcs/svn.png" alt="Svn">
+  diagrams.onprem.vcs.Svn
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/vcs/svn.png" alt="Svn"></span>
 </div><br>
 
 

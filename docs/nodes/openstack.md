@@ -101,39 +101,39 @@ Node classes list of openstack provider.
 ## openstack.deployment
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/lifecyclemanagement/deployment/ansible.png" alt="Ansible">
+  <img src="/img/resources/openstack/deployment/ansible.png" alt="Ansible">
   diagrams.openstack.deployment.Ansible
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/lifecyclemanagement/deployment/ansible.png" alt="Ansible"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/ansible.png" alt="Ansible"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/lifecyclemanagement/deployment/charms.png" alt="Charms">
+  <img src="/img/resources/openstack/deployment/charms.png" alt="Charms">
   diagrams.openstack.deployment.Charms
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/lifecyclemanagement/deployment/charms.png" alt="Charms"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/charms.png" alt="Charms"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/lifecyclemanagement/deployment/chef.png" alt="Chef">
+  <img src="/img/resources/openstack/deployment/chef.png" alt="Chef">
   diagrams.openstack.deployment.Chef
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/lifecyclemanagement/deployment/chef.png" alt="Chef"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/chef.png" alt="Chef"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/lifecyclemanagement/deployment/helm.png" alt="Helm">
+  <img src="/img/resources/openstack/deployment/helm.png" alt="Helm">
   diagrams.openstack.deployment.Helm
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/lifecyclemanagement/deployment/helm.png" alt="Helm"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/helm.png" alt="Helm"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/lifecyclemanagement/deployment/kolla.png" alt="Kolla">
+  <img src="/img/resources/openstack/deployment/kolla.png" alt="Kolla">
   diagrams.openstack.deployment.Kolla, KollaAnsible (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/lifecyclemanagement/deployment/kolla.png" alt="Kolla"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/kolla.png" alt="Kolla"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/lifecyclemanagement/deployment/tripleo.png" alt="Tripleo">
+  <img src="/img/resources/openstack/deployment/tripleo.png" alt="Tripleo">
   diagrams.openstack.deployment.Tripleo, TripleO (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/lifecyclemanagement/deployment/tripleo.png" alt="Tripleo"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/tripleo.png" alt="Tripleo"></span>
 </div><br>
 
 
@@ -269,21 +269,21 @@ Node classes list of openstack provider.
 ## openstack.packaging
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/lifecyclemanagement/packaging/loci.png" alt="LOCI">
+  <img src="/img/resources/openstack/packaging/loci.png" alt="LOCI">
   diagrams.openstack.packaging.LOCI
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/lifecyclemanagement/packaging/loci.png" alt="LOCI"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/packaging/loci.png" alt="LOCI"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/lifecyclemanagement/packaging/puppet.png" alt="Puppet">
+  <img src="/img/resources/openstack/packaging/puppet.png" alt="Puppet">
   diagrams.openstack.packaging.Puppet
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/lifecyclemanagement/packaging/puppet.png" alt="Puppet"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/packaging/puppet.png" alt="Puppet"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/lifecyclemanagement/packaging/rpm.png" alt="RPM">
+  <img src="/img/resources/openstack/packaging/rpm.png" alt="RPM">
   diagrams.openstack.packaging.RPM
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/lifecyclemanagement/packaging/rpm.png" alt="RPM"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/packaging/rpm.png" alt="RPM"></span>
 </div><br>
 
 

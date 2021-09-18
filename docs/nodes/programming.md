@@ -227,6 +227,12 @@ Node classes list of programming provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/programming/framework/starlette.png" alt="Starlette">
+  diagrams.programming.framework.Starlette
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/starlette.png" alt="Starlette"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/programming/framework/vue.png" alt="Vue">
   diagrams.programming.framework.Vue
   <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/vue.png" alt="Vue"></span>
@@ -299,6 +305,12 @@ Node classes list of programming provider.
   <img src="/img/resources/programming/language/kotlin.png" alt="Kotlin">
   diagrams.programming.language.Kotlin
   <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/kotlin.png" alt="Kotlin"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/programming/language/latex.png" alt="Latex">
+  diagrams.programming.language.Latex
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/latex.png" alt="Latex"></span>
 </div><br>
 
 <div class="tooltip">
