@@ -5,9 +5,6 @@ title: OpenStack
 
 Node classes list of openstack provider.
 
-## openstack.adjacentenablers
-
-
 ## openstack.apiproxies
 
 <div class="tooltip">
@@ -62,9 +59,9 @@ Node classes list of openstack provider.
 ## openstack.billing
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/operations/billing/cloudkitty.png" alt="Cloudkitty">
+  <img src="/img/resources/openstack/billing/cloudkitty.png" alt="Cloudkitty">
   diagrams.openstack.billing.Cloudkitty, CloudKitty (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/operations/billing/cloudkitty.png" alt="Cloudkitty"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/billing/cloudkitty.png" alt="Cloudkitty"></span>
 </div><br>
 
 
@@ -92,9 +89,9 @@ Node classes list of openstack provider.
 ## openstack.containerservices
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/adjacentenablers/containerservices/kuryr.png" alt="Kuryr">
+  <img src="/img/resources/openstack/containerservices/kuryr.png" alt="Kuryr">
   diagrams.openstack.containerservices.Kuryr
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/adjacentenablers/containerservices/kuryr.png" alt="Kuryr"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/containerservices/kuryr.png" alt="Kuryr"></span>
 </div><br>
 
 
@@ -146,30 +143,27 @@ Node classes list of openstack provider.
 </div><br>
 
 
-## openstack.lifecyclemanagement
-
-
 ## openstack.monitoring
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/operations/monitoring/monasca.png" alt="Monasca">
+  <img src="/img/resources/openstack/monitoring/monasca.png" alt="Monasca">
   diagrams.openstack.monitoring.Monasca
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/operations/monitoring/monasca.png" alt="Monasca"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/monitoring/monasca.png" alt="Monasca"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/operations/monitoring/telemetry.png" alt="Telemetry">
+  <img src="/img/resources/openstack/monitoring/telemetry.png" alt="Telemetry">
   diagrams.openstack.monitoring.Telemetry
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/operations/monitoring/telemetry.png" alt="Telemetry"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/monitoring/telemetry.png" alt="Telemetry"></span>
 </div><br>
 
 
 ## openstack.multiregion
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/operations/multiregion/tricircle.png" alt="Tricircle">
+  <img src="/img/resources/openstack/multiregion/tricircle.png" alt="Tricircle">
   diagrams.openstack.multiregion.Tricircle
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/operations/multiregion/tricircle.png" alt="Tricircle"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/multiregion/tricircle.png" alt="Tricircle"></span>
 </div><br>
 
 
@@ -197,39 +191,36 @@ Node classes list of openstack provider.
 ## openstack.nfv
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/adjacentenablers/nfv/tacker.png" alt="Tacker">
+  <img src="/img/resources/openstack/nfv/tacker.png" alt="Tacker">
   diagrams.openstack.nfv.Tacker
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/adjacentenablers/nfv/tacker.png" alt="Tacker"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/nfv/tacker.png" alt="Tacker"></span>
 </div><br>
-
-
-## openstack.operations
 
 
 ## openstack.optimization
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/operations/optimization/congress.png" alt="Congress">
+  <img src="/img/resources/openstack/optimization/congress.png" alt="Congress">
   diagrams.openstack.optimization.Congress
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/operations/optimization/congress.png" alt="Congress"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/optimization/congress.png" alt="Congress"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/operations/optimization/rally.png" alt="Rally">
+  <img src="/img/resources/openstack/optimization/rally.png" alt="Rally">
   diagrams.openstack.optimization.Rally
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/operations/optimization/rally.png" alt="Rally"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/optimization/rally.png" alt="Rally"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/operations/optimization/vitrage.png" alt="Vitrage">
+  <img src="/img/resources/openstack/optimization/vitrage.png" alt="Vitrage">
   diagrams.openstack.optimization.Vitrage
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/operations/optimization/vitrage.png" alt="Vitrage"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/optimization/vitrage.png" alt="Vitrage"></span>
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/openstack/operations/optimization/watcher.png" alt="Watcher">
+  <img src="/img/resources/openstack/optimization/watcher.png" alt="Watcher">
   diagrams.openstack.optimization.Watcher
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/operations/optimization/watcher.png" alt="Watcher"></span>
+  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/optimization/watcher.png" alt="Watcher"></span>
 </div><br>
 
 
