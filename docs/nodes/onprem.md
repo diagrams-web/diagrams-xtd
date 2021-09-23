@@ -710,6 +710,12 @@ Node classes list of onprem provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/onprem/network/gevent.png" alt="Gevent">
+  diagrams.onprem.network.Gevent
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/network/gevent.png" alt="Gevent"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/onprem/network/glassfish.png" alt="Glassfish">
   diagrams.onprem.network.Glassfish
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/network/glassfish.png" alt="Glassfish"></span>

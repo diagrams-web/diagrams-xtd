@@ -36,6 +36,10 @@ class Etcd(_Network):
     _icon = "etcd.png"
 
 
+class Gevent(_Network):
+    _icon = "gevent.png"
+
+
 class Glassfish(_Network):
     _icon = "glassfish.png"
 
