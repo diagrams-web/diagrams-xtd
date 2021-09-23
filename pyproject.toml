@@ -3,11 +3,14 @@ name = "diagrams-xtd"
 version = "0.20.0"
 description = "Extended version of diagrams"
 license = "MIT"
-authors = ["gabriel-tessier <gabriel.tessier@gmail.com>"]
+authors = ["Diagrams-web <no_spam@nowhere.mail>"]
 readme = "README.md"
 homepage = ""
 repository = "https://github.com/gabriel-tessier/diagrams-xtd"
 include = ["resources/**/*"]
+
+[tool.poetry.scripts]
+diagrams="diagrams.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.6"
