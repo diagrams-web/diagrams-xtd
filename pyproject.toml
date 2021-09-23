@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "diagrams-xtd"
-version = "0.20.0"
+name = "diagrams"
+version = "0.20.0.1" # last digit is only for the ext where x.x.x is for the diagrams version
 description = "Extended version of diagrams"
 license = "MIT"
 authors = ["Diagrams-web <no_spam@nowhere.mail>"]
@@ -27,3 +27,7 @@ isort = "^4.3"
 
 [tool.black]
 line-length = 120
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
