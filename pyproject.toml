@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "diagrams"
-version = "0.20.0.1" # last digit is only for the ext where x.x.x is for the diagrams version
+version = "0.21.0.0" # last digit is only for the ext where x.x.x is for the diagrams version
 description = "Extended version of diagrams"
 license = "MIT"
 authors = ["Diagrams-web <no_spam@nowhere.mail>"]
@@ -14,7 +14,7 @@ diagrams="diagrams.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.6"
-graphviz = ">=0.13.2,<0.18.0"
+graphviz = ">=0.13.2,<0.20.0"
 jinja2 = ">=2.10,<4.0"
 contextvars = { version = "^2.4", python = "~3.6" }
 

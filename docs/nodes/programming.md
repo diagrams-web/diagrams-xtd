@@ -373,3 +373,12 @@ Node classes list of programming provider.
   <span class="tooltiptext"><img width="256" src="/img/resources/programming/language/typescript.png" alt="Typescript"></span>
 </div><br>
 
+
+## programming.runtime
+
+<div class="tooltip">
+  <img src="/img/resources/programming/runtime/dapr.png" alt="Dapr">
+  diagrams.programming.runtime.Dapr
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/runtime/dapr.png" alt="Dapr"></span>
+</div><br>
+

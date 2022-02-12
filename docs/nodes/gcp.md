@@ -71,6 +71,12 @@ Node classes list of gcp provider.
 ## gcp.api
 
 <div class="tooltip">
+  <img src="/img/resources/gcp/api/api-gateway.png" alt="APIGateway">
+  diagrams.gcp.api.APIGateway
+  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/api/api-gateway.png" alt="APIGateway"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/gcp/api/endpoints.png" alt="Endpoints">
   diagrams.gcp.api.Endpoints
   <span class="tooltiptext"><img width="256" src="/img/resources/gcp/api/endpoints.png" alt="Endpoints"></span>

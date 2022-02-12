@@ -41,6 +41,12 @@ Node classes list of onprem provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/onprem/analytics/dremio.png" alt="Dremio">
+  diagrams.onprem.analytics.Dremio
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/analytics/dremio.png" alt="Dremio"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/onprem/analytics/flink.png" alt="Flink">
   diagrams.onprem.analytics.Flink
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/analytics/flink.png" alt="Flink"></span>
@@ -620,6 +626,12 @@ Node classes list of onprem provider.
   <img src="/img/resources/onprem/monitoring/humio.png" alt="Humio">
   diagrams.onprem.monitoring.Humio
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/monitoring/humio.png" alt="Humio"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/onprem/monitoring/nagios.png" alt="Nagios">
+  diagrams.onprem.monitoring.Nagios
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/monitoring/nagios.png" alt="Nagios"></span>
 </div><br>
 
 <div class="tooltip">

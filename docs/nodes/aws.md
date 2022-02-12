@@ -1547,6 +1547,12 @@ Node classes list of aws provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/aws/management/chatbot.png" alt="Chatbot">
+  diagrams.aws.management.Chatbot
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/chatbot.png" alt="Chatbot"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/aws/management/cloudformation-change-set.png" alt="CloudformationChangeSet">
   diagrams.aws.management.CloudformationChangeSet
   <span class="tooltiptext"><img width="256" src="/img/resources/aws/management/cloudformation-change-set.png" alt="CloudformationChangeSet"></span>
