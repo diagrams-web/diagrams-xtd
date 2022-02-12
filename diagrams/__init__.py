@@ -95,10 +95,7 @@ class _Cluster:
                 yield from subgraph.nodes_iter
 
     def _validate_direction(self, direction: str):
-        direction = direction.upper()
-        if direction in self.__directions:
-            return True
-        return False
+        return direction.upper() in self.__directions
 
     def __str__(self) -> str:
         return str(self.dot)
@@ -241,10 +238,7 @@ class Diagram(_Cluster):
         return self.dot.pipe(format="png")
 
     def _validate_curvestyle(self, curvestyle: str) -> bool:
-        curvestyle = curvestyle.lower()
-        if curvestyle in self.__curvestyles:
-            return True
-        return False
+        return curvestyle.lower() in self.__curvestyles
 
     def _validate_outformat(self, outformat: str) -> bool:
         outformat = outformat.lower()
