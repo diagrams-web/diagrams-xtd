@@ -241,10 +241,7 @@ class Diagram(_Cluster):
         return curvestyle.lower() in self.__curvestyles
 
     def _validate_outformat(self, outformat: str) -> bool:
-        outformat = outformat.lower()
-        if outformat in self.__outformats:
-            return True
-        return False
+        return outformat.lower() in self.__outformats
 
     def connect(self, node: "Node", node2: "Node", edge: "Edge") -> None:
         """Connect the two Nodes."""
