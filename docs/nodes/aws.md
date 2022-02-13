@@ -248,6 +248,12 @@ Node classes list of aws provider.
 ## aws.compute
 
 <div class="tooltip">
+  <img src="/img/resources/aws/compute/app-runner.png" alt="AppRunner">
+  diagrams.aws.compute.AppRunner
+  <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/app-runner.png" alt="AppRunner"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/aws/compute/application-auto-scaling.png" alt="ApplicationAutoScaling">
   diagrams.aws.compute.ApplicationAutoScaling, AutoScaling (alias)
   <span class="tooltiptext"><img width="256" src="/img/resources/aws/compute/application-auto-scaling.png" alt="ApplicationAutoScaling"></span>
