@@ -7,12 +7,13 @@ RUN apt-get clean && apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 
-# install fonts
+# install fonts this one take time and space may make alternative image only for CJK users
 RUN curl -O https://noto-website.storage.googleapis.com/pkgs/NotoSansCJKjp-hinted.zip \
 && mkdir -p /usr/share/fonts/NotoSansCJKjp \
 && unzip NotoSansCJKjp-hinted.zip -d /usr/share/fonts/NotoSansCJKjp/ \
 && rm NotoSansCJKjp-hinted.zip \
-&& fc-cache -fv
+&& fc-cache -fv \
+&& apt-get remove curl fontconfig unzip -y
 
 # project directory.
 WORKDIR /usr/src/diagrams
@@ -21,4 +22,4 @@ WORKDIR /usr/src/diagrams
 COPY . .
 
 # install python requirements.
-RUN pip install -r docker/requirements.txt
+RUN pip install -r docker/dev/requirements.txt
