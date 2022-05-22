@@ -1,12 +1,11 @@
-# use latest python 3 alpine image.
-FROM python:3-alpine
+# use python 3 slim image.
+FROM python:3.9-slim
 
 # install system dependencies.
-RUN apk update && apk add --no-cache \
-  gcc libc-dev g++ graphviz git bash go imagemagick inkscape ttf-opensans curl fontconfig xdg-utils
+RUN apt-get clean && apt-get update \
+  && apt-get install -y --no-install-recommends build-essential graphviz imagemagick inkscape fonts-open-sans curl fontconfig unzip \
+  && rm -rf /var/lib/apt/lists/*
 
-# install go package.
-RUN go get github.com/mingrammer/round
 
 # install fonts
 RUN curl -O https://noto-website.storage.googleapis.com/pkgs/NotoSansCJKjp-hinted.zip \
@@ -15,14 +14,11 @@ RUN curl -O https://noto-website.storage.googleapis.com/pkgs/NotoSansCJKjp-hinte
 && rm NotoSansCJKjp-hinted.zip \
 && fc-cache -fv
 
-# add go bin to path.
-ENV PATH "$PATH:/root/go/bin"
-
 # project directory.
 WORKDIR /usr/src/diagrams
 
-# Copy the rest of your app's source code from your host to your image filesystem.
+# Copy all the source code as we need tests and website etc...
 COPY . .
 
 # install python requirements.
-RUN pip install black graphviz jinja2
+RUN pip install -r docker/requirements.txt
