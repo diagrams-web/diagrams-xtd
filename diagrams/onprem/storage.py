@@ -22,5 +22,5 @@ class Glusterfs(_Storage):
 
 # Aliases
 
-CEPH = Ceph
 CEPH_OSD = CephOsd
+CEPH = Ceph

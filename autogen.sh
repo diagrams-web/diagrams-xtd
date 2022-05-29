@@ -48,7 +48,7 @@ done
 
 # generate the module classes and docs
 for pvd in "${providers[@]}"; do
-  echo "generating the modules & docs for provider '$pvd'"
+  echo "generating the modules, docs & metas for provider '$pvd'"
   python -m scripts.generate "$pvd"
 done
 
@@ -56,10 +56,9 @@ done
 echo "generating the docs for custom"
 python -m scripts.generate "custom"
 
-# copy icons across to website
-echo "copying icons to website static folder"
+# copy icons to website
 cp -r resources/* website/static/img/resources/
 
 # run black
-echo "linting the all the diagram modules"
+echo "linting all the diagram modules"
 black "$app_root_dir"/**/*.py

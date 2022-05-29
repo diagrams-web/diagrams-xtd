@@ -43,6 +43,6 @@ class Run(_Compute):
 # Aliases
 
 GAE = AppEngine
-GCF = Functions
 GCE = ComputeEngine
+GCF = Functions
 GKE = KubernetesEngine

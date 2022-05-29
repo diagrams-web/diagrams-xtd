@@ -82,7 +82,7 @@ class Stream(_Database):
 
 # Aliases
 
-ADB = Autonomous
 ADBWhite = AutonomousWhite
-DBService = DatabaseService
+ADB = Autonomous
 DBServiceWhite = DatabaseServiceWhite
+DBService = DatabaseService

@@ -24,19 +24,21 @@ def up_or_title(pvd: str, s: str) -> str:
     return s.title()
 
 
-def gen_classes(pvd: str, typ: str, paths: Iterable[str]) -> str:
-    """Generate all service node classes based on resources paths with class templates."""
-    tmpl = load_tmpl(cfg.TMPL_MODULE)
-
-    # TODO: extract the gen class metas for sharing
-    # TODO: independent function for generating all pvd/typ/paths pairs
-    def _gen_class_meta(path: str) -> dict:
+def gen_class_metas(pvd: str, typ: str, paths: Iterable[str]) -> list:
+    """Generate the class metas."""
+    metas = []
+    for path in paths:
         base = os.path.splitext(path)[0]
         name = "".join([up_or_title(pvd, s) for s in base.split("-")])
-        return {"name": name, "icon": path}
+        alias = cfg.ALIASES[pvd].get(typ, {}).get(name, '')
+        metas.append({"name": name, "icon": path, "alias": alias})
+    return metas
 
-    metas = map(_gen_class_meta, paths)
-    aliases = cfg.ALIASES[pvd][typ] if typ in cfg.ALIASES[pvd] else {}
+
+def gen_classes(pvd: str, typ: str, metas: Iterable[str]) -> str:
+    """Generate all service node classes based on resources paths with class templates."""
+    tmpl = load_tmpl(cfg.TMPL_MODULE)
+    aliases = {meta['name']: meta['alias'] for meta in metas if meta['alias']}
     return tmpl.render(pvd=pvd, typ=typ, metas=metas, aliases=aliases)
 
 
@@ -79,9 +81,19 @@ def make_apidoc(pvd: str, content: str) -> None:
         f.write(content)
 
 
+def make_metas(pvd: str, content: str) -> None:
+    """Create metas for other services"""
+    import json
+
+    meta_path = os.path.join(resource_dir(pvd), "meta.json")
+    with open(meta_path, "w+") as f:
+        f.write(json.dumps(content))
+
+
 def generate(pvd: str) -> None:
     """Generates a service node classes."""
     typ_paths = {}
+    typ_meta = {}
     base = base_dir()
     for root, _, files in os.walk(resource_dir(pvd)):
         # Extract the names and paths from resources.
@@ -95,13 +107,17 @@ def generate(pvd: str) -> None:
             continue
 
         resource_root = os.path.relpath(root, base)
-        classes = gen_classes(pvd, typ, paths)
+        metas = gen_class_metas(pvd, typ, paths)
+        classes = gen_classes(pvd, typ, metas)
         make_module(pvd, typ, classes)
 
         typ_paths[typ] = (paths, resource_root)
+        typ_meta[typ] = metas
+
     # Build API documentation
     apidoc = gen_apidoc(pvd, typ_paths)
     make_apidoc(pvd, apidoc)
+    make_metas(pvd, typ_meta)
 
 
 if __name__ == "__main__":

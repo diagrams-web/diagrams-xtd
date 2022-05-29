@@ -50,6 +50,6 @@ CircleCI = Circleci
 ConcourseCI = Concourseci
 DroneCI = Droneci
 GitlabCI = Gitlabci
-TravisCI = Travisci
 TC = Teamcity
+TravisCI = Travisci
 ZuulCI = Zuulci
