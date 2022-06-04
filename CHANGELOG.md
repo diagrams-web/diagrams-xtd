@@ -6,7 +6,7 @@
 
 - [feat(node): Onprem network remove white backgound #697] https://github.com/mingrammer/diagrams/pull/697
 - [feat(provider): Replace IBM resources #655] https://github.com/mingrammer/diagrams/pull/655 /!\ This one will break for IBM user ☜(꒡⌓꒡) >= 0.21.1.1
-- [feat(scripts): provide diagrams CLI #524] https://github.com/mingrammer/diagrams/pull/524
+- [feat(scripts): provide diagrams CLI #524] https://github.com/mingrammer/diagrams/pull/524 /!\ This one will break need to call with "diagrams build example1.py" Need to add build >= 0.21.1.4
 - [Support attributes on custom node #529] https://github.com/mingrammer/diagrams/pull/529
 - [docs(edge): Add @clayms examples #495] https://github.com/mingrammer/diagrams/pull/495
 - [Node as cluster #438] https://github.com/mingrammer/diagrams/pull/438
