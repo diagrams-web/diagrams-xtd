@@ -87,7 +87,7 @@ def make_metas(pvd: str, content: str) -> None:
 
     meta_path = os.path.join(resource_dir(pvd), "meta.json")
     with open(meta_path, "w+") as f:
-        f.write(json.dumps(content))
+        f.write(json.dumps(content, sort_keys=True))
 
 
 def generate(pvd: str) -> None:
