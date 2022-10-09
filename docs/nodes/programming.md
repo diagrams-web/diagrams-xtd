@@ -197,6 +197,12 @@ Node classes list of programming provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/programming/framework/graphql.png" alt="Graphql">
+  diagrams.programming.framework.Graphql, GraphQL (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/graphql.png" alt="Graphql"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/programming/framework/laravel.png" alt="Laravel">
   diagrams.programming.framework.Laravel
   <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/laravel.png" alt="Laravel"></span>

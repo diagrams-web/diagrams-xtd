@@ -506,6 +506,12 @@ Node classes list of onprem provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/onprem/iac/pulumi.png" alt="Pulumi">
+  diagrams.onprem.iac.Pulumi
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/iac/pulumi.png" alt="Pulumi"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/onprem/iac/puppet.png" alt="Puppet">
   diagrams.onprem.iac.Puppet
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/iac/puppet.png" alt="Puppet"></span>

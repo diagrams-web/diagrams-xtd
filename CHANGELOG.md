@@ -11,6 +11,10 @@
 - [docs(edge): Add @clayms examples #495] https://github.com/mingrammer/diagrams/pull/495
 - [Node as cluster #438] https://github.com/mingrammer/diagrams/pull/438
 - [Add icons to docs #499] https://github.com/mingrammer/diagrams/pull/499
+- [Added icon for Pulumi #759] https://github.com/mingrammer/diagrams/pull/759 but with text less icon
+- [adding https://identicons.dev/ icons licensed under the MIT license. #758 ] https://github.com/mingrammer/diagrams/pull/758 Renamed the files and put all under onprem/oauth
+- [Updated + Added extra Elastic icons #742] https://github.com/mingrammer/diagrams/pull/742
+
 
 Disclaimer
 */!\* There's maybe some code changes from the original PR and unexpected bugs as I need to merge (sometime very old PR) and change the way I expected it to work which can defer from the original author!

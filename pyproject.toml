@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "diagrams"
-version = "0.22.0.4" # last digit is only for the ext where x.x.x is for the diagrams version
+version = "0.22.0.5" # last digit is only for the ext where x.x.x is for the diagrams version
 description = "Extended version of diagrams"
 license = "MIT"
 authors = ["Diagrams-web <no_spam@nowhere.mail>"]
