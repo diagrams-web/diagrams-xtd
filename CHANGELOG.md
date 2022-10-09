@@ -12,7 +12,7 @@
 - [Node as cluster #438] https://github.com/mingrammer/diagrams/pull/438
 - [Add icons to docs #499] https://github.com/mingrammer/diagrams/pull/499
 - [Added icon for Pulumi #759] https://github.com/mingrammer/diagrams/pull/759 but with text less icon
-- [adding https://identicons.dev/ icons licensed under the MIT license. #758 ] https://github.com/mingrammer/diagrams/pull/758 Renamed the files and put all under onprem/oauth
+- [adding https://identicons.dev/ icons licensed under the MIT license. #758 ] https://github.com/mingrammer/diagrams/pull/758 Renamed the files and put all under generic/auth
 - [Updated + Added extra Elastic icons #742] https://github.com/mingrammer/diagrams/pull/742
 
 
