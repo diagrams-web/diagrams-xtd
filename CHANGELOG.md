@@ -1,6 +1,6 @@
 # Changelogs
 
- Based on version 0.21.1  [commit 4c5cacdaba299f7d4a0cebf73e0f7fa7951fcd66] (# try to keep up to date with latest version).
+ Based on version 0.22.0 (# try to keep up to date with latest version).
 
  Have this PR inside:
 
