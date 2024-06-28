@@ -324,6 +324,11 @@ class Node(_Cluster):
         else:
             self.label = str(label)
 
+        # Node must be belong to a diagrams.
+        self._diagram = getdiagram()
+        if self._diagram is None:
+            raise EnvironmentError("Global diagrams context not set up")
+
         if self._diagram.autolabel:
             prefix = self.__class__.__name__
             if self.label:
