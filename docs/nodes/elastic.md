@@ -99,7 +99,7 @@ Node classes list of elastic provider.
 
 <div class="tooltip">
   <img src="/img/resources/elastic/elasticsearch/elasticsearch.png" alt="Elasticsearch">
-  diagrams.elastic.elasticsearch.Elasticsearch
+  diagrams.elastic.elasticsearch.Elasticsearch, ElasticSearch (alias)
   <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/elasticsearch.png" alt="Elasticsearch"></span>
 </div><br>
 
@@ -123,7 +123,7 @@ Node classes list of elastic provider.
 
 <div class="tooltip">
   <img src="/img/resources/elastic/elasticsearch/machine-learning.png" alt="MachineLearning">
-  diagrams.elastic.elasticsearch.MachineLearning
+  diagrams.elastic.elasticsearch.MachineLearning, ML (alias)
   <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/machine-learning.png" alt="MachineLearning"></span>
 </div><br>
 
@@ -158,9 +158,9 @@ Node classes list of elastic provider.
 </div><br>
 
 <div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/sql.png" alt="Sql">
-  diagrams.elastic.elasticsearch.Sql
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/sql.png" alt="Sql"></span>
+  <img src="/img/resources/elastic/elasticsearch/sql.png" alt="SQL">
+  diagrams.elastic.elasticsearch.SQL
+  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/sql.png" alt="SQL"></span>
 </div><br>
 
 <div class="tooltip">

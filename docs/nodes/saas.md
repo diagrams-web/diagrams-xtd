@@ -20,13 +20,31 @@ Node classes list of saas provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/saas/alerting/pagerduty.png" alt="Pagerduty">
+  diagrams.saas.alerting.Pagerduty
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/alerting/pagerduty.png" alt="Pagerduty"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/saas/alerting/pushover.png" alt="Pushover">
   diagrams.saas.alerting.Pushover
   <span class="tooltiptext"><img width="256" src="/img/resources/saas/alerting/pushover.png" alt="Pushover"></span>
 </div><br>
 
+<div class="tooltip">
+  <img src="/img/resources/saas/alerting/xmatters.png" alt="Xmatters">
+  diagrams.saas.alerting.Xmatters
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/alerting/xmatters.png" alt="Xmatters"></span>
+</div><br>
+
 
 ## saas.analytics
+
+<div class="tooltip">
+  <img src="/img/resources/saas/analytics/dataform.png" alt="Dataform">
+  diagrams.saas.analytics.Dataform
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/analytics/dataform.png" alt="Dataform"></span>
+</div><br>
 
 <div class="tooltip">
   <img src="/img/resources/saas/analytics/snowflake.png" alt="Snowflake">
@@ -55,6 +73,12 @@ Node classes list of saas provider.
   <span class="tooltiptext"><img width="256" src="/img/resources/saas/cdn/cloudflare.png" alt="Cloudflare"></span>
 </div><br>
 
+<div class="tooltip">
+  <img src="/img/resources/saas/cdn/fastly.png" alt="Fastly">
+  diagrams.saas.cdn.Fastly
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/cdn/fastly.png" alt="Fastly"></span>
+</div><br>
+
 
 ## saas.chat
 
@@ -65,9 +89,21 @@ Node classes list of saas provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/saas/chat/line.png" alt="Line">
+  diagrams.saas.chat.Line
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/chat/line.png" alt="Line"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/saas/chat/mattermost.png" alt="Mattermost">
   diagrams.saas.chat.Mattermost
   <span class="tooltiptext"><img width="256" src="/img/resources/saas/chat/mattermost.png" alt="Mattermost"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/saas/chat/messenger.png" alt="Messenger">
+  diagrams.saas.chat.Messenger
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/chat/messenger.png" alt="Messenger"></span>
 </div><br>
 
 <div class="tooltip">
@@ -92,6 +128,15 @@ Node classes list of saas provider.
   <img src="/img/resources/saas/chat/telegram.png" alt="Telegram">
   diagrams.saas.chat.Telegram
   <span class="tooltiptext"><img width="256" src="/img/resources/saas/chat/telegram.png" alt="Telegram"></span>
+</div><br>
+
+
+## saas.communication
+
+<div class="tooltip">
+  <img src="/img/resources/saas/communication/twilio.png" alt="Twilio">
+  diagrams.saas.communication.Twilio
+  <span class="tooltiptext"><img width="256" src="/img/resources/saas/communication/twilio.png" alt="Twilio"></span>
 </div><br>
 
 

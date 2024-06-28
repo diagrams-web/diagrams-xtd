@@ -215,6 +215,12 @@ Node classes list of programming provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/programming/framework/quarkus.png" alt="Quarkus">
+  diagrams.programming.framework.Quarkus
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/quarkus.png" alt="Quarkus"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/programming/framework/rails.png" alt="Rails">
   diagrams.programming.framework.Rails
   <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/rails.png" alt="Rails"></span>
@@ -236,6 +242,12 @@ Node classes list of programming provider.
   <img src="/img/resources/programming/framework/starlette.png" alt="Starlette">
   diagrams.programming.framework.Starlette
   <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/starlette.png" alt="Starlette"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/svelte.png" alt="Svelte">
+  diagrams.programming.framework.Svelte
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/svelte.png" alt="Svelte"></span>
 </div><br>
 
 <div class="tooltip">

@@ -602,6 +602,12 @@ Node classes list of generic provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/generic/os/debian.png" alt="Debian">
+  diagrams.generic.os.Debian
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/debian.png" alt="Debian"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/generic/os/ios.png" alt="IOS">
   diagrams.generic.os.IOS
   <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/ios.png" alt="IOS"></span>
@@ -611,6 +617,18 @@ Node classes list of generic provider.
   <img src="/img/resources/generic/os/linux-general.png" alt="LinuxGeneral">
   diagrams.generic.os.LinuxGeneral
   <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/linux-general.png" alt="LinuxGeneral"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/generic/os/raspbian.png" alt="Raspbian">
+  diagrams.generic.os.Raspbian
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/raspbian.png" alt="Raspbian"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/generic/os/red-hat.png" alt="RedHat">
+  diagrams.generic.os.RedHat
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/os/red-hat.png" alt="RedHat"></span>
 </div><br>
 
 <div class="tooltip">
@@ -651,6 +669,12 @@ Node classes list of generic provider.
 
 
 ## generic.virtualization
+
+<div class="tooltip">
+  <img src="/img/resources/generic/virtualization/qemu.png" alt="Qemu">
+  diagrams.generic.virtualization.Qemu
+  <span class="tooltiptext"><img width="256" src="/img/resources/generic/virtualization/qemu.png" alt="Qemu"></span>
+</div><br>
 
 <div class="tooltip">
   <img src="/img/resources/generic/virtualization/virtualbox.png" alt="Virtualbox">

@@ -131,6 +131,12 @@ Node classes list of azure provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/azure/compute/container-apps.png" alt="ContainerApps">
+  diagrams.azure.compute.ContainerApps
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/container-apps.png" alt="ContainerApps"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/azure/compute/container-instances.png" alt="ContainerInstances">
   diagrams.azure.compute.ContainerInstances
   <span class="tooltiptext"><img width="256" src="/img/resources/azure/compute/container-instances.png" alt="ContainerInstances"></span>
@@ -1100,6 +1106,12 @@ Node classes list of azure provider.
   <img src="/img/resources/azure/network/on-premises-data-gateways.png" alt="OnPremisesDataGateways">
   diagrams.azure.network.OnPremisesDataGateways
   <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/on-premises-data-gateways.png" alt="OnPremisesDataGateways"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/azure/network/private-endpoint.png" alt="PrivateEndpoint">
+  diagrams.azure.network.PrivateEndpoint
+  <span class="tooltiptext"><img width="256" src="/img/resources/azure/network/private-endpoint.png" alt="PrivateEndpoint"></span>
 </div><br>
 
 <div class="tooltip">
