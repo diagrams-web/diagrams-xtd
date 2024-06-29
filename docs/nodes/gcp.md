@@ -3,586 +3,319 @@ id: gcp
 title: GCP
 ---
 
-Node classes list of gcp provider.
+Node classes list of the gcp provider.
 
 ## gcp.analytics
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/analytics/bigquery.png" alt="Bigquery">
-  diagrams.gcp.analytics.Bigquery, BigQuery (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/analytics/bigquery.png" alt="Bigquery"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/analytics/composer.png" alt="Composer">
-  diagrams.gcp.analytics.Composer
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/analytics/composer.png" alt="Composer"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/analytics/bigquery.png" alt="Bigquery" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.analytics.Bigquery**, **BigQuery** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/analytics/data-catalog.png" alt="DataCatalog">
-  diagrams.gcp.analytics.DataCatalog
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/analytics/data-catalog.png" alt="DataCatalog"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/analytics/composer.png" alt="Composer" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.analytics.Composer**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/analytics/data-fusion.png" alt="DataFusion">
-  diagrams.gcp.analytics.DataFusion
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/analytics/data-fusion.png" alt="DataFusion"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/analytics/data-catalog.png" alt="DataCatalog" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.analytics.DataCatalog**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/analytics/dataflow.png" alt="Dataflow">
-  diagrams.gcp.analytics.Dataflow
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/analytics/dataflow.png" alt="Dataflow"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/analytics/data-fusion.png" alt="DataFusion" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.analytics.DataFusion**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/analytics/datalab.png" alt="Datalab">
-  diagrams.gcp.analytics.Datalab
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/analytics/datalab.png" alt="Datalab"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/analytics/dataflow.png" alt="Dataflow" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.analytics.Dataflow**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/analytics/dataprep.png" alt="Dataprep">
-  diagrams.gcp.analytics.Dataprep
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/analytics/dataprep.png" alt="Dataprep"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/analytics/datalab.png" alt="Datalab" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.analytics.Datalab**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/analytics/dataproc.png" alt="Dataproc">
-  diagrams.gcp.analytics.Dataproc
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/analytics/dataproc.png" alt="Dataproc"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/analytics/dataprep.png" alt="Dataprep" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.analytics.Dataprep**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/analytics/genomics.png" alt="Genomics">
-  diagrams.gcp.analytics.Genomics
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/analytics/genomics.png" alt="Genomics"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/analytics/dataproc.png" alt="Dataproc" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.analytics.Dataproc**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/analytics/pubsub.png" alt="Pubsub">
-  diagrams.gcp.analytics.Pubsub, PubSub (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/analytics/pubsub.png" alt="Pubsub"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/analytics/genomics.png" alt="Genomics" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.analytics.Genomics**
 
+<img width="30" src="/img/resources/gcp/analytics/pubsub.png" alt="Pubsub" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.analytics.Pubsub**, **PubSub** (alias)
 
 ## gcp.api
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/api/api-gateway.png" alt="APIGateway">
-  diagrams.gcp.api.APIGateway
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/api/api-gateway.png" alt="APIGateway"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/api/endpoints.png" alt="Endpoints">
-  diagrams.gcp.api.Endpoints
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/api/endpoints.png" alt="Endpoints"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/api/api-gateway.png" alt="APIGateway" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.api.APIGateway**
 
+<img width="30" src="/img/resources/gcp/api/apigee.png" alt="Apigee" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.api.Apigee**
+
+<img width="30" src="/img/resources/gcp/api/endpoints.png" alt="Endpoints" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.api.Endpoints**
 
 ## gcp.compute
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/compute/app-engine.png" alt="AppEngine">
-  diagrams.gcp.compute.AppEngine, GAE (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/compute/app-engine.png" alt="AppEngine"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/compute/compute-engine.png" alt="ComputeEngine">
-  diagrams.gcp.compute.ComputeEngine, GCE (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/compute/compute-engine.png" alt="ComputeEngine"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/compute/app-engine.png" alt="AppEngine" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.compute.AppEngine**, **GAE** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/compute/container-optimized-os.png" alt="ContainerOptimizedOS">
-  diagrams.gcp.compute.ContainerOptimizedOS
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/compute/container-optimized-os.png" alt="ContainerOptimizedOS"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/compute/compute-engine.png" alt="ComputeEngine" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.compute.ComputeEngine**, **GCE** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/compute/functions.png" alt="Functions">
-  diagrams.gcp.compute.Functions, GCF (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/compute/functions.png" alt="Functions"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/compute/container-optimized-os.png" alt="ContainerOptimizedOS" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.compute.ContainerOptimizedOS**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/compute/gke-on-prem.png" alt="GKEOnPrem">
-  diagrams.gcp.compute.GKEOnPrem
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/compute/gke-on-prem.png" alt="GKEOnPrem"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/compute/functions.png" alt="Functions" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.compute.Functions**, **GCF** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/compute/gpu.png" alt="GPU">
-  diagrams.gcp.compute.GPU
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/compute/gpu.png" alt="GPU"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/compute/gke-on-prem.png" alt="GKEOnPrem" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.compute.GKEOnPrem**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/compute/kubernetes-engine.png" alt="KubernetesEngine">
-  diagrams.gcp.compute.KubernetesEngine, GKE (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/compute/kubernetes-engine.png" alt="KubernetesEngine"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/compute/gpu.png" alt="GPU" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.compute.GPU**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/compute/run.png" alt="Run">
-  diagrams.gcp.compute.Run
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/compute/run.png" alt="Run"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/compute/kubernetes-engine.png" alt="KubernetesEngine" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.compute.KubernetesEngine**, **GKE** (alias)
 
+<img width="30" src="/img/resources/gcp/compute/run.png" alt="Run" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.compute.Run**
 
 ## gcp.database
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/database/bigtable.png" alt="Bigtable">
-  diagrams.gcp.database.Bigtable, BigTable (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/database/bigtable.png" alt="Bigtable"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/database/datastore.png" alt="Datastore">
-  diagrams.gcp.database.Datastore
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/database/datastore.png" alt="Datastore"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/database/bigtable.png" alt="Bigtable" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.database.Bigtable**, **BigTable** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/database/firestore.png" alt="Firestore">
-  diagrams.gcp.database.Firestore
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/database/firestore.png" alt="Firestore"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/database/datastore.png" alt="Datastore" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.database.Datastore**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/database/memorystore.png" alt="Memorystore">
-  diagrams.gcp.database.Memorystore
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/database/memorystore.png" alt="Memorystore"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/database/firestore.png" alt="Firestore" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.database.Firestore**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/database/spanner.png" alt="Spanner">
-  diagrams.gcp.database.Spanner
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/database/spanner.png" alt="Spanner"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/database/memorystore.png" alt="Memorystore" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.database.Memorystore**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/database/sql.png" alt="SQL">
-  diagrams.gcp.database.SQL
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/database/sql.png" alt="SQL"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/database/spanner.png" alt="Spanner" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.database.Spanner**
 
+<img width="30" src="/img/resources/gcp/database/sql.png" alt="SQL" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.database.SQL**
 
 ## gcp.devtools
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/build.png" alt="Build">
-  diagrams.gcp.devtools.Build
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/build.png" alt="Build"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/code-for-intellij.png" alt="CodeForIntellij">
-  diagrams.gcp.devtools.CodeForIntellij
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/code-for-intellij.png" alt="CodeForIntellij"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/build.png" alt="Build" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.Build**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/code.png" alt="Code">
-  diagrams.gcp.devtools.Code
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/code.png" alt="Code"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/code-for-intellij.png" alt="CodeForIntellij" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.CodeForIntellij**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/container-registry.png" alt="ContainerRegistry">
-  diagrams.gcp.devtools.ContainerRegistry, GCR (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/container-registry.png" alt="ContainerRegistry"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/code.png" alt="Code" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.Code**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/gradle-app-engine-plugin.png" alt="GradleAppEnginePlugin">
-  diagrams.gcp.devtools.GradleAppEnginePlugin
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/gradle-app-engine-plugin.png" alt="GradleAppEnginePlugin"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/container-registry.png" alt="ContainerRegistry" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.ContainerRegistry**, **GCR** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/ide-plugins.png" alt="IdePlugins">
-  diagrams.gcp.devtools.IdePlugins
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/ide-plugins.png" alt="IdePlugins"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/gradle-app-engine-plugin.png" alt="GradleAppEnginePlugin" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.GradleAppEnginePlugin**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/maven-app-engine-plugin.png" alt="MavenAppEnginePlugin">
-  diagrams.gcp.devtools.MavenAppEnginePlugin
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/maven-app-engine-plugin.png" alt="MavenAppEnginePlugin"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/ide-plugins.png" alt="IdePlugins" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.IdePlugins**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/scheduler.png" alt="Scheduler">
-  diagrams.gcp.devtools.Scheduler
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/scheduler.png" alt="Scheduler"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/maven-app-engine-plugin.png" alt="MavenAppEnginePlugin" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.MavenAppEnginePlugin**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/sdk.png" alt="SDK">
-  diagrams.gcp.devtools.SDK
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/sdk.png" alt="SDK"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/scheduler.png" alt="Scheduler" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.Scheduler**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/source-repositories.png" alt="SourceRepositories">
-  diagrams.gcp.devtools.SourceRepositories
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/source-repositories.png" alt="SourceRepositories"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/sdk.png" alt="SDK" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.SDK**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/tasks.png" alt="Tasks">
-  diagrams.gcp.devtools.Tasks
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/tasks.png" alt="Tasks"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/source-repositories.png" alt="SourceRepositories" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.SourceRepositories**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/test-lab.png" alt="TestLab">
-  diagrams.gcp.devtools.TestLab
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/test-lab.png" alt="TestLab"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/tasks.png" alt="Tasks" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.Tasks**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/tools-for-eclipse.png" alt="ToolsForEclipse">
-  diagrams.gcp.devtools.ToolsForEclipse
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/tools-for-eclipse.png" alt="ToolsForEclipse"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/test-lab.png" alt="TestLab" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.TestLab**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/tools-for-powershell.png" alt="ToolsForPowershell">
-  diagrams.gcp.devtools.ToolsForPowershell
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/tools-for-powershell.png" alt="ToolsForPowershell"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/tools-for-eclipse.png" alt="ToolsForEclipse" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.ToolsForEclipse**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/devtools/tools-for-visual-studio.png" alt="ToolsForVisualStudio">
-  diagrams.gcp.devtools.ToolsForVisualStudio
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/devtools/tools-for-visual-studio.png" alt="ToolsForVisualStudio"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/devtools/tools-for-powershell.png" alt="ToolsForPowershell" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.ToolsForPowershell**
 
+<img width="30" src="/img/resources/gcp/devtools/tools-for-visual-studio.png" alt="ToolsForVisualStudio" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.devtools.ToolsForVisualStudio**
 
 ## gcp.iot
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/iot/iot-core.png" alt="IotCore">
-  diagrams.gcp.iot.IotCore
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/iot/iot-core.png" alt="IotCore"></span>
-</div><br>
 
+<img width="30" src="/img/resources/gcp/iot/iot-core.png" alt="IotCore" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.iot.IotCore**
 
 ## gcp.migration
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/migration/transfer-appliance.png" alt="TransferAppliance">
-  diagrams.gcp.migration.TransferAppliance
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/migration/transfer-appliance.png" alt="TransferAppliance"></span>
-</div><br>
 
+<img width="30" src="/img/resources/gcp/migration/transfer-appliance.png" alt="TransferAppliance" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.migration.TransferAppliance**
 
 ## gcp.ml
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/advanced-solutions-lab.png" alt="AdvancedSolutionsLab">
-  diagrams.gcp.ml.AdvancedSolutionsLab
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/advanced-solutions-lab.png" alt="AdvancedSolutionsLab"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/ai-hub.png" alt="AIHub">
-  diagrams.gcp.ml.AIHub
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/ai-hub.png" alt="AIHub"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/advanced-solutions-lab.png" alt="AdvancedSolutionsLab" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.AdvancedSolutionsLab**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/ai-platform-data-labeling-service.png" alt="AIPlatformDataLabelingService">
-  diagrams.gcp.ml.AIPlatformDataLabelingService
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/ai-platform-data-labeling-service.png" alt="AIPlatformDataLabelingService"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/ai-hub.png" alt="AIHub" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.AIHub**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/ai-platform.png" alt="AIPlatform">
-  diagrams.gcp.ml.AIPlatform
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/ai-platform.png" alt="AIPlatform"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/ai-platform-data-labeling-service.png" alt="AIPlatformDataLabelingService" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.AIPlatformDataLabelingService**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/automl-natural-language.png" alt="AutomlNaturalLanguage">
-  diagrams.gcp.ml.AutomlNaturalLanguage
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/automl-natural-language.png" alt="AutomlNaturalLanguage"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/ai-platform.png" alt="AIPlatform" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.AIPlatform**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/automl-tables.png" alt="AutomlTables">
-  diagrams.gcp.ml.AutomlTables
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/automl-tables.png" alt="AutomlTables"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/automl-natural-language.png" alt="AutomlNaturalLanguage" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.AutomlNaturalLanguage**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/automl-translation.png" alt="AutomlTranslation">
-  diagrams.gcp.ml.AutomlTranslation
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/automl-translation.png" alt="AutomlTranslation"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/automl-tables.png" alt="AutomlTables" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.AutomlTables**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/automl-video-intelligence.png" alt="AutomlVideoIntelligence">
-  diagrams.gcp.ml.AutomlVideoIntelligence
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/automl-video-intelligence.png" alt="AutomlVideoIntelligence"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/automl-translation.png" alt="AutomlTranslation" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.AutomlTranslation**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/automl-vision.png" alt="AutomlVision">
-  diagrams.gcp.ml.AutomlVision
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/automl-vision.png" alt="AutomlVision"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/automl-video-intelligence.png" alt="AutomlVideoIntelligence" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.AutomlVideoIntelligence**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/automl.png" alt="Automl">
-  diagrams.gcp.ml.Automl, AutoML (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/automl.png" alt="Automl"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/automl-vision.png" alt="AutomlVision" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.AutomlVision**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/dialog-flow-enterprise-edition.png" alt="DialogFlowEnterpriseEdition">
-  diagrams.gcp.ml.DialogFlowEnterpriseEdition
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/dialog-flow-enterprise-edition.png" alt="DialogFlowEnterpriseEdition"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/automl.png" alt="Automl" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.Automl**, **AutoML** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/inference-api.png" alt="InferenceAPI">
-  diagrams.gcp.ml.InferenceAPI
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/inference-api.png" alt="InferenceAPI"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/dialog-flow-enterprise-edition.png" alt="DialogFlowEnterpriseEdition" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.DialogFlowEnterpriseEdition**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/jobs-api.png" alt="JobsAPI">
-  diagrams.gcp.ml.JobsAPI
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/jobs-api.png" alt="JobsAPI"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/inference-api.png" alt="InferenceAPI" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.InferenceAPI**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/natural-language-api.png" alt="NaturalLanguageAPI">
-  diagrams.gcp.ml.NaturalLanguageAPI, NLAPI (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/natural-language-api.png" alt="NaturalLanguageAPI"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/jobs-api.png" alt="JobsAPI" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.JobsAPI**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/recommendations-ai.png" alt="RecommendationsAI">
-  diagrams.gcp.ml.RecommendationsAI
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/recommendations-ai.png" alt="RecommendationsAI"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/natural-language-api.png" alt="NaturalLanguageAPI" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.NaturalLanguageAPI**, **NLAPI** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/speech-to-text.png" alt="SpeechToText">
-  diagrams.gcp.ml.SpeechToText, STT (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/speech-to-text.png" alt="SpeechToText"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/recommendations-ai.png" alt="RecommendationsAI" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.RecommendationsAI**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/text-to-speech.png" alt="TextToSpeech">
-  diagrams.gcp.ml.TextToSpeech, TTS (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/text-to-speech.png" alt="TextToSpeech"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/speech-to-text.png" alt="SpeechToText" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.SpeechToText**, **STT** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/tpu.png" alt="TPU">
-  diagrams.gcp.ml.TPU
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/tpu.png" alt="TPU"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/text-to-speech.png" alt="TextToSpeech" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.TextToSpeech**, **TTS** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/translation-api.png" alt="TranslationAPI">
-  diagrams.gcp.ml.TranslationAPI
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/translation-api.png" alt="TranslationAPI"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/tpu.png" alt="TPU" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.TPU**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/video-intelligence-api.png" alt="VideoIntelligenceAPI">
-  diagrams.gcp.ml.VideoIntelligenceAPI
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/video-intelligence-api.png" alt="VideoIntelligenceAPI"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/translation-api.png" alt="TranslationAPI" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.TranslationAPI**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/ml/vision-api.png" alt="VisionAPI">
-  diagrams.gcp.ml.VisionAPI
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/ml/vision-api.png" alt="VisionAPI"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/ml/video-intelligence-api.png" alt="VideoIntelligenceAPI" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.VideoIntelligenceAPI**
 
+<img width="30" src="/img/resources/gcp/ml/vision-api.png" alt="VisionAPI" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.ml.VisionAPI**
 
 ## gcp.network
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/armor.png" alt="Armor">
-  diagrams.gcp.network.Armor
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/armor.png" alt="Armor"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/cdn.png" alt="CDN">
-  diagrams.gcp.network.CDN
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/cdn.png" alt="CDN"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/armor.png" alt="Armor" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.Armor**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/dedicated-interconnect.png" alt="DedicatedInterconnect">
-  diagrams.gcp.network.DedicatedInterconnect
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/dedicated-interconnect.png" alt="DedicatedInterconnect"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/cdn.png" alt="CDN" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.CDN**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/dns.png" alt="DNS">
-  diagrams.gcp.network.DNS
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/dns.png" alt="DNS"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/dedicated-interconnect.png" alt="DedicatedInterconnect" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.DedicatedInterconnect**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/external-ip-addresses.png" alt="ExternalIpAddresses">
-  diagrams.gcp.network.ExternalIpAddresses
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/external-ip-addresses.png" alt="ExternalIpAddresses"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/dns.png" alt="DNS" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.DNS**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/firewall-rules.png" alt="FirewallRules">
-  diagrams.gcp.network.FirewallRules
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/firewall-rules.png" alt="FirewallRules"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/external-ip-addresses.png" alt="ExternalIpAddresses" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.ExternalIpAddresses**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/load-balancing.png" alt="LoadBalancing">
-  diagrams.gcp.network.LoadBalancing
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/load-balancing.png" alt="LoadBalancing"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/firewall-rules.png" alt="FirewallRules" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.FirewallRules**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/nat.png" alt="NAT">
-  diagrams.gcp.network.NAT
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/nat.png" alt="NAT"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/load-balancing.png" alt="LoadBalancing" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.LoadBalancing**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/network.png" alt="Network">
-  diagrams.gcp.network.Network
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/network.png" alt="Network"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/nat.png" alt="NAT" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.NAT**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/partner-interconnect.png" alt="PartnerInterconnect">
-  diagrams.gcp.network.PartnerInterconnect
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/partner-interconnect.png" alt="PartnerInterconnect"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/network.png" alt="Network" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.Network**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/premium-network-tier.png" alt="PremiumNetworkTier">
-  diagrams.gcp.network.PremiumNetworkTier
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/premium-network-tier.png" alt="PremiumNetworkTier"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/partner-interconnect.png" alt="PartnerInterconnect" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.PartnerInterconnect**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/router.png" alt="Router">
-  diagrams.gcp.network.Router
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/router.png" alt="Router"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/premium-network-tier.png" alt="PremiumNetworkTier" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.PremiumNetworkTier**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/routes.png" alt="Routes">
-  diagrams.gcp.network.Routes
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/routes.png" alt="Routes"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/router.png" alt="Router" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.Router**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/standard-network-tier.png" alt="StandardNetworkTier">
-  diagrams.gcp.network.StandardNetworkTier
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/standard-network-tier.png" alt="StandardNetworkTier"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/routes.png" alt="Routes" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.Routes**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/traffic-director.png" alt="TrafficDirector">
-  diagrams.gcp.network.TrafficDirector
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/traffic-director.png" alt="TrafficDirector"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/standard-network-tier.png" alt="StandardNetworkTier" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.StandardNetworkTier**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/virtual-private-cloud.png" alt="VirtualPrivateCloud">
-  diagrams.gcp.network.VirtualPrivateCloud, VPC (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/virtual-private-cloud.png" alt="VirtualPrivateCloud"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/traffic-director.png" alt="TrafficDirector" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.TrafficDirector**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/network/vpn.png" alt="VPN">
-  diagrams.gcp.network.VPN
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/network/vpn.png" alt="VPN"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/network/virtual-private-cloud.png" alt="VirtualPrivateCloud" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.VirtualPrivateCloud**, **VPC** (alias)
 
+<img width="30" src="/img/resources/gcp/network/vpn.png" alt="VPN" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.network.VPN**
 
 ## gcp.operations
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/operations/monitoring.png" alt="Monitoring">
-  diagrams.gcp.operations.Monitoring
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/operations/monitoring.png" alt="Monitoring"></span>
-</div><br>
 
+<img width="30" src="/img/resources/gcp/operations/logging.png" alt="Logging" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.operations.Logging**
+
+<img width="30" src="/img/resources/gcp/operations/monitoring.png" alt="Monitoring" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.operations.Monitoring**
 
 ## gcp.security
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/security/iam.png" alt="Iam">
-  diagrams.gcp.security.Iam
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/security/iam.png" alt="Iam"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/security/iap.png" alt="IAP">
-  diagrams.gcp.security.IAP
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/security/iap.png" alt="IAP"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/security/iam.png" alt="Iam" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.security.Iam**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/security/key-management-service.png" alt="KeyManagementService">
-  diagrams.gcp.security.KeyManagementService, KMS (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/security/key-management-service.png" alt="KeyManagementService"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/security/iap.png" alt="IAP" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.security.IAP**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/security/resource-manager.png" alt="ResourceManager">
-  diagrams.gcp.security.ResourceManager
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/security/resource-manager.png" alt="ResourceManager"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/security/key-management-service.png" alt="KeyManagementService" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.security.KeyManagementService**, **KMS** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/security/security-command-center.png" alt="SecurityCommandCenter">
-  diagrams.gcp.security.SecurityCommandCenter, SCC (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/security/security-command-center.png" alt="SecurityCommandCenter"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/security/resource-manager.png" alt="ResourceManager" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.security.ResourceManager**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/security/security-scanner.png" alt="SecurityScanner">
-  diagrams.gcp.security.SecurityScanner
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/security/security-scanner.png" alt="SecurityScanner"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/security/security-command-center.png" alt="SecurityCommandCenter" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.security.SecurityCommandCenter**, **SCC** (alias)
 
+<img width="30" src="/img/resources/gcp/security/security-scanner.png" alt="SecurityScanner" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.security.SecurityScanner**
 
 ## gcp.storage
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/storage/filestore.png" alt="Filestore">
-  diagrams.gcp.storage.Filestore
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/storage/filestore.png" alt="Filestore"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/storage/persistent-disk.png" alt="PersistentDisk">
-  diagrams.gcp.storage.PersistentDisk
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/storage/persistent-disk.png" alt="PersistentDisk"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/storage/filestore.png" alt="Filestore" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.storage.Filestore**
 
-<div class="tooltip">
-  <img src="/img/resources/gcp/storage/storage.png" alt="Storage">
-  diagrams.gcp.storage.Storage, GCS (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/storage/storage.png" alt="Storage"></span>
-</div><br>
+<img width="30" src="/img/resources/gcp/storage/persistent-disk.png" alt="PersistentDisk" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.storage.PersistentDisk**
 
+<img width="30" src="/img/resources/gcp/storage/storage.png" alt="Storage" style="float: left; padding-right: 5px;" >
+**diagrams.gcp.storage.Storage**, **GCS** (alias)

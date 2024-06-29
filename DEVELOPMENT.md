@@ -57,8 +57,8 @@ To be able to develop and run diagrams locally on you Mac device, you should hav
 4. Install diagrams binary dependencies.
 
     ```shell
-    brew install imagemagick inkscape black
-    go get github.com/mingrammer/round
+    brew install imagemagick inkscape black graphviz
+    go install github.com/mingrammer/round@latest
     ```
 
 5. Run unit tests to confirm that it's working.

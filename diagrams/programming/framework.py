@@ -48,6 +48,10 @@ class Micronaut(_Framework):
     _icon = "micronaut.png"
 
 
+class Quarkus(_Framework):
+    _icon = "quarkus.png"
+
+
 class Rails(_Framework):
     _icon = "rails.png"
 
@@ -62,6 +66,10 @@ class Spring(_Framework):
 
 class Starlette(_Framework):
     _icon = "starlette.png"
+
+
+class Svelte(_Framework):
+    _icon = "svelte.png"
 
 
 class Vue(_Framework):

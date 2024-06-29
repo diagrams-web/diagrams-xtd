@@ -3,292 +3,160 @@ id: elastic
 title: Elastic
 ---
 
-Node classes list of elastic provider.
+Node classes list of the elastic provider.
 
 ## elastic.agent
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/agent/agent.png" alt="Agent">
-  diagrams.elastic.agent.Agent
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/agent/agent.png" alt="Agent"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/agent/endpoint.png" alt="Endpoint">
-  diagrams.elastic.agent.Endpoint
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/agent/endpoint.png" alt="Endpoint"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/agent/agent.png" alt="Agent" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.agent.Agent**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/agent/fleet.png" alt="Fleet">
-  diagrams.elastic.agent.Fleet
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/agent/fleet.png" alt="Fleet"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/agent/endpoint.png" alt="Endpoint" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.agent.Endpoint**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/agent/integrations.png" alt="Integrations">
-  diagrams.elastic.agent.Integrations
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/agent/integrations.png" alt="Integrations"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/agent/fleet.png" alt="Fleet" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.agent.Fleet**
 
+<img width="30" src="/img/resources/elastic/agent/integrations.png" alt="Integrations" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.agent.Integrations**
 
 ## elastic.beats
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/beats/apm.png" alt="APM">
-  diagrams.elastic.beats.APM
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/beats/apm.png" alt="APM"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/beats/auditbeat.png" alt="Auditbeat">
-  diagrams.elastic.beats.Auditbeat
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/beats/auditbeat.png" alt="Auditbeat"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/beats/apm.png" alt="APM" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.beats.APM**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/beats/filebeat.png" alt="Filebeat">
-  diagrams.elastic.beats.Filebeat
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/beats/filebeat.png" alt="Filebeat"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/beats/auditbeat.png" alt="Auditbeat" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.beats.Auditbeat**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/beats/functionbeat.png" alt="Functionbeat">
-  diagrams.elastic.beats.Functionbeat
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/beats/functionbeat.png" alt="Functionbeat"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/beats/filebeat.png" alt="Filebeat" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.beats.Filebeat**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/beats/heartbeat.png" alt="Heartbeat">
-  diagrams.elastic.beats.Heartbeat
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/beats/heartbeat.png" alt="Heartbeat"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/beats/functionbeat.png" alt="Functionbeat" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.beats.Functionbeat**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/beats/metricbeat.png" alt="Metricbeat">
-  diagrams.elastic.beats.Metricbeat
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/beats/metricbeat.png" alt="Metricbeat"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/beats/heartbeat.png" alt="Heartbeat" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.beats.Heartbeat**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/beats/packetbeat.png" alt="Packetbeat">
-  diagrams.elastic.beats.Packetbeat
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/beats/packetbeat.png" alt="Packetbeat"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/beats/metricbeat.png" alt="Metricbeat" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.beats.Metricbeat**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/beats/winlogbeat.png" alt="Winlogbeat">
-  diagrams.elastic.beats.Winlogbeat
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/beats/winlogbeat.png" alt="Winlogbeat"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/beats/packetbeat.png" alt="Packetbeat" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.beats.Packetbeat**
 
+<img width="30" src="/img/resources/elastic/beats/winlogbeat.png" alt="Winlogbeat" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.beats.Winlogbeat**
 
 ## elastic.elasticsearch
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/alerting.png" alt="Alerting">
-  diagrams.elastic.elasticsearch.Alerting
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/alerting.png" alt="Alerting"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/beats.png" alt="Beats">
-  diagrams.elastic.elasticsearch.Beats
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/beats.png" alt="Beats"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/alerting.png" alt="Alerting" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.Alerting**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/elasticsearch.png" alt="Elasticsearch">
-  diagrams.elastic.elasticsearch.Elasticsearch
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/elasticsearch.png" alt="Elasticsearch"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/beats.png" alt="Beats" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.Beats**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/kibana.png" alt="Kibana">
-  diagrams.elastic.elasticsearch.Kibana
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/kibana.png" alt="Kibana"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/elasticsearch.png" alt="Elasticsearch" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.Elasticsearch**, **ElasticSearch** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/logstash-pipeline.png" alt="LogstashPipeline">
-  diagrams.elastic.elasticsearch.LogstashPipeline
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/logstash-pipeline.png" alt="LogstashPipeline"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/kibana.png" alt="Kibana" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.Kibana**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/logstash.png" alt="Logstash">
-  diagrams.elastic.elasticsearch.Logstash, LogStash (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/logstash.png" alt="Logstash"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/logstash-pipeline.png" alt="LogstashPipeline" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.LogstashPipeline**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/machine-learning.png" alt="MachineLearning">
-  diagrams.elastic.elasticsearch.MachineLearning
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/machine-learning.png" alt="MachineLearning"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/logstash.png" alt="Logstash" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.Logstash**, **LogStash** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/map-services.png" alt="MapServices">
-  diagrams.elastic.elasticsearch.MapServices
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/map-services.png" alt="MapServices"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/machine-learning.png" alt="MachineLearning" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.MachineLearning**, **ML** (alias)
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/maps.png" alt="Maps">
-  diagrams.elastic.elasticsearch.Maps
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/maps.png" alt="Maps"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/map-services.png" alt="MapServices" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.MapServices**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/monitoring.png" alt="Monitoring">
-  diagrams.elastic.elasticsearch.Monitoring
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/monitoring.png" alt="Monitoring"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/maps.png" alt="Maps" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.Maps**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/searchable-snapshots.png" alt="SearchableSnapshots">
-  diagrams.elastic.elasticsearch.SearchableSnapshots
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/searchable-snapshots.png" alt="SearchableSnapshots"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/monitoring.png" alt="Monitoring" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.Monitoring**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/security-settings.png" alt="SecuritySettings">
-  diagrams.elastic.elasticsearch.SecuritySettings
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/security-settings.png" alt="SecuritySettings"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/searchable-snapshots.png" alt="SearchableSnapshots" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.SearchableSnapshots**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/sql.png" alt="Sql">
-  diagrams.elastic.elasticsearch.Sql
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/sql.png" alt="Sql"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/security-settings.png" alt="SecuritySettings" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.SecuritySettings**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/elasticsearch/stack.png" alt="Stack">
-  diagrams.elastic.elasticsearch.Stack
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/elasticsearch/stack.png" alt="Stack"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/elasticsearch/sql.png" alt="SQL" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.SQL**
 
+<img width="30" src="/img/resources/elastic/elasticsearch/stack.png" alt="Stack" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.elasticsearch.Stack**
 
 ## elastic.enterprisesearch
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/enterprisesearch/app-search.png" alt="AppSearch">
-  diagrams.elastic.enterprisesearch.AppSearch
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/enterprisesearch/app-search.png" alt="AppSearch"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/enterprisesearch/crawler.png" alt="Crawler">
-  diagrams.elastic.enterprisesearch.Crawler
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/enterprisesearch/crawler.png" alt="Crawler"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/enterprisesearch/app-search.png" alt="AppSearch" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.enterprisesearch.AppSearch**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/enterprisesearch/enterprise-search.png" alt="EnterpriseSearch">
-  diagrams.elastic.enterprisesearch.EnterpriseSearch
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/enterprisesearch/enterprise-search.png" alt="EnterpriseSearch"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/enterprisesearch/crawler.png" alt="Crawler" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.enterprisesearch.Crawler**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/enterprisesearch/site-search.png" alt="SiteSearch">
-  diagrams.elastic.enterprisesearch.SiteSearch
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/enterprisesearch/site-search.png" alt="SiteSearch"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/enterprisesearch/enterprise-search.png" alt="EnterpriseSearch" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.enterprisesearch.EnterpriseSearch**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/enterprisesearch/workplace-search.png" alt="WorkplaceSearch">
-  diagrams.elastic.enterprisesearch.WorkplaceSearch
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/enterprisesearch/workplace-search.png" alt="WorkplaceSearch"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/enterprisesearch/site-search.png" alt="SiteSearch" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.enterprisesearch.SiteSearch**
 
+<img width="30" src="/img/resources/elastic/enterprisesearch/workplace-search.png" alt="WorkplaceSearch" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.enterprisesearch.WorkplaceSearch**
 
 ## elastic.observability
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/observability/apm.png" alt="APM">
-  diagrams.elastic.observability.APM
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/observability/apm.png" alt="APM"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/observability/logs.png" alt="Logs">
-  diagrams.elastic.observability.Logs
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/observability/logs.png" alt="Logs"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/observability/apm.png" alt="APM" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.observability.APM**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/observability/metrics.png" alt="Metrics">
-  diagrams.elastic.observability.Metrics
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/observability/metrics.png" alt="Metrics"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/observability/logs.png" alt="Logs" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.observability.Logs**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/observability/observability.png" alt="Observability">
-  diagrams.elastic.observability.Observability
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/observability/observability.png" alt="Observability"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/observability/metrics.png" alt="Metrics" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.observability.Metrics**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/observability/uptime.png" alt="Uptime">
-  diagrams.elastic.observability.Uptime
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/observability/uptime.png" alt="Uptime"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/observability/observability.png" alt="Observability" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.observability.Observability**
 
+<img width="30" src="/img/resources/elastic/observability/uptime.png" alt="Uptime" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.observability.Uptime**
 
 ## elastic.orchestration
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/orchestration/ece.png" alt="ECE">
-  diagrams.elastic.orchestration.ECE
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/orchestration/ece.png" alt="ECE"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/orchestration/eck.png" alt="ECK">
-  diagrams.elastic.orchestration.ECK
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/orchestration/eck.png" alt="ECK"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/orchestration/ece.png" alt="ECE" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.orchestration.ECE**
 
+<img width="30" src="/img/resources/elastic/orchestration/eck.png" alt="ECK" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.orchestration.ECK**
 
 ## elastic.saas
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/saas/cloud.png" alt="Cloud">
-  diagrams.elastic.saas.Cloud
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/saas/cloud.png" alt="Cloud"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/saas/elastic.png" alt="Elastic">
-  diagrams.elastic.saas.Elastic
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/saas/elastic.png" alt="Elastic"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/saas/cloud.png" alt="Cloud" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.saas.Cloud**
 
+<img width="30" src="/img/resources/elastic/saas/elastic.png" alt="Elastic" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.saas.Elastic**
 
 ## elastic.security
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/security/endpoint.png" alt="Endpoint">
-  diagrams.elastic.security.Endpoint
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/security/endpoint.png" alt="Endpoint"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/security/security.png" alt="Security">
-  diagrams.elastic.security.Security
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/security/security.png" alt="Security"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/security/endpoint.png" alt="Endpoint" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.security.Endpoint**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/security/siem.png" alt="SIEM">
-  diagrams.elastic.security.SIEM
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/security/siem.png" alt="SIEM"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/security/security.png" alt="Security" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.security.Security**
 
-<div class="tooltip">
-  <img src="/img/resources/elastic/security/xdr.png" alt="Xdr">
-  diagrams.elastic.security.Xdr
-  <span class="tooltiptext"><img width="256" src="/img/resources/elastic/security/xdr.png" alt="Xdr"></span>
-</div><br>
+<img width="30" src="/img/resources/elastic/security/siem.png" alt="SIEM" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.security.SIEM**
 
+<img width="30" src="/img/resources/elastic/security/xdr.png" alt="Xdr" style="float: left; padding-right: 5px;" >
+**diagrams.elastic.security.Xdr**

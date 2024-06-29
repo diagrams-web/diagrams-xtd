@@ -12,6 +12,10 @@ class Autoscale(_Compute):
     _icon = "autoscale.png"
 
 
+class BareMetalServer(_Compute):
+    _icon = "bare-metal-server.png"
+
+
 class BareMetal(_Compute):
     _icon = "bare-metal.png"
 
@@ -46,6 +50,22 @@ class HpVirtualServers(_Compute):
 
 class Hsm(_Compute):
     _icon = "hsm.png"
+
+
+class ImageService(_Compute):
+    _icon = "image-service.png"
+
+
+class Instance(_Compute):
+    _icon = "instance.png"
+
+
+class Key(_Compute):
+    _icon = "key.png"
+
+
+class PowerInstance(_Compute):
+    _icon = "power-instance.png"
 
 
 class PowerSystems(_Compute):

@@ -74,11 +74,11 @@ class VM(_Compute):
 
 # Aliases
 
-BareMetalWhite = BMWhite
-BareMetal = BM
-OCIRegistryWhite = OCIRWhite
-OCIRegistry = OCIR
-ContainerEngineWhite = OKEWhite
-ContainerEngine = OKE
-VirtualMachineWhite = VMWhite
 VirtualMachine = VM
+VirtualMachineWhite = VMWhite
+BareMetal = BM
+BareMetalWhite = BMWhite
+OCIRegistry = OCIR
+OCIRegistryWhite = OCIRWhite
+ContainerEngine = OKE
+ContainerEngineWhite = OKEWhite

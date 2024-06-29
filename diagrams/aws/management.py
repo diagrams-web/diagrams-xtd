@@ -214,5 +214,5 @@ class WellArchitectedTool(_Management):
 
 # Aliases
 
-ParameterStore = SystemsManagerParameterStore
 SSM = SystemsManager
+ParameterStore = SystemsManagerParameterStore

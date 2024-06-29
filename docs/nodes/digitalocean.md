@@ -3,166 +3,91 @@ id: digitalocean
 title: DigitalOcean
 ---
 
-Node classes list of digitalocean provider.
+Node classes list of the digitalocean provider.
 
 ## digitalocean.compute
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/compute/containers.png" alt="Containers">
-  diagrams.digitalocean.compute.Containers
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/compute/containers.png" alt="Containers"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/compute/docker.png" alt="Docker">
-  diagrams.digitalocean.compute.Docker
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/compute/docker.png" alt="Docker"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/compute/containers.png" alt="Containers" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.compute.Containers**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/compute/droplet-connect.png" alt="DropletConnect">
-  diagrams.digitalocean.compute.DropletConnect
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/compute/droplet-connect.png" alt="DropletConnect"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/compute/docker.png" alt="Docker" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.compute.Docker**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/compute/droplet-snapshot.png" alt="DropletSnapshot">
-  diagrams.digitalocean.compute.DropletSnapshot
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/compute/droplet-snapshot.png" alt="DropletSnapshot"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/compute/droplet-connect.png" alt="DropletConnect" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.compute.DropletConnect**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/compute/droplet.png" alt="Droplet">
-  diagrams.digitalocean.compute.Droplet
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/compute/droplet.png" alt="Droplet"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/compute/droplet-snapshot.png" alt="DropletSnapshot" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.compute.DropletSnapshot**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/compute/k8s-cluster.png" alt="K8SCluster">
-  diagrams.digitalocean.compute.K8SCluster
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/compute/k8s-cluster.png" alt="K8SCluster"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/compute/droplet.png" alt="Droplet" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.compute.Droplet**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/compute/k8s-node-pool.png" alt="K8SNodePool">
-  diagrams.digitalocean.compute.K8SNodePool
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/compute/k8s-node-pool.png" alt="K8SNodePool"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/compute/k8s-cluster.png" alt="K8SCluster" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.compute.K8SCluster**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/compute/k8s-node.png" alt="K8SNode">
-  diagrams.digitalocean.compute.K8SNode
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/compute/k8s-node.png" alt="K8SNode"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/compute/k8s-node-pool.png" alt="K8SNodePool" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.compute.K8SNodePool**
 
+<img width="30" src="/img/resources/digitalocean/compute/k8s-node.png" alt="K8SNode" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.compute.K8SNode**
 
 ## digitalocean.database
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/database/dbaas-primary-standby-more.png" alt="DbaasPrimaryStandbyMore">
-  diagrams.digitalocean.database.DbaasPrimaryStandbyMore
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/database/dbaas-primary-standby-more.png" alt="DbaasPrimaryStandbyMore"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/database/dbaas-primary.png" alt="DbaasPrimary">
-  diagrams.digitalocean.database.DbaasPrimary
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/database/dbaas-primary.png" alt="DbaasPrimary"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/database/dbaas-primary-standby-more.png" alt="DbaasPrimaryStandbyMore" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.database.DbaasPrimaryStandbyMore**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/database/dbaas-read-only.png" alt="DbaasReadOnly">
-  diagrams.digitalocean.database.DbaasReadOnly
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/database/dbaas-read-only.png" alt="DbaasReadOnly"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/database/dbaas-primary.png" alt="DbaasPrimary" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.database.DbaasPrimary**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/database/dbaas-standby.png" alt="DbaasStandby">
-  diagrams.digitalocean.database.DbaasStandby
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/database/dbaas-standby.png" alt="DbaasStandby"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/database/dbaas-read-only.png" alt="DbaasReadOnly" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.database.DbaasReadOnly**
 
+<img width="30" src="/img/resources/digitalocean/database/dbaas-standby.png" alt="DbaasStandby" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.database.DbaasStandby**
 
 ## digitalocean.network
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/network/certificate.png" alt="Certificate">
-  diagrams.digitalocean.network.Certificate
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/network/certificate.png" alt="Certificate"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/network/domain-registration.png" alt="DomainRegistration">
-  diagrams.digitalocean.network.DomainRegistration
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/network/domain-registration.png" alt="DomainRegistration"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/network/certificate.png" alt="Certificate" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.network.Certificate**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/network/domain.png" alt="Domain">
-  diagrams.digitalocean.network.Domain
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/network/domain.png" alt="Domain"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/network/domain-registration.png" alt="DomainRegistration" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.network.DomainRegistration**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/network/firewall.png" alt="Firewall">
-  diagrams.digitalocean.network.Firewall
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/network/firewall.png" alt="Firewall"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/network/domain.png" alt="Domain" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.network.Domain**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/network/floating-ip.png" alt="FloatingIp">
-  diagrams.digitalocean.network.FloatingIp
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/network/floating-ip.png" alt="FloatingIp"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/network/firewall.png" alt="Firewall" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.network.Firewall**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/network/internet-gateway.png" alt="InternetGateway">
-  diagrams.digitalocean.network.InternetGateway
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/network/internet-gateway.png" alt="InternetGateway"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/network/floating-ip.png" alt="FloatingIp" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.network.FloatingIp**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/network/load-balancer.png" alt="LoadBalancer">
-  diagrams.digitalocean.network.LoadBalancer
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/network/load-balancer.png" alt="LoadBalancer"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/network/internet-gateway.png" alt="InternetGateway" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.network.InternetGateway**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/network/managed-vpn.png" alt="ManagedVpn">
-  diagrams.digitalocean.network.ManagedVpn
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/network/managed-vpn.png" alt="ManagedVpn"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/network/load-balancer.png" alt="LoadBalancer" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.network.LoadBalancer**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/network/vpc.png" alt="Vpc">
-  diagrams.digitalocean.network.Vpc
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/network/vpc.png" alt="Vpc"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/network/managed-vpn.png" alt="ManagedVpn" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.network.ManagedVpn**
 
+<img width="30" src="/img/resources/digitalocean/network/vpc.png" alt="Vpc" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.network.Vpc**
 
 ## digitalocean.storage
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/storage/folder.png" alt="Folder">
-  diagrams.digitalocean.storage.Folder
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/storage/folder.png" alt="Folder"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/storage/space.png" alt="Space">
-  diagrams.digitalocean.storage.Space
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/storage/space.png" alt="Space"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/storage/folder.png" alt="Folder" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.storage.Folder**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/storage/volume-snapshot.png" alt="VolumeSnapshot">
-  diagrams.digitalocean.storage.VolumeSnapshot
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/storage/volume-snapshot.png" alt="VolumeSnapshot"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/storage/space.png" alt="Space" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.storage.Space**
 
-<div class="tooltip">
-  <img src="/img/resources/digitalocean/storage/volume.png" alt="Volume">
-  diagrams.digitalocean.storage.Volume
-  <span class="tooltiptext"><img width="256" src="/img/resources/digitalocean/storage/volume.png" alt="Volume"></span>
-</div><br>
+<img width="30" src="/img/resources/digitalocean/storage/volume-snapshot.png" alt="VolumeSnapshot" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.storage.VolumeSnapshot**
 
+<img width="30" src="/img/resources/digitalocean/storage/volume.png" alt="Volume" style="float: left; padding-right: 5px;" >
+**diagrams.digitalocean.storage.Volume**

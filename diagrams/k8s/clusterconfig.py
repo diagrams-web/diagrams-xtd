@@ -22,5 +22,5 @@ class Quota(_Clusterconfig):
 
 # Aliases
 
-HorizontalPodAutoscaler = HPA
 LimitRange = Limits
+HorizontalPodAutoscaler = HPA

@@ -20,7 +20,11 @@ class Glusterfs(_Storage):
     _icon = "glusterfs.png"
 
 
+class Portworx(_Storage):
+    _icon = "portworx.png"
+
+
 # Aliases
 
-CEPH_OSD = CephOsd
 CEPH = Ceph
+CEPH_OSD = CephOsd

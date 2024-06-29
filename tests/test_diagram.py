@@ -107,6 +107,12 @@ class DiagramTest(unittest.TestCase):
         with Diagram(show=False):
             Node("node1")
         self.assertTrue(os.path.exists(f"{self.name}.png"))
+    
+    def test_autolabel(self):
+        with Diagram(name=os.path.join(self.name, "nodes_to_node"), show=False):
+            node1 = Node("node1")
+            self.assertTrue(node1.label,"Node\nnode1")
+
 
     def test_outformat_list(self):
         """Check that outformat render all the files from the list."""
@@ -148,20 +154,20 @@ class ClusterTest(unittest.TestCase):
 
     def test_with_global_context(self):
         with Diagram(name=os.path.join(self.name, "with_global_context"), show=False):
-            self.assertEqual(getcluster(), getdiagram())
+            self.assertIsNone(getcluster())
             with Cluster():
-                self.assertNotEqual(getcluster(), getdiagram())
-            self.assertEqual(getcluster(), getdiagram())
+                self.assertIsNotNone(getcluster())
+            self.assertIsNone(getcluster())
 
     def test_with_nested_cluster(self):
         with Diagram(name=os.path.join(self.name, "with_nested_cluster"), show=False):
-            self.assertEqual(getcluster(), getdiagram())
+            self.assertIsNone(getcluster())
             with Cluster() as c1:
                 self.assertEqual(c1, getcluster())
                 with Cluster() as c2:
                     self.assertEqual(c2, getcluster())
                 self.assertEqual(c1, getcluster())
-            self.assertEqual(getcluster(), getdiagram())
+            self.assertIsNone(getcluster())
 
     def test_node_not_in_diagram(self):
         # Node must be belong to a diagrams.

@@ -143,10 +143,10 @@ class Timestream(_Database):
 # Aliases
 
 DMS = DatabaseMigrationService
-DB = Database
 DocumentDB = DocumentdbMongodbCompatibility
 DAX = DynamodbDax
 DynamodbGSI = DynamodbGlobalSecondaryIndex
+DB = Database
 DDB = Dynamodb
 ElastiCache = Elasticache
 QLDB = QuantumLedgerDatabaseQldb

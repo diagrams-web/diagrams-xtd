@@ -16,8 +16,24 @@ class AnalyticsEngine(_Analytics):
     _icon = "analytics-engine.png"
 
 
+class Analytics(_Analytics):
+    _icon = "analytics.png"
+
+
 class Cognos(_Analytics):
     _icon = "cognos.png"
+
+
+class DataIntegration(_Analytics):
+    _icon = "data-integration.png"
+
+
+class DataRepositories(_Analytics):
+    _icon = "data-repositories.png"
+
+
+class DeviceAnalytics(_Analytics):
+    _icon = "device-analytics.png"
 
 
 class Match360(_Analytics):
@@ -26,6 +42,10 @@ class Match360(_Analytics):
 
 class Powerlytics(_Analytics):
     _icon = "powerlytics.png"
+
+
+class StreamingComputing(_Analytics):
+    _icon = "streaming-computing.png"
 
 
 class Streaming(_Analytics):

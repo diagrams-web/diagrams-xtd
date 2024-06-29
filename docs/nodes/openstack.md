@@ -3,361 +3,211 @@ id: openstack
 title: OpenStack
 ---
 
-Node classes list of openstack provider.
+Node classes list of the openstack provider.
 
 ## openstack.apiproxies
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/apiproxies/ec2api.png" alt="EC2API">
-  diagrams.openstack.apiproxies.EC2API
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/apiproxies/ec2api.png" alt="EC2API"></span>
-</div><br>
 
+<img width="30" src="/img/resources/openstack/apiproxies/ec2api.png" alt="EC2API" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.apiproxies.EC2API**
 
 ## openstack.applicationlifecycle
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/applicationlifecycle/freezer.png" alt="Freezer">
-  diagrams.openstack.applicationlifecycle.Freezer
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/applicationlifecycle/freezer.png" alt="Freezer"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/applicationlifecycle/masakari.png" alt="Masakari">
-  diagrams.openstack.applicationlifecycle.Masakari
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/applicationlifecycle/masakari.png" alt="Masakari"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/applicationlifecycle/freezer.png" alt="Freezer" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.applicationlifecycle.Freezer**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/applicationlifecycle/murano.png" alt="Murano">
-  diagrams.openstack.applicationlifecycle.Murano
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/applicationlifecycle/murano.png" alt="Murano"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/applicationlifecycle/masakari.png" alt="Masakari" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.applicationlifecycle.Masakari**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/applicationlifecycle/solum.png" alt="Solum">
-  diagrams.openstack.applicationlifecycle.Solum
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/applicationlifecycle/solum.png" alt="Solum"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/applicationlifecycle/murano.png" alt="Murano" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.applicationlifecycle.Murano**
 
+<img width="30" src="/img/resources/openstack/applicationlifecycle/solum.png" alt="Solum" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.applicationlifecycle.Solum**
 
 ## openstack.baremetal
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/baremetal/cyborg.png" alt="Cyborg">
-  diagrams.openstack.baremetal.Cyborg
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/baremetal/cyborg.png" alt="Cyborg"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/baremetal/ironic.png" alt="Ironic">
-  diagrams.openstack.baremetal.Ironic
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/baremetal/ironic.png" alt="Ironic"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/baremetal/cyborg.png" alt="Cyborg" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.baremetal.Cyborg**
 
+<img width="30" src="/img/resources/openstack/baremetal/ironic.png" alt="Ironic" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.baremetal.Ironic**
 
 ## openstack.billing
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/billing/cloudkitty.png" alt="Cloudkitty">
-  diagrams.openstack.billing.Cloudkitty, CloudKitty (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/billing/cloudkitty.png" alt="Cloudkitty"></span>
-</div><br>
 
+<img width="30" src="/img/resources/openstack/billing/cloudkitty.png" alt="Cloudkitty" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.billing.Cloudkitty**, **CloudKitty** (alias)
 
 ## openstack.compute
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/compute/nova.png" alt="Nova">
-  diagrams.openstack.compute.Nova
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/compute/nova.png" alt="Nova"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/compute/qinling.png" alt="Qinling">
-  diagrams.openstack.compute.Qinling
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/compute/qinling.png" alt="Qinling"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/compute/nova.png" alt="Nova" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.compute.Nova**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/compute/zun.png" alt="Zun">
-  diagrams.openstack.compute.Zun
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/compute/zun.png" alt="Zun"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/compute/qinling.png" alt="Qinling" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.compute.Qinling**
 
+<img width="30" src="/img/resources/openstack/compute/zun.png" alt="Zun" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.compute.Zun**
 
 ## openstack.containerservices
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/containerservices/kuryr.png" alt="Kuryr">
-  diagrams.openstack.containerservices.Kuryr
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/containerservices/kuryr.png" alt="Kuryr"></span>
-</div><br>
 
+<img width="30" src="/img/resources/openstack/containerservices/kuryr.png" alt="Kuryr" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.containerservices.Kuryr**
 
 ## openstack.deployment
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/deployment/ansible.png" alt="Ansible">
-  diagrams.openstack.deployment.Ansible
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/ansible.png" alt="Ansible"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/deployment/charms.png" alt="Charms">
-  diagrams.openstack.deployment.Charms
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/charms.png" alt="Charms"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/deployment/ansible.png" alt="Ansible" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.deployment.Ansible**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/deployment/chef.png" alt="Chef">
-  diagrams.openstack.deployment.Chef
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/chef.png" alt="Chef"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/deployment/charms.png" alt="Charms" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.deployment.Charms**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/deployment/helm.png" alt="Helm">
-  diagrams.openstack.deployment.Helm
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/helm.png" alt="Helm"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/deployment/chef.png" alt="Chef" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.deployment.Chef**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/deployment/kolla.png" alt="Kolla">
-  diagrams.openstack.deployment.Kolla, KollaAnsible (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/kolla.png" alt="Kolla"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/deployment/helm.png" alt="Helm" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.deployment.Helm**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/deployment/tripleo.png" alt="Tripleo">
-  diagrams.openstack.deployment.Tripleo, TripleO (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/deployment/tripleo.png" alt="Tripleo"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/deployment/kolla.png" alt="Kolla" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.deployment.Kolla**, **KollaAnsible** (alias)
 
+<img width="30" src="/img/resources/openstack/deployment/tripleo.png" alt="Tripleo" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.deployment.Tripleo**, **TripleO** (alias)
 
 ## openstack.frontend
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/frontend/horizon.png" alt="Horizon">
-  diagrams.openstack.frontend.Horizon
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/frontend/horizon.png" alt="Horizon"></span>
-</div><br>
 
+<img width="30" src="/img/resources/openstack/frontend/horizon.png" alt="Horizon" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.frontend.Horizon**
 
 ## openstack.monitoring
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/monitoring/monasca.png" alt="Monasca">
-  diagrams.openstack.monitoring.Monasca
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/monitoring/monasca.png" alt="Monasca"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/monitoring/telemetry.png" alt="Telemetry">
-  diagrams.openstack.monitoring.Telemetry
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/monitoring/telemetry.png" alt="Telemetry"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/monitoring/monasca.png" alt="Monasca" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.monitoring.Monasca**
 
+<img width="30" src="/img/resources/openstack/monitoring/telemetry.png" alt="Telemetry" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.monitoring.Telemetry**
 
 ## openstack.multiregion
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/multiregion/tricircle.png" alt="Tricircle">
-  diagrams.openstack.multiregion.Tricircle
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/multiregion/tricircle.png" alt="Tricircle"></span>
-</div><br>
 
+<img width="30" src="/img/resources/openstack/multiregion/tricircle.png" alt="Tricircle" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.multiregion.Tricircle**
 
 ## openstack.networking
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/networking/designate.png" alt="Designate">
-  diagrams.openstack.networking.Designate
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/networking/designate.png" alt="Designate"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/networking/neutron.png" alt="Neutron">
-  diagrams.openstack.networking.Neutron
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/networking/neutron.png" alt="Neutron"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/networking/designate.png" alt="Designate" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.networking.Designate**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/networking/octavia.png" alt="Octavia">
-  diagrams.openstack.networking.Octavia
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/networking/octavia.png" alt="Octavia"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/networking/neutron.png" alt="Neutron" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.networking.Neutron**
 
+<img width="30" src="/img/resources/openstack/networking/octavia.png" alt="Octavia" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.networking.Octavia**
 
 ## openstack.nfv
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/nfv/tacker.png" alt="Tacker">
-  diagrams.openstack.nfv.Tacker
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/nfv/tacker.png" alt="Tacker"></span>
-</div><br>
 
+<img width="30" src="/img/resources/openstack/nfv/tacker.png" alt="Tacker" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.nfv.Tacker**
 
 ## openstack.optimization
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/optimization/congress.png" alt="Congress">
-  diagrams.openstack.optimization.Congress
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/optimization/congress.png" alt="Congress"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/optimization/rally.png" alt="Rally">
-  diagrams.openstack.optimization.Rally
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/optimization/rally.png" alt="Rally"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/optimization/congress.png" alt="Congress" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.optimization.Congress**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/optimization/vitrage.png" alt="Vitrage">
-  diagrams.openstack.optimization.Vitrage
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/optimization/vitrage.png" alt="Vitrage"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/optimization/rally.png" alt="Rally" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.optimization.Rally**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/optimization/watcher.png" alt="Watcher">
-  diagrams.openstack.optimization.Watcher
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/optimization/watcher.png" alt="Watcher"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/optimization/vitrage.png" alt="Vitrage" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.optimization.Vitrage**
 
+<img width="30" src="/img/resources/openstack/optimization/watcher.png" alt="Watcher" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.optimization.Watcher**
 
 ## openstack.orchestration
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/orchestration/blazar.png" alt="Blazar">
-  diagrams.openstack.orchestration.Blazar
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/orchestration/blazar.png" alt="Blazar"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/orchestration/heat.png" alt="Heat">
-  diagrams.openstack.orchestration.Heat
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/orchestration/heat.png" alt="Heat"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/orchestration/blazar.png" alt="Blazar" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.orchestration.Blazar**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/orchestration/mistral.png" alt="Mistral">
-  diagrams.openstack.orchestration.Mistral
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/orchestration/mistral.png" alt="Mistral"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/orchestration/heat.png" alt="Heat" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.orchestration.Heat**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/orchestration/senlin.png" alt="Senlin">
-  diagrams.openstack.orchestration.Senlin
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/orchestration/senlin.png" alt="Senlin"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/orchestration/mistral.png" alt="Mistral" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.orchestration.Mistral**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/orchestration/zaqar.png" alt="Zaqar">
-  diagrams.openstack.orchestration.Zaqar
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/orchestration/zaqar.png" alt="Zaqar"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/orchestration/senlin.png" alt="Senlin" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.orchestration.Senlin**
 
+<img width="30" src="/img/resources/openstack/orchestration/zaqar.png" alt="Zaqar" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.orchestration.Zaqar**
 
 ## openstack.packaging
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/packaging/loci.png" alt="LOCI">
-  diagrams.openstack.packaging.LOCI
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/packaging/loci.png" alt="LOCI"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/packaging/puppet.png" alt="Puppet">
-  diagrams.openstack.packaging.Puppet
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/packaging/puppet.png" alt="Puppet"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/packaging/loci.png" alt="LOCI" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.packaging.LOCI**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/packaging/rpm.png" alt="RPM">
-  diagrams.openstack.packaging.RPM
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/packaging/rpm.png" alt="RPM"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/packaging/puppet.png" alt="Puppet" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.packaging.Puppet**
 
+<img width="30" src="/img/resources/openstack/packaging/rpm.png" alt="RPM" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.packaging.RPM**
 
 ## openstack.sharedservices
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/sharedservices/barbican.png" alt="Barbican">
-  diagrams.openstack.sharedservices.Barbican
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/sharedservices/barbican.png" alt="Barbican"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/sharedservices/glance.png" alt="Glance">
-  diagrams.openstack.sharedservices.Glance
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/sharedservices/glance.png" alt="Glance"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/sharedservices/barbican.png" alt="Barbican" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.sharedservices.Barbican**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/sharedservices/karbor.png" alt="Karbor">
-  diagrams.openstack.sharedservices.Karbor
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/sharedservices/karbor.png" alt="Karbor"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/sharedservices/glance.png" alt="Glance" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.sharedservices.Glance**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/sharedservices/keystone.png" alt="Keystone">
-  diagrams.openstack.sharedservices.Keystone
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/sharedservices/keystone.png" alt="Keystone"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/sharedservices/karbor.png" alt="Karbor" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.sharedservices.Karbor**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/sharedservices/searchlight.png" alt="Searchlight">
-  diagrams.openstack.sharedservices.Searchlight
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/sharedservices/searchlight.png" alt="Searchlight"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/sharedservices/keystone.png" alt="Keystone" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.sharedservices.Keystone**
 
+<img width="30" src="/img/resources/openstack/sharedservices/searchlight.png" alt="Searchlight" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.sharedservices.Searchlight**
 
 ## openstack.storage
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/storage/cinder.png" alt="Cinder">
-  diagrams.openstack.storage.Cinder
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/storage/cinder.png" alt="Cinder"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/storage/manila.png" alt="Manila">
-  diagrams.openstack.storage.Manila
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/storage/manila.png" alt="Manila"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/storage/cinder.png" alt="Cinder" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.storage.Cinder**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/storage/swift.png" alt="Swift">
-  diagrams.openstack.storage.Swift
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/storage/swift.png" alt="Swift"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/storage/manila.png" alt="Manila" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.storage.Manila**
 
+<img width="30" src="/img/resources/openstack/storage/swift.png" alt="Swift" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.storage.Swift**
 
 ## openstack.user
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/user/openstackclient.png" alt="Openstackclient">
-  diagrams.openstack.user.Openstackclient, OpenStackClient (alias)
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/user/openstackclient.png" alt="Openstackclient"></span>
-</div><br>
 
+<img width="30" src="/img/resources/openstack/user/openstackclient.png" alt="Openstackclient" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.user.Openstackclient**, **OpenStackClient** (alias)
 
 ## openstack.workloadprovisioning
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/workloadprovisioning/magnum.png" alt="Magnum">
-  diagrams.openstack.workloadprovisioning.Magnum
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/workloadprovisioning/magnum.png" alt="Magnum"></span>
-</div><br>
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/workloadprovisioning/sahara.png" alt="Sahara">
-  diagrams.openstack.workloadprovisioning.Sahara
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/workloadprovisioning/sahara.png" alt="Sahara"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/workloadprovisioning/magnum.png" alt="Magnum" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.workloadprovisioning.Magnum**
 
-<div class="tooltip">
-  <img src="/img/resources/openstack/workloadprovisioning/trove.png" alt="Trove">
-  diagrams.openstack.workloadprovisioning.Trove
-  <span class="tooltiptext"><img width="256" src="/img/resources/openstack/workloadprovisioning/trove.png" alt="Trove"></span>
-</div><br>
+<img width="30" src="/img/resources/openstack/workloadprovisioning/sahara.png" alt="Sahara" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.workloadprovisioning.Sahara**
 
+<img width="30" src="/img/resources/openstack/workloadprovisioning/trove.png" alt="Trove" style="float: left; padding-right: 5px;" >
+**diagrams.openstack.workloadprovisioning.Trove**
