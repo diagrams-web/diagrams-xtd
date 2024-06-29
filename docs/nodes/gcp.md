@@ -77,6 +77,12 @@ Node classes list of gcp provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/gcp/api/apigee.png" alt="Apigee">
+  diagrams.gcp.api.Apigee
+  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/api/apigee.png" alt="Apigee"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/gcp/api/endpoints.png" alt="Endpoints">
   diagrams.gcp.api.Endpoints
   <span class="tooltiptext"><img width="256" src="/img/resources/gcp/api/endpoints.png" alt="Endpoints"></span>
@@ -519,6 +525,12 @@ Node classes list of gcp provider.
 
 
 ## gcp.operations
+
+<div class="tooltip">
+  <img src="/img/resources/gcp/operations/logging.png" alt="Logging">
+  diagrams.gcp.operations.Logging
+  <span class="tooltiptext"><img width="256" src="/img/resources/gcp/operations/logging.png" alt="Logging"></span>
+</div><br>
 
 <div class="tooltip">
   <img src="/img/resources/gcp/operations/monitoring.png" alt="Monitoring">

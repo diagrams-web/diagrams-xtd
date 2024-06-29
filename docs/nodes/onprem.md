@@ -118,6 +118,12 @@ Node classes list of onprem provider.
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/analytics/tableau.png" alt="Tableau"></span>
 </div><br>
 
+<div class="tooltip">
+  <img src="/img/resources/onprem/analytics/trino.png" alt="Trino">
+  diagrams.onprem.analytics.Trino
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/analytics/trino.png" alt="Trino"></span>
+</div><br>
+
 
 ## onprem.auth
 
@@ -506,6 +512,12 @@ Node classes list of onprem provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/onprem/iac/pulumi.png" alt="Pulumi">
+  diagrams.onprem.iac.Pulumi
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/iac/pulumi.png" alt="Pulumi"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/onprem/iac/puppet.png" alt="Puppet">
   diagrams.onprem.iac.Puppet
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/iac/puppet.png" alt="Puppet"></span>
@@ -587,7 +599,22 @@ Node classes list of onprem provider.
 </div><br>
 
 
+## onprem.messaging
+
+<div class="tooltip">
+  <img src="/img/resources/onprem/messaging/centrifugo.png" alt="Centrifugo">
+  diagrams.onprem.messaging.Centrifugo
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/messaging/centrifugo.png" alt="Centrifugo"></span>
+</div><br>
+
+
 ## onprem.mlops
+
+<div class="tooltip">
+  <img src="/img/resources/onprem/mlops/mlflow.png" alt="Mlflow">
+  diagrams.onprem.mlops.Mlflow
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/mlops/mlflow.png" alt="Mlflow"></span>
+</div><br>
 
 <div class="tooltip">
   <img src="/img/resources/onprem/mlops/polyaxon.png" alt="Polyaxon">
@@ -626,6 +653,12 @@ Node classes list of onprem provider.
   <img src="/img/resources/onprem/monitoring/humio.png" alt="Humio">
   diagrams.onprem.monitoring.Humio
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/monitoring/humio.png" alt="Humio"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/onprem/monitoring/mimir.png" alt="Mimir">
+  diagrams.onprem.monitoring.Mimir
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/monitoring/mimir.png" alt="Mimir"></span>
 </div><br>
 
 <div class="tooltip">
@@ -854,6 +887,12 @@ Node classes list of onprem provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/onprem/network/yarp.png" alt="Yarp">
+  diagrams.onprem.network.Yarp
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/network/yarp.png" alt="Yarp"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/onprem/network/zookeeper.png" alt="Zookeeper">
   diagrams.onprem.network.Zookeeper
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/network/zookeeper.png" alt="Zookeeper"></span>
@@ -884,6 +923,12 @@ Node classes list of onprem provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/onprem/queue/emqx.png" alt="Emqx">
+  diagrams.onprem.queue.Emqx, EMQX (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/queue/emqx.png" alt="Emqx"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/onprem/queue/kafka.png" alt="Kafka">
   diagrams.onprem.queue.Kafka
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/queue/kafka.png" alt="Kafka"></span>
@@ -905,6 +950,21 @@ Node classes list of onprem provider.
   <img src="/img/resources/onprem/queue/zeromq.png" alt="Zeromq">
   diagrams.onprem.queue.Zeromq, ZeroMQ (alias)
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/queue/zeromq.png" alt="Zeromq"></span>
+</div><br>
+
+
+## onprem.registry
+
+<div class="tooltip">
+  <img src="/img/resources/onprem/registry/harbor.png" alt="Harbor">
+  diagrams.onprem.registry.Harbor
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/registry/harbor.png" alt="Harbor"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/onprem/registry/jfrog.png" alt="Jfrog">
+  diagrams.onprem.registry.Jfrog
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/registry/jfrog.png" alt="Jfrog"></span>
 </div><br>
 
 
@@ -958,6 +1018,12 @@ Node classes list of onprem provider.
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/storage/glusterfs.png" alt="Glusterfs"></span>
 </div><br>
 
+<div class="tooltip">
+  <img src="/img/resources/onprem/storage/portworx.png" alt="Portworx">
+  diagrams.onprem.storage.Portworx
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/storage/portworx.png" alt="Portworx"></span>
+</div><br>
+
 
 ## onprem.tracing
 
@@ -965,6 +1031,12 @@ Node classes list of onprem provider.
   <img src="/img/resources/onprem/tracing/jaeger.png" alt="Jaeger">
   diagrams.onprem.tracing.Jaeger
   <span class="tooltiptext"><img width="256" src="/img/resources/onprem/tracing/jaeger.png" alt="Jaeger"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/onprem/tracing/tempo.png" alt="Tempo">
+  diagrams.onprem.tracing.Tempo
+  <span class="tooltiptext"><img width="256" src="/img/resources/onprem/tracing/tempo.png" alt="Tempo"></span>
 </div><br>
 
 

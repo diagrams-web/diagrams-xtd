@@ -197,6 +197,12 @@ Node classes list of programming provider.
 </div><br>
 
 <div class="tooltip">
+  <img src="/img/resources/programming/framework/graphql.png" alt="Graphql">
+  diagrams.programming.framework.Graphql, GraphQL (alias)
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/graphql.png" alt="Graphql"></span>
+</div><br>
+
+<div class="tooltip">
   <img src="/img/resources/programming/framework/laravel.png" alt="Laravel">
   diagrams.programming.framework.Laravel
   <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/laravel.png" alt="Laravel"></span>
@@ -206,6 +212,12 @@ Node classes list of programming provider.
   <img src="/img/resources/programming/framework/micronaut.png" alt="Micronaut">
   diagrams.programming.framework.Micronaut
   <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/micronaut.png" alt="Micronaut"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/quarkus.png" alt="Quarkus">
+  diagrams.programming.framework.Quarkus
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/quarkus.png" alt="Quarkus"></span>
 </div><br>
 
 <div class="tooltip">
@@ -230,6 +242,12 @@ Node classes list of programming provider.
   <img src="/img/resources/programming/framework/starlette.png" alt="Starlette">
   diagrams.programming.framework.Starlette
   <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/starlette.png" alt="Starlette"></span>
+</div><br>
+
+<div class="tooltip">
+  <img src="/img/resources/programming/framework/svelte.png" alt="Svelte">
+  diagrams.programming.framework.Svelte
+  <span class="tooltiptext"><img width="256" src="/img/resources/programming/framework/svelte.png" alt="Svelte"></span>
 </div><br>
 
 <div class="tooltip">

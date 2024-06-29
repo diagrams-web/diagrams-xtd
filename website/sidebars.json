@@ -26,6 +26,7 @@
       "nodes/generic",
       "nodes/programming",
       "nodes/saas",
+      "nodes/c4",
       "nodes/custom"
     ]
   }

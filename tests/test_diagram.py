@@ -120,6 +120,11 @@ class DiagramTest(unittest.TestCase):
         # clean the dot file as it only generated here
         os.remove(self.name + ".dot")
 
+    def test_autolabel(self):
+        with Diagram(name=os.path.join(self.name, "nodes_to_node"), show=False):
+            node1 = Node("node1")
+            self.assertTrue(node1.label,"Node\nnode1")
+
 
 class ClusterTest(unittest.TestCase):
     def setUp(self):

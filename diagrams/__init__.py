@@ -3,7 +3,7 @@ import html
 import os
 import uuid
 from pathlib import Path
-from typing import List, Union, Dict, Sequence
+from typing import List, Union, Dict, Sequence, Optional
 
 from graphviz import Digraph
 
@@ -16,22 +16,22 @@ __diagram = contextvars.ContextVar("diagrams")
 __cluster = contextvars.ContextVar("cluster")
 
 
-def getdiagram():
+def getdiagram() -> "Diagram":
     return __diagram.get()
 
 
-def setdiagram(diagram):
+def setdiagram(diagram: "Diagram"):
     __diagram.set(diagram)
 
 
-def getcluster():
+def getcluster() -> "Cluster":
     try:
         return __cluster.get()
     except LookupError:
         return None
 
 
-def setcluster(cluster):
+def setcluster(cluster: "Cluster"):
     __cluster.set(cluster)
 
 
@@ -94,7 +94,7 @@ class _Cluster:
             for subgraph in self.subgraphs:
                 yield from subgraph.nodes_iter
 
-    def _validate_direction(self, direction: str):
+    def _validate_direction(self, direction: str) -> bool:
         return direction.upper() in self.__directions
 
     def __str__(self) -> str:
@@ -146,10 +146,12 @@ class Diagram(_Cluster):
         direction: str = "LR",
         curvestyle: str = "ortho",
         outformat: str = "png",
+        autolabel: bool = False,
         show: bool = True,
-        graph_attr: dict = {},
-        node_attr: dict = {},
-        edge_attr: dict = {},
+        strict: bool = False,
+        graph_attr: Optional[dict] = None,
+        node_attr: Optional[dict] = None,
+        edge_attr: Optional[dict] = None,
     ):
         """Diagram represents a global diagrams context.
 
@@ -160,11 +162,19 @@ class Diagram(_Cluster):
         :param direction: Data flow direction. Default is 'left to right'.
         :param curvestyle: Curve bending style. One of "ortho" or "curved".
         :param outformat: Output file format. Default is 'png'.
+        :param autolabel: Auto generate node labels from node names.
         :param show: Open generated image after save if true, just only save otherwise.
         :param graph_attr: Provide graph_attr dot config attributes.
         :param node_attr: Provide node_attr dot config attributes.
         :param edge_attr: Provide edge_attr dot config attributes.
+        :param strict: Rendering should merge multi-edges.
         """
+        if graph_attr is None:
+            graph_attr = {}
+        if node_attr is None:
+            node_attr = {}
+        if edge_attr is None:
+            edge_attr = {}
 
         self.name = name
         if not name and not filename:
@@ -173,7 +183,7 @@ class Diagram(_Cluster):
             filename = "_".join(self.name.split()).lower()
         self.filename = filename
 
-        super().__init__(self.name, filename=self.filename)
+        super().__init__(self.name, filename=self.filename, strict=strict)
         self.edges = {}
 
         # Set attributes.
@@ -209,6 +219,7 @@ class Diagram(_Cluster):
         self.dot.edge_attr.update(edge_attr)
 
         self.show = show
+        self.autolabel = autolabel
 
     def __enter__(self):
         setdiagram(self)
@@ -294,6 +305,7 @@ class Node(_Cluster):
         direction: str = None,
         icon: object = None,
         icon_size: int = None,
+        nodeid: str = None,
         **attrs: Dict
     ):
         """Node represents a system component.
@@ -303,14 +315,26 @@ class Node(_Cluster):
         :param icon: Custom icon for tihs cluster. Must be a node class or reference.
         :param icon_size: The icon size when used as a Cluster. Default is 30.
         """
-        # Generates an ID for identifying a node.
-        self._id = self._rand_id()
+        # Generates an ID for identifying a node, unless specified.
+        self._id = nodeid or self._rand_id()
         if isinstance(label, str):
             self.label = label
         elif isinstance(label, Sequence):
             self.label = "\n".join(label)
         else:
             self.label = str(label)
+
+        # Node must be belong to a diagrams.
+        self._diagram = getdiagram()
+        if self._diagram is None:
+            raise EnvironmentError("Global diagrams context not set up")
+
+        if self._diagram.autolabel:
+            prefix = self.__class__.__name__
+            if self.label:
+                self.label = prefix + "\n" + self.label
+            else:
+                self.label = prefix
 
         super().__init__()
 
@@ -402,7 +426,7 @@ class Node(_Cluster):
             return other
 
     def __rsub__(self, other: Union[List["Node"], List["Edge"]]):
-        """ Called for [Nodes] and [Edges] - Self because list don't have __sub__ operators. """
+        """Called for [Nodes] and [Edges] - Self because list don't have __sub__ operators."""
         for o in other:
             if isinstance(o, Edge):
                 o.connect(self)
