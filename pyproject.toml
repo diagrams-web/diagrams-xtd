@@ -17,9 +17,9 @@ jinja2 = ">=2.10,<4.0"
 [tool.poetry.dev-dependencies]
 pytest = "^8.2"
 pylint = "^3.2"
-rope = "^1.13.0"
+rope = "^1.13"
 isort = "^5.13"
-black = "^24.4.1"
+black = "^24.4"
 
 [tool.black]
 line-length=120
