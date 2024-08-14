@@ -1,6 +1,6 @@
 #!/bin/bash
 
-app_root_dir="diagrams"
+app_root_dir="diagrams_xtd"
 
 # NOTE: azure icon set is not latest version
 providers=("onprem" "aws" "azure" "digitalocean" "gcp" "ibm" "firebase" "k8s" "alibabacloud" "oci" "programming" "saas" "elastic" "generic" "openstack" "outscale")

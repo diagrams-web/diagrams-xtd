@@ -19,8 +19,8 @@ For this example we use the following architecture:
 The content of custom_local.py file:
 
 ```python
-from diagrams import Diagram, Cluster
-from diagrams.custom import Custom
+from diagrams_xtd import Diagram, Cluster
+from diagrams_xtd.custom import Custom
 
 
 with Diagram("Custom with local icons\n Can be downloaded here: \nhttps://creativecommons.org/about/downloads/", show=False, filename="custom_local", direction="LR"):
@@ -51,8 +51,8 @@ It will generate the following diagram:
 If your icons are hosted and can be accessed when you generate the diagrams, you can
 
 ```python
-from diagrams import Diagram, Cluster
-from diagrams.custom import Custom
+from diagrams_xtd import Diagram, Cluster
+from diagrams_xtd.custom import Custom
 from urllib.request import urlretrieve
 
 with Diagram("Custom with remote icons", show=False, filename="custom_remote", direction="LR"):

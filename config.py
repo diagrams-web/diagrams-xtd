@@ -4,7 +4,7 @@
 #      Application      #
 #########################
 
-APP_NAME = "diagrams"
+APP_NAME = "diagrams_xtd"
 
 DIR_DOC_ROOT = "docs/nodes"
 DIR_APP_ROOT = "diagrams"

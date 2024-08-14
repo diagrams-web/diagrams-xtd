@@ -1,6 +1,6 @@
 import unittest
 import config
-from diagrams import cli
+from diagrams_xtd import cli
 
 
 class CliTest(unittest.TestCase):

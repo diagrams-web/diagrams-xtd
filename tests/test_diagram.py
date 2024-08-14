@@ -3,8 +3,8 @@ import shutil
 import unittest
 import pathlib
 
-from diagrams import Cluster, Diagram, Edge, Node
-from diagrams import getcluster, getdiagram, setcluster, setdiagram
+from diagrams_xtd import Cluster, Diagram, Edge, Node
+from diagrams_xtd import getcluster, getdiagram, setcluster, setdiagram
 
 
 class DiagramTest(unittest.TestCase):

@@ -12,10 +12,10 @@ Cluster represents a local cluster context.
 You can create a cluster context with Cluster class. And you can also connect the nodes in a cluster to other nodes outside a cluster.
 
 ```python
-from diagrams import Cluster, Diagram
-from diagrams.aws.compute import ECS
-from diagrams.aws.database import RDS
-from diagrams.aws.network import Route53
+from diagrams_xtd import Cluster, Diagram
+from diagrams_xtd.aws.compute import ECS
+from diagrams_xtd.aws.database import RDS
+from diagrams_xtd.aws.network import Route53
 
 with Diagram("Simple Web Service with DB Cluster", show=False):
     dns = Route53("dns")
@@ -36,11 +36,11 @@ with Diagram("Simple Web Service with DB Cluster", show=False):
 Nested clustering is also possible.
 
 ```python
-from diagrams import Cluster, Diagram
-from diagrams.aws.compute import ECS, EKS, Lambda
-from diagrams.aws.database import Redshift
-from diagrams.aws.integration import SQS
-from diagrams.aws.storage import S3
+from diagrams_xtd import Cluster, Diagram
+from diagrams_xtd.aws.compute import ECS, EKS, Lambda
+from diagrams_xtd.aws.database import Redshift
+from diagrams_xtd.aws.integration import SQS
+from diagrams_xtd.aws.storage import S3
 
 with Diagram("Event Processing", show=False):
     source = EKS("k8s source")
@@ -78,10 +78,10 @@ It's also possible to use the node in the `with` context adding `cluster=True` t
 make it behave like a cluster.
 
 ```python
-from diagrams import Cluster, Diagram
-from diagrams.aws.compute import ECS
-from diagrams.aws.database import RDS, Aurora
-from diagrams.aws.network import Route53, VPC
+from diagrams_xtd import Cluster, Diagram
+from diagrams_xtd.aws.compute import ECS
+from diagrams_xtd.aws.database import RDS, Aurora
+from diagrams_xtd.aws.network import Route53, VPC
 
 with Diagram("Simple Web Service with DB Cluster Icon", show=False):
     dns = Route53("dns")
@@ -105,12 +105,12 @@ with Diagram("Simple Web Service with DB Cluster Icon", show=False):
 Another example with already defined Cluster with Node icon for AWS
 
 ```python
-from diagrams import Diagram, Edge
-from diagrams.aws.cluster import *
-from diagrams.aws.compute import EC2
-from diagrams.onprem.container import Docker
-from diagrams.onprem.cluster import *
-from diagrams.aws.network import ELB
+from diagrams_xtd import Diagram, Edge
+from diagrams_xtd.aws.cluster import *
+from diagrams_xtd.aws.compute import EC2
+from diagrams_xtd.onprem.container import Docker
+from diagrams_xtd.onprem.cluster import *
+from diagrams_xtd.aws.network import ELB
 
 with Diagram(name="AWS cluster with icon", direction="TB", show=False):
     with Cluster("AWS"):
@@ -138,12 +138,12 @@ with Diagram(name="AWS cluster with icon", direction="TB", show=False):
 And for Azure
 
 ```python
-from diagrams import Diagram, Edge
-from diagrams.azure.cluster import *
-from diagrams.azure.compute import VM
-from diagrams.onprem.container import Docker
-from diagrams.onprem.cluster import *
-from diagrams.azure.network import LoadBalancers
+from diagrams_xtd import Diagram, Edge
+from diagrams_xtd.azure.cluster import *
+from diagrams_xtd.azure.compute import VM
+from diagrams_xtd.onprem.container import Docker
+from diagrams_xtd.onprem.cluster import *
+from diagrams_xtd.azure.network import LoadBalancers
 
 with Diagram(name="Azure cluster with icon", direction="TB", show=False):
     with Cluster("Azure"):
