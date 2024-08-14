@@ -23,7 +23,7 @@ pytest = "^8.2"
 pylint = "^3.2"
 rope = "^1.13"
 isort = "^5.13"
-black = "^24.4"
+black = "^24.8"
 
 [tool.black]
 line-length=120
