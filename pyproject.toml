@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "diagrams"
-version = "0.23.4.6" # last digit is only for the ext where x.x.x is for the diagrams version
+name = "diagrams_xtd"
+version = "0.23.4.14" # last digit is only for the ext where x.x.x is for the diagrams version
 description = "Extended version of diagrams"
 license = "MIT"
 authors = ["Diagrams-web <no_spam@nowhere.mail>"]
@@ -10,20 +10,20 @@ repository = "https://github.com/diagrams-web/diagrams-xtd"
 include = ["resources/**/*"]
 
 [tool.poetry.scripts]
-diagrams="diagrams.cli:main"
+diagrams="diagrams_xtd.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
 graphviz = ">=0.13.2,<0.21.0"
 jinja2 = ">=2.10,<4.0"
-typed-ast = "^1.5.4"
+typed-ast = {version="^1.5.5", markers="python_version<'3.8'"}
 
 [tool.poetry.dev-dependencies]
-pytest = "^7.3"
-pylint = "^2.7"
-rope = "^0.14.0"
-isort = "^4.3"
-black = "^22.12.0"
+pytest = "^8.2"
+pylint = "^3.2"
+rope = "^1.13"
+isort = "^5.13"
+black = "^24.4"
 
 [tool.black]
-line-length = 120
+line-length=120

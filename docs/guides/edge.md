@@ -12,15 +12,15 @@ Edge is an object representing a connection between Nodes with some additional p
 An edge object contains three attributes: **label**, **color** and **style** which mirror corresponding graphviz edge attributes.
 
 ```python
-from diagrams import Cluster, Diagram, Edge
-from diagrams.onprem.analytics import Spark
-from diagrams.onprem.compute import Server
-from diagrams.onprem.database import PostgreSQL
-from diagrams.onprem.inmemory import Redis
-from diagrams.onprem.aggregator import Fluentd
-from diagrams.onprem.monitoring import Grafana, Prometheus
-from diagrams.onprem.network import Nginx
-from diagrams.onprem.queue import Kafka
+from diagrams_xtd import Cluster, Diagram, Edge
+from diagrams_xtd.onprem.analytics import Spark
+from diagrams_xtd.onprem.compute import Server
+from diagrams_xtd.onprem.database import PostgreSQL
+from diagrams_xtd.onprem.inmemory import Redis
+from diagrams_xtd.onprem.aggregator import Fluentd
+from diagrams_xtd.onprem.monitoring import Grafana, Prometheus
+from diagrams_xtd.onprem.network import Nginx
+from diagrams_xtd.onprem.queue import Kafka
 
 with Diagram(name="Advanced Web Service with On-Premise (colored)", show=False):
     ingress = Nginx("ingress")
@@ -77,15 +77,15 @@ One approach is to get creative with the Node class to create blank placeholders
 Compare the output below to the example output above .
 
 ```python
-from diagrams import Cluster, Diagram, Node
-from diagrams.onprem.analytics import Spark
-from diagrams.onprem.compute import Server
-from diagrams.onprem.database import PostgreSQL
-from diagrams.onprem.inmemory import Redis
-from diagrams.onprem.aggregator import Fluentd
-from diagrams.onprem.monitoring import Grafana, Prometheus
-from diagrams.onprem.network import Nginx
-from diagrams.onprem.queue import Kafka
+from diagrams_xtd import Cluster, Diagram, Node
+from diagrams_xtd.onprem.analytics import Spark
+from diagrams_xtd.onprem.compute import Server
+from diagrams_xtd.onprem.database import PostgreSQL
+from diagrams_xtd.onprem.inmemory import Redis
+from diagrams_xtd.onprem.aggregator import Fluentd
+from diagrams_xtd.onprem.monitoring import Grafana, Prometheus
+from diagrams_xtd.onprem.network import Nginx
+from diagrams_xtd.onprem.queue import Kafka
 
 with Diagram("\nAdvanced Web Service with On-Premise Less edges", show=False) as diag:
     ingress = Nginx("ingress")
@@ -140,15 +140,15 @@ For more information see:
 
 
 ```python
-from diagrams import Cluster, Diagram, Edge, Node
-from diagrams.onprem.analytics import Spark
-from diagrams.onprem.compute import Server
-from diagrams.onprem.database import PostgreSQL
-from diagrams.onprem.inmemory import Redis
-from diagrams.onprem.aggregator import Fluentd
-from diagrams.onprem.monitoring import Grafana, Prometheus
-from diagrams.onprem.network import Nginx
-from diagrams.onprem.queue import Kafka
+from diagrams_xtd import Cluster, Diagram, Edge, Node
+from diagrams_xtd.onprem.analytics import Spark
+from diagrams_xtd.onprem.compute import Server
+from diagrams_xtd.onprem.database import PostgreSQL
+from diagrams_xtd.onprem.inmemory import Redis
+from diagrams_xtd.onprem.aggregator import Fluentd
+from diagrams_xtd.onprem.monitoring import Grafana, Prometheus
+from diagrams_xtd.onprem.network import Nginx
+from diagrams_xtd.onprem.queue import Kafka
 
 graph_attr = {
     "concentrate": "true",

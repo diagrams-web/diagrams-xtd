@@ -1,0 +1,27 @@
+name: Upload Python Package
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+        id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+          cache: "pip"
+      - name: Install poetry
+        run: curl -sSL https://install.python-poetry.org | python3 -
+      - name: Install dependencies
+        run: |
+          poetry install
+      - name: Build and Publish package
+        run: |
+          poetry config pypi-token.pypi ${{ secrets.your-api-token }}
+          poetry publish --build

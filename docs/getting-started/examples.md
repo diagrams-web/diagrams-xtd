@@ -8,10 +8,10 @@ Here are some more examples.
 ## Grouped Workers on AWS
 
 ```python
-from diagrams import Diagram
-from diagrams.aws.compute import EC2
-from diagrams.aws.database import RDS
-from diagrams.aws.network import ELB
+from diagrams_xtd import Diagram
+from diagrams_xtd.aws.compute import EC2
+from diagrams_xtd.aws.database import RDS
+from diagrams_xtd.aws.network import ELB
 
 with Diagram("Grouped Workers", show=False, direction="TB"):
     ELB("lb") >> [EC2("worker1"),
@@ -26,11 +26,11 @@ with Diagram("Grouped Workers", show=False, direction="TB"):
 ## Clustered Web Services
 
 ```python
-from diagrams import Cluster, Diagram
-from diagrams.aws.compute import ECS
-from diagrams.aws.database import ElastiCache, RDS
-from diagrams.aws.network import ELB
-from diagrams.aws.network import Route53
+from diagrams_xtd import Cluster, Diagram
+from diagrams_xtd.aws.compute import ECS
+from diagrams_xtd.aws.database import ElastiCache, RDS
+from diagrams_xtd.aws.network import ELB
+from diagrams_xtd.aws.network import Route53
 
 with Diagram("Clustered Web Services", show=False):
     dns = Route53("dns")
@@ -57,11 +57,11 @@ with Diagram("Clustered Web Services", show=False):
 ## Event Processing on AWS
 
 ```python
-from diagrams import Cluster, Diagram
-from diagrams.aws.compute import ECS, EKS, Lambda
-from diagrams.aws.database import Redshift
-from diagrams.aws.integration import SQS
-from diagrams.aws.storage import S3
+from diagrams_xtd import Cluster, Diagram
+from diagrams_xtd.aws.compute import ECS, EKS, Lambda
+from diagrams_xtd.aws.database import Redshift
+from diagrams_xtd.aws.integration import SQS
+from diagrams_xtd.aws.storage import S3
 
 with Diagram("Event Processing", show=False):
     source = EKS("k8s source")
@@ -92,12 +92,12 @@ with Diagram("Event Processing", show=False):
 ## Message Collecting System on GCP
 
 ```python
-from diagrams import Cluster, Diagram
-from diagrams.gcp.analytics import BigQuery, Dataflow, PubSub
-from diagrams.gcp.compute import AppEngine, Functions
-from diagrams.gcp.database import BigTable
-from diagrams.gcp.iot import IotCore
-from diagrams.gcp.storage import GCS
+from diagrams_xtd import Cluster, Diagram
+from diagrams_xtd.gcp.analytics import BigQuery, Dataflow, PubSub
+from diagrams_xtd.gcp.compute import AppEngine, Functions
+from diagrams_xtd.gcp.database import BigTable
+from diagrams_xtd.gcp.iot import IotCore
+from diagrams_xtd.gcp.storage import GCS
 
 with Diagram("Message Collecting", show=False):
     pubsub = PubSub("pubsub")
@@ -130,10 +130,10 @@ with Diagram("Message Collecting", show=False):
 ## Exposed Pod with 3 Replicas on Kubernetes
 
 ```python
-from diagrams import Diagram
-from diagrams.k8s.clusterconfig import HPA
-from diagrams.k8s.compute import Deployment, Pod, ReplicaSet
-from diagrams.k8s.network import Ingress, Service
+from diagrams_xtd import Diagram
+from diagrams_xtd.k8s.clusterconfig import HPA
+from diagrams_xtd.k8s.compute import Deployment, Pod, ReplicaSet
+from diagrams_xtd.k8s.network import Ingress, Service
 
 with Diagram("Exposed Pod with 3 Replicas", show=False):
     net = Ingress("domain.com") >> Service("svc")
@@ -148,10 +148,10 @@ with Diagram("Exposed Pod with 3 Replicas", show=False):
 ## Stateful Architecture on Kubernetes
 
 ```python
-from diagrams import Cluster, Diagram
-from diagrams.k8s.compute import Pod, StatefulSet
-from diagrams.k8s.network import Service
-from diagrams.k8s.storage import PV, PVC, StorageClass
+from diagrams_xtd import Cluster, Diagram
+from diagrams_xtd.k8s.compute import Pod, StatefulSet
+from diagrams_xtd.k8s.network import Service
+from diagrams_xtd.k8s.storage import PV, PVC, StorageClass
 
 with Diagram("Stateful Architecture", show=False):
     with Cluster("Apps"):
@@ -173,15 +173,15 @@ with Diagram("Stateful Architecture", show=False):
 ## Advanced Web Service with On-Premise
 
 ```python
-from diagrams import Cluster, Diagram
-from diagrams.onprem.analytics import Spark
-from diagrams.onprem.compute import Server
-from diagrams.onprem.database import PostgreSQL
-from diagrams.onprem.inmemory import Redis
-from diagrams.onprem.aggregator import Fluentd
-from diagrams.onprem.monitoring import Grafana, Prometheus
-from diagrams.onprem.network import Nginx
-from diagrams.onprem.queue import Kafka
+from diagrams_xtd import Cluster, Diagram
+from diagrams_xtd.onprem.analytics import Spark
+from diagrams_xtd.onprem.compute import Server
+from diagrams_xtd.onprem.database import PostgreSQL
+from diagrams_xtd.onprem.inmemory import Redis
+from diagrams_xtd.onprem.aggregator import Fluentd
+from diagrams_xtd.onprem.monitoring import Grafana, Prometheus
+from diagrams_xtd.onprem.network import Nginx
+from diagrams_xtd.onprem.queue import Kafka
 
 with Diagram("Advanced Web Service with On-Premise", show=False):
     ingress = Nginx("ingress")
@@ -216,15 +216,15 @@ with Diagram("Advanced Web Service with On-Premise", show=False):
 ## Advanced Web Service with On-Premise (with colors and labels)
 
 ```python
-from diagrams import Cluster, Diagram, Edge
-from diagrams.onprem.analytics import Spark
-from diagrams.onprem.compute import Server
-from diagrams.onprem.database import PostgreSQL
-from diagrams.onprem.inmemory import Redis
-from diagrams.onprem.aggregator import Fluentd
-from diagrams.onprem.monitoring import Grafana, Prometheus
-from diagrams.onprem.network import Nginx
-from diagrams.onprem.queue import Kafka
+from diagrams_xtd import Cluster, Diagram, Edge
+from diagrams_xtd.onprem.analytics import Spark
+from diagrams_xtd.onprem.compute import Server
+from diagrams_xtd.onprem.database import PostgreSQL
+from diagrams_xtd.onprem.inmemory import Redis
+from diagrams_xtd.onprem.aggregator import Fluentd
+from diagrams_xtd.onprem.monitoring import Grafana, Prometheus
+from diagrams_xtd.onprem.network import Nginx
+from diagrams_xtd.onprem.queue import Kafka
 
 with Diagram(name="Advanced Web Service with On-Premise (colored)", show=False):
     ingress = Nginx("ingress")
@@ -261,10 +261,10 @@ with Diagram(name="Advanced Web Service with On-Premise (colored)", show=False):
 ```python
 from urllib.request import urlretrieve
 
-from diagrams import Cluster, Diagram
-from diagrams.aws.database import Aurora
-from diagrams.custom import Custom
-from diagrams.k8s.compute import Pod
+from diagrams_xtd import Cluster, Diagram
+from diagrams_xtd.aws.database import Aurora
+from diagrams_xtd.custom import Custom
+from diagrams_xtd.k8s.compute import Pod
 
 # Download an image to be used into a Custom Node class
 rabbitmq_url = "https://jpadilla.github.io/rabbitmqapp/assets/img/icon.png"

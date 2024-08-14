@@ -27,10 +27,10 @@ $ pipx install diagrams
 
 ```python
 # diagram.py
-from diagrams import Diagram
-from diagrams.aws.compute import EC2
-from diagrams.aws.database import RDS
-from diagrams.aws.network import ELB
+from diagrams_xtd import Diagram
+from diagrams_xtd.aws.compute import EC2
+from diagrams_xtd.aws.database import RDS
+from diagrams_xtd.aws.network import ELB
 
 with Diagram("Web Service", show=False):
     ELB("lb") >> EC2("web") >> RDS("userdb")
