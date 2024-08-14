@@ -74,3 +74,12 @@ To be able to develop and run diagrams locally on you Mac device, you should hav
     ```
 
 7. If the unit tests and the bash script `autogen.sh` is working correctly, then your system is now ready for development.
+
+
+## Publish
+
+Keep track on the how to for future release:
+
+- update the version in setup.py as poetry raise lot of errors when installing the package.
+- run python3 setup.py sdist
+- twine upload --verbose --repository pypi dist/diagrams_xtd-a.b.c.xx.tar.gz
