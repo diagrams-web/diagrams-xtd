@@ -17,7 +17,7 @@ def doc_root_dir() -> str:
 
 
 def resource_dir(pvd: str) -> str:
-    return os.path.join(base_dir(), cfg.DIR_RESOURCE, pvd)
+    return os.path.join(app_root_dir(''), cfg.DIR_RESOURCE, pvd)
 
 
 def template_dir() -> str:

@@ -82,4 +82,4 @@ Keep track on the how to for future release:
 
 - update the version in setup.py as poetry raise lot of errors when installing the package.
 - run python3 setup.py sdist
-- twine upload --verbose --repository pypi dist/diagrams_xtd-a.b.c.xx.tar.gz
+- twine upload --verbose --repository testpypi dist/diagrams_xtd-a.b.c.xx.tar.gz

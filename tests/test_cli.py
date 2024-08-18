@@ -12,7 +12,7 @@ class CliTest(unittest.TestCase):
 
         # pass a random valid provider
         # start at 1 to skip "base"
-        provider_path = '%s/%s/' % (config.DIR_RESOURCE, config.PROVIDERS[random.randint(1, len(config.PROVIDERS) - 1)])
+        provider_path = '%s/%s/%s/' % (config.DIR_APP_ROOT, config.DIR_RESOURCE, config.PROVIDERS[random.randint(1, len(config.PROVIDERS) - 1)])
         content = cli._read_provider_meta_file(provider_path)
         # check that we have data
         self.assertTrue(content)
