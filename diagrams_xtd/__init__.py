@@ -513,7 +513,7 @@ class Node(_Cluster):
                 pass
         if self._icon and self._icon_dir:
             basedir = Path(os.path.abspath(os.path.dirname(__file__)))
-            return os.path.join(basedir.parent, self._icon_dir, self._icon)
+            return os.path.join(basedir, self._icon_dir, self._icon)
         return None
 
 

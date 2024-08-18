@@ -7,7 +7,7 @@
 APP_NAME = "diagrams_xtd"
 
 DIR_DOC_ROOT = "docs/nodes"
-DIR_APP_ROOT = "diagrams"
+DIR_APP_ROOT = "diagrams_xtd"
 DIR_RESOURCE = "resources"
 DIR_TEMPLATE = "templates"
 
